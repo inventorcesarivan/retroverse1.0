@@ -1,0 +1,9 @@
+{
+  "name": "Retroverse — Consola retro web",
+  "short_name": "Retroverse",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#10131d",
+  "theme_color": "#10131d",
+  "description": "Biblioteca de juegos retro para navegador."
+}

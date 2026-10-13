@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=()"
+
+# The first prototype has no privileged server function and no Drive credentials.
+# Add OAuth and Drive proxy functions only in a later phase, using Netlify env vars.
