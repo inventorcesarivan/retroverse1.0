@@ -60,6 +60,7 @@ function selectPreview(g){
  $("previewOpen").disabled=false;
 }
 $("previewOpen").addEventListener("click",()=>{if(selectedGame)openGame(selectedGame)});
+$("previewPlay").addEventListener("click",()=>{if(selectedGame)openGame(selectedGame)});
 function renderWheel(){
  const wheel=$("consoleWheel");
  wheel.innerHTML="";
@@ -99,7 +100,10 @@ function refresh(){
  const q=$("searchInput").value.toLowerCase(), f=$("systemFilter").value;
  const list=games.filter(g=>(g.title+" "+g.systemName+" "+g.genre).toLowerCase().includes(q)&&(f==="all"||g.system===f));
  renderCards(grid,list);$("emptyState").classList.toggle("hidden",list.length>0);
- renderCards($("favoriteGrid"),games.filter(g=>favorites.includes(g.id)));
+ const fq=($("favoritesSearch")?.value||"").toLowerCase();
+ const favList=games.filter(g=>favorites.includes(g.id)&&(g.title+" "+g.systemName+" "+g.genre).toLowerCase().includes(fq));
+ renderCards($("favoriteGrid"),favList);
+ if($("favoritesEmpty"))$("favoritesEmpty").classList.toggle("hidden",favList.length>0);
  document.querySelectorAll("[data-open-system]").forEach(card=>{
   const count=games.filter(g=>g.system===card.dataset.openSystem).length;
   const label=card.querySelector(".system-count");
@@ -108,6 +112,14 @@ function refresh(){
  document.querySelectorAll(".wheel-item").forEach(item=>{
   const id=item.dataset.system; const count=id==="all"?games.length:games.filter(g=>g.system===id).length;
   const label=item.querySelector(".wheel-count"); if(label)label.textContent=`${count} ${count===1?"juego":"juegos"}`;
+ });
+ applySystemSearch();
+}
+function applySystemSearch(){
+ const q=($("systemsSearch")?.value||"").trim().toLowerCase();
+ document.querySelectorAll(".wheel-item").forEach(item=>{
+  const hay=(item.querySelector(".wheel-name")?.textContent+" "+item.querySelector(".wheel-sub")?.textContent).toLowerCase();
+  item.classList.toggle("filtered-out",!hay.includes(q));
  });
 }
 function openGame(g){
@@ -138,6 +150,13 @@ $("exitPlayer").addEventListener("click",()=>{if(confirm("¿Salir de la partida?
 $("closeModal").addEventListener("click",()=>$("gameModal").classList.add("hidden"));
 $("gameModal").addEventListener("click",e=>{if(e.target===$("gameModal"))$("gameModal").classList.add("hidden")});
 $("searchInput").addEventListener("input",refresh);$("systemFilter").addEventListener("change",refresh);
+$("favoritesSearch").addEventListener("input",refresh);
+$("systemsSearch").addEventListener("input",applySystemSearch);
+function scrollCarousel(id,direction){const el=$(id);if(el)el.scrollBy({left:direction*Math.max(260,el.clientWidth*.8),behavior:"smooth"});}
+$("gamesPrev").addEventListener("click",()=>scrollCarousel("gameGrid",-1));
+$("gamesNext").addEventListener("click",()=>scrollCarousel("gameGrid",1));
+$("favoritesPrev").addEventListener("click",()=>scrollCarousel("favoriteGrid",-1));
+$("favoritesNext").addEventListener("click",()=>scrollCarousel("favoriteGrid",1));
 $("exploreBtn").addEventListener("click",()=>$("consoleWheel").scrollIntoView({behavior:"smooth",block:"center"}));
 document.querySelectorAll(".nav").forEach(btn=>btn.addEventListener("click",()=>{
  document.querySelectorAll(".nav").forEach(n=>n.classList.remove("active"));btn.classList.add("active");

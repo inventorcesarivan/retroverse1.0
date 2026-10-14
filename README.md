@@ -88,3 +88,10 @@ La versión incluye `data/neogeo/gamelist.xml`, importado del catálogo proporci
 - Al elegir un sistema se abre su lista filtrada de juegos. El botón **Cambiar sistema** permite volver al carrusel.
 - La opción **Biblioteca** del menú lateral sigue permitiendo consultar todos los juegos.
 - Se actualiza la versión de caché del service worker para evitar conservar estilos y scripts anteriores.
+
+
+## Versión 0.7
+- Carrusel horizontal de juegos en biblioteca y favoritos, con flechas y desplazamiento táctil.
+- Búsqueda independiente para sistemas, juegos y favoritos.
+- Acciones rápidas en la previsualización: **Jugar** abre la selección local de ROM y **Ver ficha del juego** abre la ficha completa.
+- La ROM se sigue seleccionando desde el dispositivo; esta versión no descarga ROM ni se conecta todavía a Google Drive.

@@ -52,7 +52,7 @@
       <section class="console-wheel-section" aria-label="Selector de sistemas">
         <div class="wheel-heading">
           <div><div class="eyebrow muted">PASO 01 · TU UNIVERSO RETRO</div><h2>¿A qué querés <span>jugar?</span></h2><p class="wheel-description">Elegí un sistema para abrir su colección de juegos.</p></div>
-          <div class="wheel-controls"><button id="wheelPrev" class="wheel-arrow" aria-label="Sistema anterior">‹</button><button id="wheelNext" class="wheel-arrow" aria-label="Sistema siguiente">›</button></div>
+          <div class="wheel-tools"><label class="search section-search"><span>⌕</span><input id="systemsSearch" placeholder="Buscar sistema..." aria-label="Buscar sistema"></label><div class="wheel-controls"><button id="wheelPrev" class="wheel-arrow" aria-label="Sistema anterior">‹</button><button id="wheelNext" class="wheel-arrow" aria-label="Sistema siguiente">›</button></div></div>
         </div>
         <div class="console-wheel" id="consoleWheel"></div>
         <div class="wheel-hint"><span class="wheel-hint-dot"></span> Deslizá para explorar · Seleccioná un sistema para ver sus juegos</div>
@@ -71,10 +71,10 @@
             <h3 id="previewTitle">Elegí un juego</h3>
             <p id="previewDescription">Seleccioná una tarjeta de la biblioteca para ver su ficha previa. Los juegos de ejemplo son ilustrativos.</p>
             <div class="preview-meta"><span id="previewGenre">ARCADE</span><span id="previewYear">RETRO</span></div>
-            <button class="primary-button" id="previewOpen">Ver ficha del juego <span>↗</span></button>
+            <div class="preview-actions"><button class="primary-button play-preview-button" id="previewPlay">Jugar <span>▶</span></button><button class="secondary-button" id="previewOpen">Ver ficha del juego <span>↗</span></button></div>
           </div>
         </div>
-        <div class="game-grid" id="gameGrid"></div>
+        <div class="carousel-row"><button class="game-arrow" id="gamesPrev" aria-label="Juegos anteriores">‹</button><div class="game-grid game-carousel" id="gameGrid"></div><button class="game-arrow" id="gamesNext" aria-label="Juegos siguientes">›</button></div>
         <div class="empty-state hidden" id="emptyState">No encontramos juegos con esos filtros.</div>
       </section>
 
@@ -85,11 +85,12 @@
       </section>
 
       <section class="content-section hidden" id="favoritesSection">
-        <div class="eyebrow muted">TUS ELEGIDOS</div><h2>Favoritos <span>personales</span></h2>
-        <div class="game-grid" id="favoriteGrid"></div>
+        <div class="favorites-heading"><div><div class="eyebrow muted">TUS ELEGIDOS</div><h2>Favoritos <span>personales</span></h2></div><label class="search section-search"><span>⌕</span><input id="favoritesSearch" placeholder="Buscar favorito..." aria-label="Buscar favorito"></label></div>
+        <div class="carousel-row"><button class="game-arrow" id="favoritesPrev" aria-label="Favoritos anteriores">‹</button><div class="game-grid game-carousel" id="favoriteGrid"></div><button class="game-arrow" id="favoritesNext" aria-label="Favoritos siguientes">›</button></div>
+        <div class="empty-state hidden" id="favoritesEmpty">Todavía no hay favoritos que coincidan con la búsqueda.</div>
       </section>
 
-      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.6</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
+      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.7</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
     </main>
   </div>
 

@@ -131,3 +131,36 @@
  .game-info h3{font-size:11px}
 }
 @media(max-width:390px){.wheel-item{flex-basis:116px}.wheel-console{width:64px;height:61px}.library-tools select{flex-basis:125px}.cover{height:115px}}
+
+/* Retroverse v0.7 — carruseles de juegos y búsquedas por sección */
+.wheel-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.section-search{min-width:190px;max-width:260px}
+.section-search input{width:100%;min-width:0}
+.wheel-item.filtered-out{display:none!important}
+.carousel-row{display:flex;align-items:center;gap:10px;min-width:0;margin-top:8px}
+.game-grid.game-carousel{display:flex;flex:1;min-width:0;overflow-x:auto;overflow-y:hidden;gap:16px;padding:5px 3px 18px;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:#514775 #171b28}
+.game-carousel .game-card{flex:0 0 clamp(205px,23%,270px);width:clamp(205px,23%,270px);scroll-snap-align:start}
+.game-arrow{flex:0 0 36px;width:36px;height:42px;border:1px solid #35334e;background:#201d32;color:#cfc4ff;border-radius:10px;font-size:27px;line-height:1;display:grid;place-items:center;transition:background .2s,border-color .2s,transform .2s}
+.game-arrow:hover{background:#342b51;border-color:#8f7de5;transform:scale(1.04)}
+.preview-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.preview-actions .primary-button,.preview-actions .secondary-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:43px;padding:11px 15px;border-radius:10px;font-size:11px;font-weight:750;text-decoration:none}
+.preview-actions .play-preview-button{background:linear-gradient(135deg,#b7a5ff,#8270ec);color:#151326;border:0;box-shadow:0 7px 20px #8b78ed30}
+.secondary-button{background:#24283a;color:#d8dced;border:1px solid #3a4056;cursor:pointer}
+.secondary-button:hover{border-color:#9382ee;background:#2b2943}
+.favorites-heading{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:20px}
+.favorites-heading h2{font-size:26px;letter-spacing:-.9px;margin:8px 0 0}
+.favorites-heading h2 span{color:var(--violet)}
+#favoritesEmpty{padding:24px 8px}
+@media(max-width:760px){
+ .wheel-tools{width:100%;justify-content:space-between}
+ .wheel-tools .section-search{flex:1;min-width:140px}
+ .game-arrow{flex-basis:29px;width:29px;height:36px;font-size:23px}
+ .carousel-row{gap:6px}
+ .game-grid.game-carousel{gap:11px}
+ .game-carousel .game-card{flex-basis:72%;width:72%}
+ .favorites-heading{align-items:stretch;flex-direction:column}
+ .favorites-heading .section-search{max-width:none;width:100%}
+ .preview-actions{gap:8px}
+ .preview-actions .primary-button,.preview-actions .secondary-button{flex:1;padding:10px 9px;font-size:10px}
+}
+@media(max-width:390px){.game-carousel .game-card{flex-basis:82%;width:82%}.game-arrow{flex-basis:26px;width:26px}}
