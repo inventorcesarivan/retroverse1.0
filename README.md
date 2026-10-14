@@ -95,3 +95,12 @@ La versión incluye `data/neogeo/gamelist.xml`, importado del catálogo proporci
 - Búsqueda independiente para sistemas, juegos y favoritos.
 - Acciones rápidas en la previsualización: **Jugar** abre la selección local de ROM y **Ver ficha del juego** abre la ficha completa.
 - La ROM se sigue seleccionando desde el dispositivo; esta versión no descarga ROM ni se conecta todavía a Google Drive.
+
+
+## v0.8 — Neo Geo
+
+- Neo Geo utiliza el sistema `arcade` de EmulatorJS, cuyo núcleo predeterminado es FBNeo.
+- El selector de Neo Geo pide la ROM del juego (`.zip`) y un archivo BIOS `neogeo.zip` por separado.
+- Ambos archivos se utilizan desde el navegador mediante URLs locales y no se suben al servidor.
+- La ROM debe corresponder a un conjunto compatible con FBNeo; una BIOS incorrecta o una ROM de otro conjunto puede impedir el arranque.
+- El resto de los sistemas conserva su flujo de selección local de archivo.

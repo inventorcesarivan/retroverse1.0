@@ -90,7 +90,7 @@
         <div class="empty-state hidden" id="favoritesEmpty">Todavía no hay favoritos que coincidan con la búsqueda.</div>
       </section>
 
-      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.7</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
+      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.8</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
     </main>
   </div>
 
@@ -100,7 +100,9 @@
       <div class="modal-cover" id="modalCover"></div>
       <div class="modal-details"><div class="eyebrow muted" id="modalSystem">SISTEMA</div><h2 id="modalTitle">Juego</h2><p id="modalDescription"></p>
         <div class="modal-meta"><span id="modalGenre"></span><span id="modalYear"></span></div>
-        <label class="file-picker" for="romFile"><span>＋</span><div><b>Elegir ROM desde este dispositivo</b><small>El archivo se usa localmente en esta sesión.</small></div><input type="file" id="romFile" accept=".nes,.sfc,.smc,.gba,.gb,.gbc,.iso,.bin,.cue,.z64,.n64,.v64,.nds,.zip,.7z,.pbp" /></label>
+        <label class="file-picker" for="romFile"><span>＋</span><div><b id="romPickerTitle">Elegir ROM desde este dispositivo</b><small id="romPickerHint">El archivo se usa localmente en esta sesión.</small></div><input type="file" id="romFile" accept=".nes,.fds,.unif,.unf,.sfc,.smc,.gba,.gb,.gbc,.iso,.bin,.cue,.z64,.n64,.v64,.nds,.zip,.7z,.pbp,.a26,.a78,.sms,.gg,.md,.gen" /></label>
+        <label class="file-picker hidden" id="neoGeoBiosPicker" for="neoGeoBiosFile"><span>⚙</span><div><b>Elegir BIOS de Neo Geo (neogeo.zip)</b><small>Archivo de sistema requerido para muchas ROM de Neo Geo.</small></div><input type="file" id="neoGeoBiosFile" accept=".zip" /></label>
+        <p class="tiny-note hidden" id="neoGeoHelp">Para Neo Geo seleccioná primero el ZIP del juego y después el archivo de BIOS <b>neogeo.zip</b> compatible con FBNeo. Ambos archivos se usan localmente y no se suben a Retroverse.</p>
         <button class="primary-button wide" id="launchButton" disabled>Seleccioná un archivo para jugar <span>▶</span></button>
         <p class="tiny-note">Este prototipo todavía no inicia sesión ni descarga ROM desde Drive. No ingreses contraseñas ni tokens aquí.</p>
       </div>

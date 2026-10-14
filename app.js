@@ -30,7 +30,7 @@ const systems = [
  {id:"nds",name:"Nintendo DS",icon:"▥",level:"Intermedio",cls:"mid",desc:"Pantalla táctil y rendimiento por juego"},
  {id:"atari2600",name:"Atari 2600",icon:"✦",level:"Ligero",cls:"",desc:"Muy bajo requisito de rendimiento"}
 ];
-let selectedGame = null, selectedFile = null, favorites = JSON.parse(localStorage.getItem("retroverse-favorites")||"[]");
+let selectedGame = null, selectedFile = null, selectedBiosFile = null, activeObjectUrls = [], favorites = JSON.parse(localStorage.getItem("retroverse-favorites")||"[]");
 const $ = id => document.getElementById(id);
 const grid = $("gameGrid");
 function renderCards(target, list){
@@ -122,27 +122,44 @@ function applySystemSearch(){
   item.classList.toggle("filtered-out",!hay.includes(q));
  });
 }
+function isNeoGeo(){return selectedGame?.system==="neogeo";}
+function updateLaunchButton(){
+ const ready=!!selectedFile&&(!isNeoGeo()||!!selectedBiosFile);
+ $("launchButton").disabled=!ready;
+ if(!selectedFile) $("launchButton").textContent="Seleccioná un archivo para jugar ▶";
+ else if(isNeoGeo()&&!selectedBiosFile) $("launchButton").textContent="Seleccioná también la BIOS de Neo Geo ▶";
+ else $("launchButton").innerHTML=`Iniciar ${selectedGame.title} <span>▶</span>`;
+}
 function openGame(g){
- selectedGame=g;selectedFile=null;$("romFile").value="";$("launchButton").disabled=true;$("launchButton").textContent="Seleccioná un archivo para jugar ▶";
+ selectedGame=g;selectedFile=null;selectedBiosFile=null;$("romFile").value="";$("neoGeoBiosFile").value="";
+ const neo=isNeoGeo();
+ $("neoGeoBiosPicker").classList.toggle("hidden",!neo);$("neoGeoHelp").classList.toggle("hidden",!neo);
+ $("romPickerTitle").textContent=neo?"Elegir ROM del juego (.zip)":"Elegir ROM desde este dispositivo";
+ $("romPickerHint").textContent=neo?"Elegí el ZIP del juego compatible con FBNeo.":"El archivo se usa localmente en esta sesión.";
+ $("romFile").accept=neo?".zip,.7z":".nes,.fds,.unif,.unf,.sfc,.smc,.gba,.gb,.gbc,.iso,.bin,.cue,.z64,.n64,.v64,.nds,.zip,.7z,.pbp,.a26,.a78,.sms,.gg,.md,.gen";
+ updateLaunchButton();
  $("modalTitle").textContent=g.title;$("modalSystem").textContent=g.systemName.toUpperCase();$("modalDescription").textContent=g.description;
  $("modalGenre").textContent=g.genre;$("modalYear").textContent=g.year;$("modalCover").textContent=g.image?"":g.symbol;$("modalCover").style.background=g.image?`linear-gradient(145deg,#10131d22,#10131d55),url("${g.image}") center/cover`:`linear-gradient(145deg,${g.c1},${g.c2})`;
  $("gameModal").classList.remove("hidden");
 }
-$("romFile").addEventListener("change",e=>{selectedFile=e.target.files[0]||null;if(selectedFile){$("launchButton").disabled=false;$("launchButton").innerHTML=`Iniciar ${selectedGame.title} <span>▶</span>`;}});
-function coreFor(system){return ({nes:"fceumm",snes:"snes9x",gba:"mgba",psx:"pcsx_rearmed",n64:"mupen64plus_next",psp:"ppsspp",neogeo:"fbneo",mame:"mame2003_plus",sms:"smsplus",gg:"genesis_plus_gx",gb:"gambatte",nds:"melonds",atari2600:"stella2014"})[system]||"fceumm";}
+$("romFile").addEventListener("change",e=>{selectedFile=e.target.files[0]||null;updateLaunchButton();});
+$("neoGeoBiosFile").addEventListener("change",e=>{selectedBiosFile=e.target.files[0]||null;updateLaunchButton();});
+function coreFor(system){return ({nes:"fceumm",snes:"snes9x",gba:"mgba",psx:"pcsx_rearmed",n64:"mupen64plus_next",psp:"ppsspp",neogeo:"arcade",mame:"mame2003_plus",sms:"smsplus",gg:"genesis_plus_gx",gb:"gambatte",nds:"melonds",atari2600:"stella2014"})[system]||"fceumm";}
 $("launchButton").addEventListener("click",()=>{
- if(!selectedGame||!selectedFile)return;
- const url=URL.createObjectURL(selectedFile);
+ if(!selectedGame||!selectedFile||(isNeoGeo()&&!selectedBiosFile))return;
+ activeObjectUrls.forEach(URL.revokeObjectURL);activeObjectUrls=[];
+ const url=URL.createObjectURL(selectedFile);activeObjectUrls.push(url);
+ const biosUrl=selectedBiosFile?URL.createObjectURL(selectedBiosFile):"";if(biosUrl)activeObjectUrls.push(biosUrl);
  $("gameModal").classList.add("hidden");$("playerOverlay").classList.remove("hidden");
  $("playerGameTitle").textContent=selectedGame.title;$("playerSystemName").textContent=selectedGame.systemName;
- $("playerMessage").textContent="Cargando emulador web. El primer inicio puede tardar unos instantes.";
+ $("playerMessage").textContent=isNeoGeo()?"Cargando FBNeo con la ROM y la BIOS seleccionadas…":"Cargando emulador web. El primer inicio puede tardar unos instantes.";
  const host=$("game");host.innerHTML="";
- // EmulatorJS loads the selected ROM locally. No file is uploaded to a server.
- window.EJS_player="#game";window.EJS_core=coreFor(selectedGame.system);window.EJS_gameUrl=url;
- window.EJS_pathtodata="https://cdn.emulatorjs.org/stable/data/";window.EJS_startOnLoaded=true;window.EJS_language="es";window.EJS_gameName=selectedGame.title;
+ // EmulatorJS reads local object URLs; selected files are not uploaded to a server.
+ window.EJS_player="#game";window.EJS_core=coreFor(selectedGame.system);window.EJS_gameUrl=url;window.EJS_biosUrl=biosUrl;
+ window.EJS_pathtodata="https://cdn.emulatorjs.org/stable/data/";window.EJS_startOnLoaded=true;window.EJS_language="es";window.EJS_gameName=selectedFile.name;
  const old=document.getElementById("emulatorLoader");if(old)old.remove();
  const script=document.createElement("script");script.id="emulatorLoader";script.src=window.EJS_pathtodata+"loader.js";
- script.onload=()=>{$("playerMessage").textContent="Emulador cargado. Si no inicia, revisá la compatibilidad del archivo o del núcleo."};
+ script.onload=()=>{$("playerMessage").textContent=isNeoGeo()?"FBNeo cargado. Si el juego no inicia, verificá que la ROM sea del conjunto compatible y que neogeo.zip sea la BIOS correcta.":"Emulador cargado. Si no inicia, revisá la compatibilidad del archivo o del núcleo."};
  script.onerror=()=>{$("playerMessage").textContent="No se pudo cargar EmulatorJS. Revisá tu conexión e intentá nuevamente."};
  document.body.appendChild(script);
 });
