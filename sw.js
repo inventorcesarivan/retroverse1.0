@@ -1,1 +1,21 @@
-const CACHE="retroverse-v01";const ASSETS=["/","/index.html","/styles.css","/app.js","/manifest.webmanifest"];self.addEventListener("install",e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));self.addEventListener("fetch",e=>{if(e.request.method!=="GET")return;e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(res=>{if(new URL(e.request.url).origin===location.origin){const copy=res.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));}return res;}).catch(()=>caches.match("/"))));});
+const CACHE="retroverse-v02";
+const ASSETS=["./","./index.html","./styles.css","./app.js","./manifest.webmanifest"];
+self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
+self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith("retroverse-")&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+self.addEventListener("fetch",event=>{
+ if(event.request.method!=="GET")return;
+ const url=new URL(event.request.url);
+ if(url.origin!==self.location.origin)return;
+ event.respondWith(caches.open(CACHE).then(async cache=>{
+  const cached=await cache.match(event.request);
+  try{
+   const response=await fetch(event.request);
+   if(response.ok){cache.put(event.request,response.clone()).catch(()=>{});}
+   return response;
+  }catch(error){
+   if(cached)return cached;
+   if(event.request.mode==="navigate")return cache.match("./index.html");
+   throw error;
+  }
+ }))
+});

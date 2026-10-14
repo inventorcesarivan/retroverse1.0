@@ -103,6 +103,11 @@ function refresh(){
  const list=games.filter(g=>(g.title+" "+g.systemName+" "+g.genre).toLowerCase().includes(q)&&(f==="all"||g.system===f));
  renderCards(grid,list);$("emptyState").classList.toggle("hidden",list.length>0);
  renderCards($("favoriteGrid"),games.filter(g=>favorites.includes(g.id)));
+ document.querySelectorAll("[data-open-system]").forEach(card=>{
+  const count=games.filter(g=>g.system===card.dataset.openSystem).length;
+  const label=card.querySelector(".system-count");
+  if(label)label.textContent=`${count} ${count===1?"juego":"juegos"} en biblioteca`;
+ });
 }
 function openGame(g){
  selectedGame=g;selectedFile=null;$("romFile").value="";$("launchButton").disabled=true;$("launchButton").textContent="Seleccioná un archivo para jugar ▶";
@@ -144,11 +149,27 @@ document.querySelectorAll(".nav").forEach(btn=>btn.addEventListener("click",()=>
  document.querySelector(".sidebar").classList.remove("open");
 }));
 $("menuToggle").addEventListener("click",()=>document.querySelector(".sidebar").classList.toggle("open"));
-$("systemsGrid").innerHTML=systems.map(s=>`<div class="system-card"><div class="system-icon">${s.icon}</div><div><b>${s.name}</b><small>${s.desc}</small></div><span class="level ${s.cls}">${s.level}</span></div>`).join("");
+function showSystemGames(systemId){
+  const system=systems.find(s=>s.id===systemId);
+  $("systemFilter").value=systemId;
+  document.querySelectorAll(".nav").forEach(n=>{n.classList.toggle("active",n.dataset.view==="library");});
+  $("librarySection").classList.remove("hidden");
+  $("systemsSection").classList.add("hidden");
+  $("favoritesSection").classList.add("hidden");
+  $("viewTitle").innerHTML=`${system ? system.name : "Sistema"} <span>games</span>`;
+  $("crumb").textContent=(system ? system.name : "Sistema").toUpperCase();
+  refresh();
+  $("librarySection").scrollIntoView({behavior:"smooth",block:"start"});
+}
+$("systemsGrid").innerHTML=systems.map(s=>{
+ const count=games.filter(g=>g.system===s.id).length;
+ return `<button type="button" class="system-card" data-open-system="${s.id}" aria-label="Ver juegos de ${s.name}"><span class="system-icon">${s.icon}</span><span class="system-copy"><b>${s.name}</b><small>${s.desc}</small><small class="system-count">${count} ${count===1?"juego":"juegos"} en biblioteca</small></span><span class="level ${s.cls}">${s.level}</span><span class="system-arrow" aria-hidden="true">↗</span></button>`;
+}).join("");
+$("systemsGrid").addEventListener("click",e=>{const card=e.target.closest("[data-open-system]");if(card)showSystemGames(card.dataset.openSystem);});
 // Importa el catálogo real de Neo Geo desde el gamelist.xml aportado.
 async function loadNeoGeoCatalog(){
  try{
-  const response=await fetch("/data/neogeo/gamelist.xml",{cache:"no-cache"});
+  const response=await fetch("./data/neogeo/gamelist.xml?catalog=1",{cache:"no-store"});
   if(!response.ok) throw new Error("No se pudo cargar gamelist.xml");
   const xml=new DOMParser().parseFromString(await response.text(),"application/xml");
   if(xml.querySelector("parsererror")) throw new Error("El XML no es válido");
@@ -157,7 +178,7 @@ async function loadNeoGeoCatalog(){
    const mediaPath=(raw,folder)=>{
     if(!raw) return "";
     const clean=raw.replace(/^\.\//,"");
-    return "/data/neogeo/"+clean;
+    return "./data/neogeo/"+clean;
    };
    const date=value("releasedate");
    const year=/^\d{4}/.test(date)?date.slice(0,4):"Neo Geo";
@@ -181,7 +202,12 @@ async function loadNeoGeoCatalog(){
     notice.querySelector("small").textContent="Fichas importadas desde gamelist.xml. Para mostrar carátulas y vídeos, copiá también las carpetas images y videos dentro de data/neogeo.";}
    refresh();
   }
- }catch(error){console.warn("Catálogo Neo Geo:",error);}
+ }catch(error){
+  console.warn("Catálogo Neo Geo:",error);
+  const notice=document.querySelector(".notice");
+  if(notice){notice.querySelector("b").textContent="Catálogo Neo Geo no disponible";
+   notice.querySelector("small").textContent="No se pudo leer data/neogeo/gamelist.xml. Verificá que la carpeta data esté incluida en la publicación y recargá la página.";}
+ }
 }
 refresh();
 loadNeoGeoCatalog();
