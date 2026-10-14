@@ -74,3 +74,8 @@ El archivo elegido se mantiene local en el navegador; esta versión no lo sube a
 ## Seguridad para la fase Google Drive
 
 No hagas públicos los archivos de ROM para simplificar la integración. No coloques tokens OAuth, claves privadas ni credenciales de servicio en `app.js` ni en el repositorio. Las funciones de servidor deben validar cada sesión y el permiso de cada usuario antes de devolver el catálogo o el contenido.
+
+
+## Catálogo Neo Geo importado (integración inicial)
+
+La versión incluye `data/neogeo/gamelist.xml`, importado del catálogo proporcionado. Al cargar la página, Retroverse incorpora las entradas de Neo Geo a la biblioteca, con búsqueda, filtro por sistema, fichas y favoritos. El ZIP contiene el XML, pero no contiene los archivos multimedia referenciados. Para ver las portadas y vídeos, copiá las carpetas `images/` y `videos/` de tu colección dentro de `data/neogeo/`, manteniendo los nombres de archivo del XML. Los archivos ROM no se incluyen: se siguen seleccionando localmente desde la ficha de cada juego.

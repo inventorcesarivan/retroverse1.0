@@ -1,0 +1,3312 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="37561">
+		<path>./2020bb.zip</path>
+		<name>2020 Super Baseball</name>
+		<desc>En el año 2020, el béisbol evolucionó y ya no existe el béisbol profesional convencional. Ahora el béisbol diseñado por la Asociación de Super Baseball es el mas popular.
+Sin embargo, la verdad es que la asociación ha usado una colosal suma de dinero para promover el Super Baseball como un autentico espectáculo y han manipulado las habilidades de cada jugador, usando el ordenador de control de manera secreta, para decidir quienes ganarían y quienes perderían en cada partido. Los jugadores, conscientes de la trampa, desconectaron las partes del ordenador para poder jugar libremente. Finalmente, un partido igualado va a tener lugar en el estadio Cyber Egg.</desc>
+		<image>./images/2020bb-image.png</image>
+		<video>./videos/2020bb-video.mp4</video>
+		<marquee>./images/2020bb-marquee.png</marquee>
+		<thumbnail>./images/2020bb-thumb.png</thumbnail>
+		<fanart>./images/2020bb-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19911025T000000</releasedate>
+		<developer>Pallas</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Béisbol</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>22b7bb3a213dd4072d0375c539b10c63</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050307" />
+	</game>
+	<game id="13937">
+		<path>./3countb.zip</path>
+		<name>3 Count Bout</name>
+		<desc>3 Count Bout, conocido como Fire Suplex en Japón, es un juego de lucha de arcade publicado por SNK en 1993.
+
+Elige uno de 10 luchadores, cada uno con sus movimientos especiales, y haz tu camino desde el "Rookie Champion" al "World Heavyweight Title". Controlado por una palanca de mando de 4 botones usados para golpear, patear, saltar/body drop y pinfall.</desc>
+		<image>./images/3countb-image.png</image>
+		<video>./videos/3countb-video.mp4</video>
+		<marquee>./images/3countb-marquee.png</marquee>
+		<thumbnail>./images/3countb-thumb.png</thumbnail>
+		<fanart>./images/3countb-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19930423T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / 2D</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>faed71b8e34c2b0f8da2d6fb44184e68</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050310" />
+	</game>
+	<game id="37563">
+		<path>./alpham2.zip</path>
+		<name>Alpha Mission II</name>
+		<desc>Se pensó que la pesadilla lunar que duro 200 años con una  sangrienta guerra espacial había terminado en la "original" MISIÓN ALFA. Pero ahora, con el advenimiento de armas técnicamente más sofisticadas, el malvado "Fulvar" y su "Alianza Siete Estrellas" han vuelto a destruir todos los planetas que se encuentran en su camino hacia el objetivo final ... ¡ La Tierra! Ahora en el año de 2525 tu misión como piloto del nuevo SYD-FX es usar todas las armas a su disposición para librar a la galaxia de una vez por todas del mal que ahora domina y amenaza a la Tierra.  Prepárate ...  ¡puede que nunca vuelvas!</desc>
+		<image>./images/alpham2-image.png</image>
+		<video>./videos/alpham2-video.mp4</video>
+		<marquee>./images/alpham2-marquee.png</marquee>
+		<thumbnail>./images/alpham2-thumb.png</thumbnail>
+		<fanart>./images/alpham2-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19910701T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<family>Alpha Mission</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>db1aa6fc388cc61c16c51ca3145334b9</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050313" />
+	</game>
+	<game id="13927">
+		<path>./androdun.zip</path>
+		<name>Andro Dunos</name>
+		<desc>Entra  en un mundo de vivos colores, lleno de imaginación y fantasía espacial. Una misión para sortear las defensas  enemigas en la  nueva frontera. Pilota una increíble nave espacial a través de los traicioneros caminos estelares. La nave, recién desarrollada, está equipada con múltiples configuraciones de armamento que se pueden activar hasta 4 veces,  suficiente para convertir  a los enemigos en  polvo lunar.</desc>
+		<image>./images/androdun-image.png</image>
+		<video>./videos/androdun-video.mp4</video>
+		<marquee>./images/androdun-marquee.png</marquee>
+		<thumbnail>./images/androdun-thumb.png</thumbnail>
+		<fanart>./images/androdun-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19920717T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>Andro Dunos</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>6fc148cf334de80f3d6f792a49b072ff</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050316" />
+	</game>
+	<game id="37564">
+		<path>./aodk.zip</path>
+		<name>Aggressors of Dark Kombat</name>
+		<desc>¡Intenta golpear a tus enemigos! nn¡Sin reglas ni limites en el combate! Saltando, provocando, fingiendo, lanzando ... puedes hacer de todo. Armas, estrangulamientos, sin piedad ni con el enemigo debilitado. ¿Lanzar un ataque? ¿Pelear a puñetazos? Descubre tu mejor estilo mientras luchas y cantas la canción del luchador sangriento.</desc>
+		<image>./images/aodk-image.png</image>
+		<video>./videos/aodk-video.mp4</video>
+		<marquee>./images/aodk-marquee.png</marquee>
+		<thumbnail>./images/aodk-thumb.png</thumbnail>
+		<fanart>./images/aodk-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19940826T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>72c0271a7b34b9da155765e3d4cf3102</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050319" />
+	</game>
+	<game id="37565">
+		<path>./aof.zip</path>
+		<name>Art of Fighting</name>
+		<desc>Art of Fighting es un juego de lucha 1 vs 1 con dos personajes a elegir (Ryo Sakazaki y Robert García). Tendrán que derrotar a ocho adversarios para descubrir quién secuestró a Yuri Sakazaki, la hermana de Ryo. 
+
+Este fue el primer juego de NeoGeo en alcanzar los 100 Mbits de memoria, todo un logro en su tiempo. Escenarios detallados, un sonido absolutamente contundente y personajes como nunca antes se habían visto en un juego de lucha justificaban la cantidad de memoria usada en el cartucho. 
+
+El tamaño de los personajes es tal que tuvieron que introducir una novedad en el género, el uso del zoom, que aleja la "cámara" cuando los luchadores se distancian entre sí.</desc>
+		<image>./images/aof-image.png</image>
+		<video>./videos/aof-video.mp4</video>
+		<marquee>./images/aof-marquee.png</marquee>
+		<thumbnail>./images/aof-thumb.png</thumbnail>
+		<fanart>./images/aof-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19921211T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Art of Fighting</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>1e4956057ab61e040d4ea89358005deb</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050322" />
+	</game>
+	<game id="37566">
+		<path>./aof2.zip</path>
+		<name>Art of Fighting 2</name>
+		<desc>En esta secuela del Art of Fighting original, y precuela del primer Fatal Fury, conocemos que Mr.Karate, el jefe final del juego original es en realidad Takuma Sakazaki, el padre de Ryo y Yuri. Tras la máscara, estaba siendo usado por Geese Howard para sus malvadas intenciones, y fue Mr.Big uno de los que secuestraron a Yuri.
+
+Algunos problema del primer título fueron arreglados en esta secuela (más facilidad para ejecutar los movimientos especiales, más personajes para seleccionar, etc).
+
+Todo el plantel del primer juego está aquí (excepto Todo y Mr.Karate) así como nuevas caras: Takuma, Yuri, Eiji, Temjin, y un final boss oculto que no es otro que un joven Geese Howard. Solo llegarás a él si vences sin perder un round.</desc>
+		<image>./images/aof2-image.png</image>
+		<video>./videos/aof2-video.mp4</video>
+		<marquee>./images/aof2-marquee.png</marquee>
+		<thumbnail>./images/aof2-thumb.png</thumbnail>
+		<fanart>./images/aof2-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19940311T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Art of Fighting</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b98a1638454b31426fdd6caf773a8e22</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050324" />
+	</game>
+	<game id="37567">
+		<path>./aof3.zip</path>
+		<name>Art of Fighting 3 : The Path of the Warrior</name>
+		<desc>En esta tercera y última entrega de la seria Art of Fighting, la historia parte de de Ryo Sakazaki a su mejor amigo y rival, Robert García , como se aventura en México para intentar localizar a Freia Lawrence , un amigo de la infancia , que le pidió ayuda . Sin embargo , se va sin el consentimiento de la Fundación García , que envía un agente llamado Karman Cole para traerlo de vuelta . Pero no todo es tan simple como parece ... porque Robert no es el único en busca de Freia.
+
+Art of Fighting 3: La senda del guerrero cuenta con diez personajes con diferentes estilos de lucha , un nuevo sistema de lucha basado en combinaciones de la palanca de mando y botones de juego, y gráficos y animaciones increíblemente detallados.</desc>
+		<image>./images/aof3-image.png</image>
+		<video>./videos/aof3-video.mp4</video>
+		<marquee>./images/aof3-marquee.png</marquee>
+		<thumbnail>./images/aof3-thumb.png</thumbnail>
+		<fanart>./images/aof3-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19960426T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Art of Fighting</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>1296a91b381af63a43354d4fb1697a4a</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050327" />
+	</game>
+	<game id="37568">
+		<path>./bangbead.zip</path>
+		<name>Bang Bead</name>
+		<desc>Secuela de Battle Flip Shot. Campeonato deportivo de pelota en el que seguiremos teniendo que derribar las dianas del lado contrario, esta vez materializadas en estrellas. Ahora  no contaremos con un escudo para poder lanzar el balón, sino que necesitaremos hacerlo con nuestras manos. Los jugadores serán los mismos que en la primera parte, aunque tendremos cuatro nuevas incorporaciones.</desc>
+		<image>./images/bangbead-image.png</image>
+		<video>./videos/bangbead-video.mp4</video>
+		<marquee>./images/bangbead-marquee.png</marquee>
+		<thumbnail>./images/bangbead-thumb.png</thumbnail>
+		<fanart>./images/bangbead-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>20000101T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2558c293d7538c1d4f7748d9a6ff84d5</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050330" />
+	</game>
+	<game id="37569">
+		<path>./bjourney.zip</path>
+		<name>Blue's Journey</name>
+		<desc>El idílico planeta Raguy, lugar de ensueño lleno de color y de vida, ha caído bajo el control del ejército de Daruma. Este malvado ser tiene planeado consumir todos los recursos del rico planeta y contaminarlo sin contemplaciones, de manera que todos los seres vivos del planeta están gravemente amenazados. Sin embargo, se han puesto todas las esperanzas en dos héroes, el pequeño Blue y la princesa Fa, los cuales tienen los conocimientos necesarios para poder atacar a los miembros del ejército de Daruma, y así poder vencerlos. El planeta entero tiene todavía alguna posibilidad de salvarse...</desc>
+		<image>./images/bjourney-image.png</image>
+		<video>./videos/bjourney-video.mp4</video>
+		<marquee>./images/bjourney-marquee.png</marquee>
+		<thumbnail>./images/bjourney-thumb.png</thumbnail>
+		<fanart>./images/bjourney-fanart.jpg</fanart>
+		<rating>0.5</rating>
+		<releasedate>19910701T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Plataforma / Combate con desplazamiento</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>784c7246c300a9ce652450ead2c0b3d2</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050333" />
+	</game>
+	<game id="13893">
+		<path>./blazstar.zip</path>
+		<name>Blazing Star</name>
+		<desc>El planeta azul Lemuria y el carmesí Mutras estuvieron enzarzados en una guerra interplanetaria que parecía no acabar nunca. Mutras, originalmente una colonia de humanos, se sublevó contra su planeta matriz. Como resultado de la escalada armamentística, tanto Mutras como Lemuria desarrollaron simultáneamente fábricas de producción de armas autómatas orgánicas, las cuales podían crear armas inteligentes  que podían sentir?Toda vida fue esclavizada por el arma más malvada, conocida como Brawshella. Comenzó a transformar a seres humanos, uno a uno, en ?demonios?, en armas vivas. En menos de una semana la humanidad estaba al borde de la extinción?.</desc>
+		<image>./images/blazstar-image.png</image>
+		<video>./videos/blazstar-video.mp4</video>
+		<marquee>./images/blazstar-marquee.png</marquee>
+		<thumbnail>./images/blazstar-thumb.png</thumbnail>
+		<fanart>./images/blazstar-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19980101T000000</releasedate>
+		<developer>Yumekobo</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>Pulstar</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>fe8087667dc4cc4465eeff4ba4f50dd6</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050336" />
+	</game>
+	<game id="13877">
+		<path>./breakers.zip</path>
+		<name>Breakers</name>
+		<desc>Preparate para el torneo de artes marciales de Hong Kong, llamado FIST (Fighting Instint Tournament), en el que no hay reglas, pudiendo producirse incluso víctimas mortales durante los combates. El objetivo del ganador es el de enfrentarse a Bai Hu, el misterioso organizador del torneo. En caso de ganar, el participante obtendrá un millonario premio en metálico, así como el título de campeón. La única pega es que nadie ha sobrevivido luchando contra Bai Hu en ediciones anteriores... y es que pocos saben que en realidad el villano ha sido poseído por un espíritu maligno, careciendo por completo de voluntad propia.</desc>
+		<image>./images/breakers-image.png</image>
+		<video>./videos/breakers-video.mp4</video>
+		<marquee>./images/breakers-marquee.png</marquee>
+		<thumbnail>./images/breakers-thumb.png</thumbnail>
+		<fanart>./images/breakers-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Breakers</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>0139bfa9cf33977a4537178952fbbb8a</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050339" />
+	</game>
+	<game id="37570">
+		<path>./breakrev.zip</path>
+		<name>Breakers Revenge</name>
+		<desc>Los guerreros regresan a un nuevo campeonato. ¿Podrán los perdedores de la batalla anterior vengarse en ésta? No sólo se volverán a ver unos a otros cara a cara, les esperan nuevos desafíos. Sin embargo, su objetivo es el mismo.
+¡Todos quieren ganar el nuevo campeonato!</desc>
+		<image>./images/breakrev-image.png</image>
+		<video>./videos/breakrev-video.mp4</video>
+		<marquee>./images/breakrev-marquee.png</marquee>
+		<thumbnail>./images/breakrev-thumb.png</thumbnail>
+		<fanart>./images/breakrev-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19980703T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Breakers</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>95d63f0311be00b45144d682ecb88473</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050342" />
+	</game>
+	<game id="37571">
+		<path>./bstars.zip</path>
+		<name>Baseball Stars Professional</name>
+		<desc>Baseball Stars Professional es la continuación de Baseball Stars para el Nintendo Entertainment System, y presenta gráficos de estilo cómico. Elige entre una variedad de equipos que incluyen Planetas Celeste, Cuerpos Celestiales, Demonios de las Sombras, Caballeros de Batalla, Superestrellas Fabulosas y muchos otros. Luego selecciona el campo donde se desarrollará el juego: El estadio SNK o la cúpula SNK. Cada campo tiene las mismas dimensiones, pero su capacidad varía. El juego se juega de la misma manera que el béisbol normal. Tiene un modo VS. en el que dos jugadores pueden jugar uno contra el otro.</desc>
+		<image>./images/bstars-image.png</image>
+		<video>./videos/bstars-video.mp4</video>
+		<marquee>./images/bstars-marquee.png</marquee>
+		<thumbnail>./images/bstars-thumb.png</thumbnail>
+		<fanart>./images/bstars-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19900101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Béisbol</genre>
+		<family>Baseball Stars</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>01d4efa3c62b2bc65f881884078f0c33</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050345" />
+	</game>
+	<game id="13951">
+		<path>./bstars2.zip</path>
+		<name>Baseball Stars 2</name>
+		<desc>BASEBALL STARS 2 es un juego deportivo lanzado por SNK en 1992. ¡Obtén la experiencia completa con gráficos intensos y locutores apasionados! ¡Es hora de ver un poco de béisbol emocionante! ¡Usa el Power-bat para enviar la pelota volando para un increíble jonrón! El sistema Auto-Fielding permite incluso a los principiantes disfrutar de un intenso juego.
+
+La serie "ACA NEOGEO" ha reproducido fielmente muchas obras maestras clásicas de NEOGEO.
+Los jugadores pueden cambiar varias configuraciones del juego, como la dificultad del juego, y también reproducir la atmósfera de la configuración de visualización del arcade en ese momento. Los jugadores también pueden competir entre sí de todo el mundo con sus puntuaciones más altas.
+
+* Este título se basa en la versión de MVS (NEOGEO para salas recreativas). Puede haber diferencias entre esta versión y las versiones para la consola doméstica NEOGEO y otras consolas domésticas.</desc>
+		<image>./images/bstars2-image.png</image>
+		<video>./videos/bstars2-video.mp4</video>
+		<marquee>./images/bstars2-marquee.png</marquee>
+		<thumbnail>./images/bstars2-thumb.png</thumbnail>
+		<fanart>./images/bstars2-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19920428T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Béisbol</genre>
+		<family>Baseball Stars</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>4b5b48684237ffca67bba7d3c7d6135d</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050348" />
+	</game>
+	<game id="37572">
+		<path>./burningf.zip</path>
+		<name>Burning Fight</name>
+		<desc>Durante muchos años, la familia Casterota, un enorme sindicato del crimen, gobernó literalmente las calles de Nueva York con un control abrumador. Dos detectives de la policía llamados Duke Edwards y Billy King lucharon contra el sindicato durante años tratando de llevar a la justicia a los líderes de este clan asesino. Entonces, justo cuando Duke y Billy se estaban acercando a la familia, los Casterota huyeron del país a Japón. Se dice que los Casterota han unido fuerzas con otra familia de crimen, los Heiwa-Gumi, y han logrado un poderoso equipo de gangsters modernos que ahora controlan la mayor parte de Osaka. Sus saqueos y actividades criminales han alcanzado proporciones incontrolables y el detective en cuestión, Ryu Saeba,  no puede derrocar a las fuerzas combinadas de las dos familias por su cuenta. Esta es la historia, llena de acción y vandalismo, de 3 detectives que se unen para "de una vez por todas" librar al mundo de estos criminales violentos.</desc>
+		<image>./images/burningf-image.png</image>
+		<video>./videos/burningf-video.mp4</video>
+		<marquee>./images/burningf-marquee.png</marquee>
+		<thumbnail>./images/burningf-thumb.png</thumbnail>
+		<fanart>./images/burningf-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Beat'em Up</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>04727115898607cad131d34dc5263e4d</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050351" />
+	</game>
+	<game id="13924">
+		<path>./crsword.zip</path>
+		<name>Crossed Swords</name>
+		<desc>En la tierra encantada de Belkana todo iba bien hasta que criaturas hostiles comenzaron a campar a por sus mieses. Además, desde lo más profundo de las montañas de Graisia, el Demonio Warlord Nausizz surgió y dirigió los ataques contra los pueblos. Aun así, un guerrero valiente llamado "The Knight of the Journey" llego dispuesto a restaurar la paz. Después de liberar Caterdragon, el caballero se dirigió al Castillo Pulista, cuando se encontraba de charla con el rey un caballero negro secuestra a la princesa. El caballero va superando niveles y finalmente llega al Mundo del Diablo. A lo largo del juego es ayudado por los leales del reino. Como Nausizz es una especie de demonio honorable, queda impresionado con el progreso del caballero, asi que devuelve a la princesa. Al final el caballero se queda a vivir en la corte. La paz puede volver a Belkana.
+Crossed Swords requiere movimientos muy coordinados para progresar. La regla básica para el juego es defender antes que atacar. El jugador lleva arma y escudo. El ataque puede ser normal o con empujon. Un ataque mágico también puede ser utilizado. Los caminos a través del juego son varios y el jugador tiene opción de pasar del primer al segundo capítulo libremente.</desc>
+		<image>./images/crsword-image.png</image>
+		<video>./videos/crsword-video.mp4</video>
+		<marquee>./images/crsword-marquee.png</marquee>
+		<thumbnail>./images/crsword-thumb.png</thumbnail>
+		<fanart>./images/crsword-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Aventura</genre>
+		<family>Crossed Swords</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>35220fa05a4a520cd93b2422447b660d</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050354" />
+	</game>
+	<game id="13938">
+		<path>./ctomaday.zip</path>
+		<name>Captain Tomaday</name>
+		<desc>En 1999, la compañía programadora Visco nos trae un título a todas luces diferente de lo visto hasta el momento. Su temática, un shooter de scroll vertical, tendrá una ambientación e historia tan diferentes, que en realidad podríamos englobarlo como único dentro de un subgénero que podría llamarse perfectamente shooter cómico.
+
+Esto es debido al argumento, explicado en la intro. En un remoto laboratorio, un científico está realizando unas investigaciones. Allí, absorto por sus estudios, sigue investigando ajeno a lo que está a punto de ocurrir... Un tomate cae de una de sus plantas, con tan mala suerte que rebotando, va a parar en el interior de un vaso de precipitación, un recipiente el cual contiene un líquido capaz de crear mutaciones. Tras ello, y bajo el asombro del científico, dicho tomate aparece transformado en un tomate con inteligencia y rasgos humanos. Con sus nuevas habilidades, Captain Tomaday ayudará al profesor a deshacerse de múltiples criaturas que han aparecido de repente y que amenazan con acabar con la paz reinante.</desc>
+		<image>./images/ctomaday-image.png</image>
+		<video>./videos/ctomaday-video.mp4</video>
+		<marquee>./images/ctomaday-marquee.png</marquee>
+		<thumbnail>./images/ctomaday-thumb.png</thumbnail>
+		<fanart>./images/ctomaday-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19990101T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2a89a7400b39125453745fa2fcbc39f7</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050357" />
+	</game>
+	<game id="13931">
+		<path>./cyberlip.zip</path>
+		<name>Cyber-Lip</name>
+		<desc>Tenemos ante nosotros otro título de la primera hornada de juegos programados para Neo Geo, un título del género Run and Gun que coge prestadas algunas ideas del conocido Contra (Konami, 1987), obteniendo un título que casi podría haber sido una continuación de aquel.
+
+Este juego presenta un mundo apocalíptico. La Tierra, año 2016.  El Gobierno Federal, viendo el creciente problema de la superpoblación, aprueba el programa para crear una colonia espacial. En 2019 ya tienen lista la primera colonia militar llamada C05 que orbita alrededor de La Tierra, de manera que empiezan a enviar soldados androides allí, comenzando los problemas de control de dichos soldados. Acuciados por estos contratiempos, deciden crear un superordenador llamado Cyber Lip para que fabrique y dirija a dichos androides. Tras conseguir tener conciencia de si mismo, empieza a fabricarlos con una IA cambiada, dóciles a sus órdenes, con el objetivo (en principio) de prepararlos para luchar contra una invasión alienígena que acababa de ocurrir. Pero 10 años después, en 2030, la situación ha empeorado mucho y quien acabó casi sucumbiendo fue la humanidad, al perder el control absoluto de Cyber Lip y sus androides. Los robots ya han destruido ciudades enteras y los aliens, lejos de marcharse, campan a sus anchas por el planeta. Viendo esta situación tan caótica, el Gobierno Federal lanza un último ataque, enviando a dos soldados llamados Rick y Brook, para localizar y destruir definitivamente el superordenador y de esta forma poder tener el control del ejército androide y poder expulsar definitivamente a los aliens.</desc>
+		<image>./images/cyberlip-image.png</image>
+		<video>./videos/cyberlip-video.mp4</video>
+		<marquee>./images/cyberlip-marquee.png</marquee>
+		<thumbnail>./images/cyberlip-thumb.png</thumbnail>
+		<fanart>./images/cyberlip-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19901107T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>3a2c84ff1c8a9a265ba119cabdca7df3</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050401" />
+	</game>
+	<game id="37573">
+		<path>./doubledr.zip</path>
+		<name>Double Dragon</name>
+		<desc>Double Dragon es un juego de lucha lanzado en 1995 por Technos Japan, un título que se incluye dentro de la conocida saga del mismo nombre. Está basado en la película Double Dragon de 1994, la cual a su vez se basaba en el juego arcade original (Konami, 1988).
+
+En el juego, el mundo se ha sumido en el caos; la policía sólo patrulla durante el día, y la noche pertenece a las bandas y al crimen organizado. Koga Shuko es un empresario corrupto que desea el poder absoluto. Para lograrlo debe reunir los dos fragmentos del doble dragón para formar un amuleto que le otorgará grandes poderes. Lo malo es que una parte del amuleto está en poder de los hermanos Lee, dos expertos en artes marciales que se ganan la vida peleando.
+
+Sobre la plantilla de luchadores, disponemos de 10 personajes jugables y otros dos ocultos, haciendo un total de 12 personajes por manejar.</desc>
+		<image>./images/doubledr-image.png</image>
+		<video>./videos/doubledr-video.mp4</video>
+		<marquee>./images/doubledr-marquee.png</marquee>
+		<thumbnail>./images/doubledr-thumb.png</thumbnail>
+		<fanart>./images/doubledr-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>Tecmo</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Double Dragon</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>57ed77568940d259142558f8914c7aab</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050403" />
+	</game>
+	<game id="37574">
+		<path>./eightman.zip</path>
+		<name>Eight Man</name>
+		<desc>Eightman es un personaje de manga y anime japonés de los años 60, creado por el guionista Kazumasa Hirai y el dibujante Jiro Kuwata. Es uno de los primeros superhéroes cyborgs en aparecer en este tipo de medio y es supuestamente la inspiración de personajes posteriores como Robocop. Tuvo dos series de manga, la clásica de los 60 y una más reciente en el 2005, una serie de animación en TV, una película de animación y una película con actores de carne y hueso de muy dudosa calidad. La historia trata del Detective Azuma, el cual es asesinado por una banda de delincuentes y su cadáver es rescatado por el Profesor Tani quien traspasa sus ondas cerebrales a un robot, así nace Eightman.
+
+Este título es uno de los pocos juegos de Neo Geo por el que se tuvo que pagar una licencia para poder crearlo. No acabó teniendo demasiada aceptación, pues no destacaba en ningún aspecto. Incluso sus creadores no quedaron muy contentos con la adaptación al videojuego por parte del equipo de Pallas (2020 Super Baseball), debido en gran parte a la poca fidelidad con los personajes originales.
+
+El juego se desarrolla en 4 fases, a su vez dividas en subfases, algunas de ellas haciendo énfasis en la velocidad del personaje, su principal poder. Se puede jugar a 2 players, siendo el segundo personaje 9Man, el cual está basado en el hijo del Profesor Tani (enemigo en la serie original).</desc>
+		<image>./images/eightman-image.png</image>
+		<video>./videos/eightman-video.mp4</video>
+		<marquee>./images/eightman-marquee.png</marquee>
+		<thumbnail>./images/eightman-thumb.png</thumbnail>
+		<fanart>./images/eightman-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Plataforma / Combate con desplazamiento</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>41e208e320c90bfb4cffa9d35719cda1</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050406" />
+	</game>
+	<game id="37575">
+		<path>./fatfursp.zip</path>
+		<name>Fatal Fury Special</name>
+		<desc>Tras el enorme éxito cosechado en 1993 con Fatal Fury 2, SNK presenta una entrega para muchos agridulce. Estamos hablando de Fatal Fury Special, una revisión que mejoraba enormemente a esa segunda parte, pero que no dejaba de ser una mejora y no una secuela propiamente dicha. El motivo principal de esta mejora no es otro que la incorporación de todos los personajes de la segunda parte a la plantilla seleccionable, y de la incorporación de nuevos luchadores, los cuales ya aparecían en el primer Fatal Fury (Geese, Duck King y Tung Fu Rue).</desc>
+		<image>./images/fatfursp-image.png</image>
+		<video>./videos/fatfursp-video.mp4</video>
+		<marquee>./images/fatfursp-marquee.png</marquee>
+		<thumbnail>./images/fatfursp-thumb.png</thumbnail>
+		<fanart>./images/fatfursp-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19930101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>a62d9be63f43427136ffda44211ef126</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050409" />
+	</game>
+	<game id="37576">
+		<path>./fatfury1.zip</path>
+		<name>Fatal Fury : King of Fighters</name>
+		<desc>Diciembre de 1991 fue la fecha en la que hizo aparición el primer título de la conocida saga Fatal Fury. Se desarrolló para rivalizar con el por aquel entonces rey de las recreativas, Street Fighter II de Capcom, y en algunos aspectos lo consiguió. En otros sin embargo, se quedó a medio camino.
+El argumento narra la historia de tres amigos luchadores que se unen para intentar derrotar al malvado Geese Howard, el jefe de la banda de delincuentes más peligrosa de toda Southtown, la ciudad de Terry Bogard y Andy Bogard.
+Hace años, la ciudad había vivido un esplendor y bonanza sin precedentes, hasta que un misterioso joven relacionado con el crimen organizado llegó a la ciudad con su banda, llenando las calles de delincuentes y haciendo que en pocos años, la ciudad fuese una de las más peligrosas del mundo. Algunos habitantes se rebelaron contra Geese, como fue el triste caso de Jeff Bogard, padre de Terry y de Andy, quien pereció durante el combate que entabló con el cruel villano. Ahora ambos hermanos, con la ayuda de su inseparable amigo y campeón de lucha Muay Thai, Joe Higashi, han regresado para vengar a Jeff y devolver la paz a las gentes de la ciudad.
+Sin embargo, el camino no va a ser fácil. Geese Howard, en su empeño por seguir en el poder, ha organizado un evento, el King of Fighters, un campeonato de lucha callejera el cual, con ayuda de sus secuaces infiltrados como luchadores, usará para poder acabar con la vida de todo aquel que quiera hacerle frente, y así no levantar sospechas.</desc>
+		<image>./images/fatfury1-image.png</image>
+		<video>./videos/fatfury1-video.mp4</video>
+		<marquee>./images/fatfury1-marquee.png</marquee>
+		<thumbnail>./images/fatfury1-thumb.png</thumbnail>
+		<fanart>./images/fatfury1-fanart.jpg</fanart>
+		<rating>0.5</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>dd9e31512445ceea93aed41cdc1aa652</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050412" />
+	</game>
+	<game id="37577">
+		<path>./fatfury2.zip</path>
+		<name>Fatal Fury 2</name>
+		<desc>En 1992, SNK presenta su secuela, Fatal Fury 2, muy evolucionado respecto a su antecesor, el cual corregía muchos de esas carencias de la primera parte. No se trataba de un ?lavado de cara?, ya que se redibujaron todos los gráficos, se aportaron sonidos nuevos, cambiaba la jugabilidad, e incluso el argumento sufriría un giro muy interesante.
+Tras la caída de Geese Howard, el jefe de la organización criminal que tuvo aterrorizado a todo Southtown durante más de una década, hace su aparición un nuevo villano mucho más poderoso que aquel, llamado Wolfgang Krauser, el cual deseaba seguir con la tradición del torneo King of Fighters pero no para acabar con la posible competencia como fue el caso de Geese, sino que sus motivaciones eran otras, mucho más retorcidas... Krauser era un experto luchador, y gustaba de pelear contra rivales tan sólo por el placer de derrotarlos sin piedad. El torneo, no era más que el medio ideal para enfrentarse a rivales de su talla, y para atraer a más luchadores. Por ello, lo transforma por primera vez en un evento internacional, de manera que las peleas transcurrirán en diversos países del mundo. Aparecerán nuevos personajes que con el tiempo acabarán siendo leyenda dentro del género de la lucha en Neo Geo.</desc>
+		<image>./images/fatfury2-image.png</image>
+		<video>./videos/fatfury2-video.mp4</video>
+		<marquee>./images/fatfury2-marquee.png</marquee>
+		<thumbnail>./images/fatfury2-thumb.png</thumbnail>
+		<fanart>./images/fatfury2-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19921202T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>9e225be02ac5b4d06acf15075f99ad31</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050414" />
+	</game>
+	<game id="37578">
+		<path>./fatfury3.zip</path>
+		<name>Fatal Fury 3: Road to the Final Victory</name>
+		<desc>En 1995 sale al mercado esta nueva entrega, y en este sentido, Fatal Fury 3: Road to the Final Victory seguiría con la historia de los tres héroes Terry, Andy y Joe, siendo muchos los cambios que se incluirían en el juego, muchos de los cuales sentarían las bases para la futura saga Real Bout Fatal Fury. Sin ir más lejos, el primer cambio lo vemos en el argumento, olvidándose del torneo King of Fighters, partiendo desde cero con una historia totalmente diferente.
+En este sentido, nos cuenta que Terry Bogard, Andy Bogard, Joe Higashi y Mai Shiranui regresan a Southtown tras su participación en KOF '94, y cuál es su sorpresa cuando ven que la ciudad, lejos de seguir tranquila tras el final del oscuro dominio de Geese Howard o Krauser sobre ella, sigue siendo un hervidero de criminales y anarquía, gracias a la aparición de numerosas bandas que desean dominar toda la ciudad. Joe Higashi es el que pone la voz de alarma, puesto que ha venido explícitamente para investigar acerca de una terrible amenaza que le ha contado Cheng Sinzan... Según cuenta, los hermanos Chunshu y Jin Chonrei, descendientes de una antigua dinastía China, van tras la pista de unos pergaminos que tienen el poder de dar la inmortalidad a su poseedor. Ya sólo les falta uno, y para ello han contratado los servicios de un temible criminal de Hong Kong llamado Ryuji Yamazaki, cuyo objetivo será traer el último de los rollos para de este modo conseguir la inmortalidad de los hermanos Jin. Así pues, el discurrir de la historia se basará en hacernos partícipes de la sucesión de acontecimientos que nos llevan a recuperar cada uno de los pergaminos, tras derrotar a nuestros adversarios.</desc>
+		<image>./images/fatfury3-image.png</image>
+		<video>./videos/fatfury3-video.mp4</video>
+		<marquee>./images/fatfury3-marquee.png</marquee>
+		<thumbnail>./images/fatfury3-thumb.png</thumbnail>
+		<fanart>./images/fatfury3-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>3aaa4850210217421166c0ed4837a9cb</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050417" />
+	</game>
+	<game id="13966">
+		<path>./fbfrenzy.zip</path>
+		<name>Football Frenzy</name>
+		<desc>Juego que cumple sobradamente el objetivo de mantener una digna ambientación desde el principio hasta el final. Lo tiene todo, unos sprites con un tamaño acertado, muy detallados y con unas animaciones francamente bien hechas, suaves y realistas. Además contaremos con acercamientos de cámara en momentos importantes como al marcar un touchdown, momento en el que veremos a los jugadores desde un plano más cerrado, apareciendo numerosos detalles.
+
+Los escenarios, a pesar de no tener variaciones, mantienen el nivel de detalle visto en los sprites y no nos dará la sensación de estar jugando en un terreno de juego en cierto modo monótono, pues cada parte del mismo muestra todos los detalles que son necesarios para conseguir una experiencia a la altura, dando como resultado una localización sólida, suficiente teniendo en cuenta el género que nos ocupa.
+
+El hud es muy claro y continuamente estaremos informados de las jugadas realizadas, así como de los acontecimientos más relevantes, a veces acompañados por ilustraciones que ensalzan momentos destacables como los touchdowns.</desc>
+		<image>./images/fbfrenzy-image.png</image>
+		<video>./videos/fbfrenzy-video.mp4</video>
+		<marquee>./images/fbfrenzy-marquee.png</marquee>
+		<thumbnail>./images/fbfrenzy-thumb.png</thumbnail>
+		<fanart>./images/fbfrenzy-fanart.jpg</fanart>
+		<rating>0.5</rating>
+		<releasedate>19920221T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol americano</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>42dd7658a207ec6a4c28a8832162f231</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050419" />
+	</game>
+	<game id="37579">
+		<path>./fightfev.zip</path>
+		<name>Fight Fever</name>
+		<desc>Fight Fever, conocido en Corea como Wang Jung Wang es un videojuego de lucha en 2 dimensiones lanzado en 1994 para el sistema arcade Neo-Geo. Este juego tiene la particularidad de ser el primer y único título coreano creado y lanzado para Neo Geo, además de ser el primer juego desarrollado y lanzado por el editor coreano de juegos de SNK, ViccomnnLa jugabilidad de Fight Fever es similar a otros títulos en 2D de la época, especialmente a Fatal Fury 2 y Art of Fighting, ambos de SNK. Hay 8 personajes para seleccionar y dos jefes jugables (el primer jefe solo es jugable en el modo de dos jugadores). El objeto del juego es ganar dos combates siendo el mejor de tres. Cada personaje tiene un conjunto de movimientos además de movimientos especiales. Los luchadores también tienen la capacidad de burlarse de otros.
+Hay dos bonus games que recompensan al jugador con puntos, dependiendo de cual exitoso sea el jugador en cada uno de ellos. El primer juego consiste en romper ladrillos. El segundo juego de bonificación trata de romper el mayor número de tableros que son sostenidos por los entrenadores. Ambos juegos de bonificación también estuvieron en el juego de arcade de 1987 de Capcom, Street Fighter, así como uno de ellos también en el juego de arcade 1992 de Midway, Mortal Kombat y los de Art of Fighting.</desc>
+		<image>./images/fightfev-image.png</image>
+		<video>./videos/fightfev-video.mp4</video>
+		<marquee>./images/fightfev-marquee.png</marquee>
+		<thumbnail>./images/fightfev-thumb.png</thumbnail>
+		<fanart>./images/fightfev-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19940101T000000</releasedate>
+		<developer>Viccom</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>e3fb0c37047e4009721ac449e29712cb</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050422" />
+	</game>
+	<game id="13917">
+		<path>./flipshot.zip</path>
+		<name>Battle Flip Shot</name>
+		<desc>Cuando en 1994 irrumpió en escena el título Windjammers, el panorama arcade fue testigo del renacimiento de un género deportivo olvidado, muy parecido al tenis, el cual vio la luz años atrás gracias a Pong (Atari, 1972). Supuso un gran éxito de Data East, y era de suponer que otras third-parties como Visco, no querrían quedarse atrás.
+Tuvieron que pasar cuatro años para poder ver otro juego de este género tan peculiar en la placa de SNK. Battle Flip Shot nos presenta un planteamiento muy similar al juego del frisbee. La historia nos cuenta que en un futuro próximo, se ha creado un campeonato del deporte de balón que en ese momento domina sobre los demás. En este deporte, dos jugadores se enfrentan en una pista, y deben impactar el balón en el mayor número posible de dianas para poder vencerlo.</desc>
+		<image>./images/flipshot-image.png</image>
+		<video>./videos/flipshot-video.mp4</video>
+		<marquee>./images/flipshot-marquee.png</marquee>
+		<thumbnail>./images/flipshot-thumb.png</thumbnail>
+		<fanart>./images/flipshot-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19981208T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>73b76b9c3415a550429915b18ada3f4b</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050425" />
+	</game>
+	<game id="37580">
+		<path>./galaxyfg.zip</path>
+		<name>Galaxy Fight: Universal Warriors</name>
+		<desc>Cuentan las leyendas de diferentes planetas, que existe un Ser Divino el cual reaparece una vez cada 1000 años. Justo ahora llega el momento de su advenimiento. Diferentes luchadores de los confines de nuestra galaxia se han reunido en el sistema Denius para saludar al Ser, conocido como Crais Felden, un ser sin el cual, el Universo se hubiese sumido en una espiral eterna de caos y muerte. No significa por ello que Crais sea benévolo o malvado, tan sólo existe con su enorme poder, y se mantiene a la espera de derrotar a cualquiera que le rete en combate. Por diferentes motivos personales, estos luchadores van a enfrentarse a Crais Felten, e intentarán acabar con el. Bienvenidos a la lucha galáctica definitiva, bienvenidos a Galaxy Fight.</desc>
+		<image>./images/galaxyfg-image.png</image>
+		<video>./videos/galaxyfg-video.mp4</video>
+		<marquee>./images/galaxyfg-marquee.png</marquee>
+		<thumbnail>./images/galaxyfg-thumb.png</thumbnail>
+		<fanart>./images/galaxyfg-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5b4e785d0cce39f4a6883b7b2c9904bc</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050428" />
+	</game>
+	<game id="13945">
+		<path>./ganryu.zip</path>
+		<name>Ganryu</name>
+		<desc>Nuestro héroe Musashi acaba de vencer a su enemigo Kojiro. Un mes después va a encontrarse con su amada Otsu en Kyoto, sin embargo, un grupo de ninjas misteriosos la han secuestrado junto con más gente de la ciudad, Es el momento de que Musashi investigue quién está detrás de tan malvado grupo, y cuáles son sus planes. A pesar de que no se mencione su presencia en la historia, Musashi contará con la ayuda de una compañera, Suzume, quien le ayudará en su lucha por liberar a su amada.</desc>
+		<image>./images/ganryu-image.png</image>
+		<video>./videos/ganryu-video.mp4</video>
+		<marquee>./images/ganryu-marquee.png</marquee>
+		<thumbnail>./images/ganryu-thumb.png</thumbnail>
+		<fanart>./images/ganryu-fanart.jpg</fanart>
+		<rating>0.5</rating>
+		<releasedate>19990101T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Plataforma / Combate con desplazamiento</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>418e30a4ad64722b1b5b389b9609ffa1</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050431" />
+	</game>
+	<game id="37581">
+		<path>./garou.zip</path>
+		<name>Garou: Mark of the Wolves</name>
+		<desc>La historia trascurre 10 años después de la muerte de Gesse tras ser vencido por Terry. Su hijo Rock es adoptado por Terry y entrenado por este. Rock nunca conoció a su madre, y se anuncia un nuevo torneo llamado The King of Fighters: Maximum Mayhem, y organizado por el millonario Kain R. Heinlein, el hermano de la madre de  Rock y tío de este. Rock Howard decide apuntarse para descubrir quien es su madre y el porqué de la fuente de su poder.</desc>
+		<image>./images/garou-image.png</image>
+		<video>./videos/garou-video.mp4</video>
+		<marquee>./images/garou-marquee.png</marquee>
+		<thumbnail>./images/garou-thumb.png</thumbnail>
+		<fanart>./images/garou-fanart.jpg</fanart>
+		<rating>0.95</rating>
+		<releasedate>19990101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>8c10bec884e527fe953dfc64b9c1117f</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050433" />
+	</game>
+	<game id="37582">
+		<path>./ghostlop.zip</path>
+		<name>Ghostlop</name>
+		<desc>Nos pondremos en la piel de Bruce o de McCoy, dos cazafantasmas supervisados por la presidenta, Rachael, y que trabajan para una empresa dedicada a tal fin. Los entes en realidad distan mucho de ser aquellos seres temibles que todo el mundo cree, más bien son bastante cómicos y hábiles en esquivar los ataques de nuestros protagonistas...</desc>
+		<image>./images/ghostlop-image.png</image>
+		<video>./videos/ghostlop-video.mp4</video>
+		<marquee>./images/ghostlop-marquee.png</marquee>
+		<thumbnail>./images/ghostlop-thumb.png</thumbnail>
+		<fanart>./images/ghostlop-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Data East</developer>
+		<publisher>Data East</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>97a1304835464b8bb676c8b80f70f3cd</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050436" />
+	</game>
+	<game id="13906">
+		<path>./goalx3.zip</path>
+		<name>Goal! Goal! Goal!</name>
+		<desc>Un juego de fútbol con los ingredientes adecuados, habilidad, estilo, pasión y, por supuesto, ¡GOLES! Con 28 equipos nacionales a elegir, compite en un torneo para convertirte en la mejor selección de fútbol del mundo. Primero tienes que superar la fase de grupos y pasar a la fase de eliminatorias donde el fracaso no es una opción. Para ayudarte en tu camino, mantén presionado el botón de disparo hasta que la barra de energía se llene y podrás hacer un poderoso ¡SUPER DISPARO!</desc>
+		<image>./images/goalx3-image.png</image>
+		<video>./videos/goalx3-video.mp4</video>
+		<marquee>./images/goalx3-marquee.png</marquee>
+		<thumbnail>./images/goalx3-thumb.png</thumbnail>
+		<fanart>./images/goalx3-fanart.jpg</fanart>
+		<rating>0.5</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b079f33dd7ad94fdacc3cf3a1e8ba5ba</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050439" />
+	</game>
+	<game id="37583">
+		<path>./gowcaizr.zip</path>
+		<name>Voltage Fighter Gowcaizer</name>
+		<desc>En 1999 un terremoto masivo sacude la ciudad de Tokio, matando a casi toda la población y obligando al gobierno a mover su capital a una isla artificial frente a la costa de Japón, donde durante años vivieron en paz. Sin embargo, en el año 2017 la violencia comienza a extenderse entre los ciudadanos casualmente cuando llega un nuevo director en el Instituto Nacional Bernard, la universidad más grande de la isla y con capacidad para 105.000 estudiantes. En ese periodo llega un estudiante con el nombre de Isato Kaiza, el héroe del juego. Llega con una piedra que puede manifestar la energía que le permite transformarse. Con esta piedra, debe descubrir el origen del mal y traer la paz a Japón.</desc>
+		<image>./images/gowcaizr-image.png</image>
+		<video>./videos/gowcaizr-video.mp4</video>
+		<marquee>./images/gowcaizr-marquee.png</marquee>
+		<thumbnail>./images/gowcaizr-thumb.png</thumbnail>
+		<fanart>./images/gowcaizr-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>Technos Japan Corp.</developer>
+		<publisher>Tecmo</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>081e054de20c75e54208bfe2d16ce12a</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050441" />
+	</game>
+	<game id="37584">
+		<path>./gpilots.zip</path>
+		<name>Ghost Pilots</name>
+		<desc>Durante la II Guerra Mundial, se descubre un poderoso recurso natural en el país F, que ayudará enormemente al progreso de la humanidad. Sin embargo su posesión empieza a ser codiciada por otros países hostiles... Dos pilotos del país neutral F, Tom Phillips y Charlie Stingley, deben defender sus fronteras del ataque de un ejército invasor que procede de los países C y D? Nada se supo de ellos hasta ahora, dos héroes que cambiaron el rumbo de la Historia.</desc>
+		<image>./images/gpilots-image.png</image>
+		<video>./videos/gpilots-video.mp4</video>
+		<marquee>./images/gpilots-marquee.png</marquee>
+		<thumbnail>./images/gpilots-thumb.png</thumbnail>
+		<fanart>./images/gpilots-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f9547d4261d0b4beadc10cab7ba09c99</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050444" />
+	</game>
+	<game id="37588">
+		<path>./joyjoy.zip</path>
+		<name>Puzzled</name>
+		<desc>Existen dos pueblos, uno de hombres y otro de mujeres, que desde siempre han estado enfrentándose entre si en duras batallas, y tras tanta lucha, han acabado sucumbiendo todos sus habitantes, excepto los ancianos, los niños y las niñas de cada pueblo. Han sido tantas las disputas y tan terrible el precio, que el dios del sol ha tomado parte del asunto y ha construido altas murallas que rodean a los pueblos y una enorme torre como jamás nadie había visto ninguna, situada justo en medio de ambas poblaciones, para así servir de barrera e impedir que se sigan atacando. Sin embargo, las construcciones son tan altas, que se han quedado sin Sol. Conocedores de sus errores, ambos pueblos han decidido mandar cada uno un globo con un mensajero y una mensajera, respectivamente, y suplicar el perdón. Nuestro objetivo es poder llegar a la cima y así poder darle el mensaje a su destinatario.</desc>
+		<image>./images/joyjoy-image.png</image>
+		<video>./videos/joyjoy-video.mp4</video>
+		<marquee>./images/joyjoy-marquee.png</marquee>
+		<thumbnail>./images/joyjoy-thumb.png</thumbnail>
+		<fanart>./images/joyjoy-fanart.jpg</fanart>
+		<rating>0.5</rating>
+		<releasedate>19910107T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Puzzle / Caída</genre>
+		<family>Tetris</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>d794feeb597f9a51485894b7c620070b</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050447" />
+	</game>
+	<game id="37589">
+		<path>./kabukikl.zip</path>
+		<name>Far East of Eden: Kabuki Klash</name>
+		<desc>La historia esta inspirada en la clasica historia del folklore japones Giraiya Goketsu Monogatari, la acción transcurre en la tierra de Jipang (una versión parodia de Japón y su época feudal) en la cual los descendientes del clan del fuego se enfrentan entre ellos, o en ocasiones unen sus fuerzas para vencer a distintos enemigos que amenazan la paz de Jipang. El villano principal es un brujo llamado Jyashinsay, el cual planea invocar y fusionarse con una temible bestia llamada Lucifeller, para logra traer el final a todo Jipang. Los héroes de este juego no la tendran fácil, porque además de enfrentarse entre ellos también deberán luchar contra los esbirros de Jyashinsay.</desc>
+		<image>./images/kabukikl-image.png</image>
+		<video>./videos/kabukikl-video.mp4</video>
+		<marquee>./images/kabukikl-marquee.png</marquee>
+		<thumbnail>./images/kabukikl-thumb.png</thumbnail>
+		<fanart>./images/kabukikl-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19950728T000000</releasedate>
+		<developer>Racdym</developer>
+		<publisher>Hudson</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Far East of Eden</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f4090525452f156129970ee0e79f6f0b</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050449" />
+	</game>
+	<game id="37590">
+		<path>./karnovr.zip</path>
+		<name>Karnov's Revenge</name>
+		<desc>Secuela de Fighter´s History. Un año después de los acontecimientos de Fighter´s History, Karnov ha organizado un nuevo torneo de artes marciales llamado Great Grapple, con la esperanza de vengarse por su derrota a manos de Ray McDougal en el campeonato del año anterior.</desc>
+		<image>./images/karnovr-image.png</image>
+		<video>./videos/karnovr-video.mp4</video>
+		<marquee>./images/karnovr-marquee.png</marquee>
+		<thumbnail>./images/karnovr-thumb.png</thumbnail>
+		<fanart>./images/karnovr-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19940101T000000</releasedate>
+		<developer>Data East</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fighter's History</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>14a9488f3ac62bb51d4d88f06aced521</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050452" />
+	</game>
+	<game id="13857">
+		<path>./kf2k2mp2.zip</path>
+		<name>The King of Fighters 2002</name>
+		<desc>KOF 2002 nos presenta un juego tipo Dream Match es decir, sin línea argumental, añadiendo luchadores de entregas anteriores con la única finalidad de conseguir entretener al jugador en partidas o bien contra la máquina o bien a dobles.</desc>
+		<image>./images/kf2k2mp2-image.png</image>
+		<video>./videos/kf2k2mp2-video.mp4</video>
+		<marquee>./images/kf2k2mp2-marquee.png</marquee>
+		<thumbnail>./images/kf2k2mp2-thumb.png</thumbnail>
+		<fanart>./images/kf2k2mp2-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>20020101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<crc32>BA1AFFAF</crc32>
+		<md5>5ef5d85479cf27ad5c109f59fc3c9057</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050455" />
+	</game>
+	<game id="13920">
+		<path>./kizuna.zip</path>
+		<name>Kizuna Encounter - Super Tag Battle</name>
+		<desc>Secuela de Savage Reign. En un futuro cercano, King Lion organiza un torneo llamado 'Battle of the Beast God' en el que desafía a todos los luchadores a derrotarle. Muchos serán los que querrán derrotar al anfitrión, bien por venganza, por justicia, por superación personal, o por ansias de poder.</desc>
+		<image>./images/kizuna-image.png</image>
+		<video>./videos/kizuna-video.mp4</video>
+		<marquee>./images/kizuna-marquee.png</marquee>
+		<thumbnail>./images/kizuna-thumb.png</thumbnail>
+		<fanart>./images/kizuna-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>42c4ed150613a1f5f263ddc6aa6f39e4</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050458" />
+	</game>
+	<game id="13879">
+		<path>./kof2000.zip</path>
+		<name>The King of Fighters 2000</name>
+		<desc>La historia prosigue con la investigación de la organización NESTS por parte de Heidern y su equipo, todo ello tras el incidente con los clones de Kyo Kusanagi, y la persecución de los ahora fugitivos K' y Maxima.</desc>
+		<image>./images/kof2000-image.png</image>
+		<video>./videos/kof2000-video.mp4</video>
+		<marquee>./images/kof2000-marquee.png</marquee>
+		<thumbnail>./images/kof2000-thumb.png</thumbnail>
+		<fanart>./images/kof2000-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>20000101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>a70f603c87e725bc8ff299deeebf5a56</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050500" />
+	</game>
+	<game id="37591">
+		<path>./kof2001.zip</path>
+		<name>The King of Fighters 2001</name>
+		<desc>Tras la destrucción del clon Zero y de su cañón, la organización NESTS acaba controlando totalmente el certamen The King of Fighters. K' y Máxima, enemigos declarados de la organización, sienten ahora más que nunca la amenaza de dicha organización, la cual hará todo lo posible para acabar con ellos.
+Para evitar ser heridos, vuelven a contar con la inestimable ayuda de Kula Diamond, a la que dotan de toda clase de mejoras, formando esta vez equipo con Foxy y con la agente especial Angel. También cuenta con el proyecto más secreto y avanzado de la trama: K9999, mucho más fuerte y poderoso genéticamente que K'. Sin embargo la organización no verá en ellos una amenaza real, ya que en el caso de que sean los vencedores, se las tendrán que ver con el auténtico jefe de NESTS, un poderosísimo luchador llamado Igniz.</desc>
+		<image>./images/kof2001-image.png</image>
+		<video>./videos/kof2001-video.mp4</video>
+		<marquee>./images/kof2001-marquee.png</marquee>
+		<thumbnail>./images/kof2001-thumb.png</thumbnail>
+		<fanart>./images/kof2001-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>20020101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>e741a11313806ce2e91c12a6ac1a5d71</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050504" />
+	</game>
+	<game id="13857">
+		<path>./kof2002.zip</path>
+		<name>The King of Fighters 2002</name>
+		<desc>KOF 2002 nos presenta un juego tipo Dream Match es decir, sin línea argumental, añadiendo luchadores de entregas anteriores con la única finalidad de conseguir entretener al jugador en partidas o bien contra la máquina o bien a dobles.</desc>
+		<image>./images/kof2002-image.png</image>
+		<video>./videos/kof2002-video.mp4</video>
+		<marquee>./images/kof2002-marquee.png</marquee>
+		<thumbnail>./images/kof2002-thumb.png</thumbnail>
+		<fanart>./images/kof2002-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>20020101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>fb1aa9feadf1f89e86e63d336a9eb8ff</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050507" />
+	</game>
+	<game id="13878">
+		<path>./kof2003.zip</path>
+		<name>The King of Fighters 2003</name>
+		<desc>Los luchadores más poderosos del planeta vuelven a recibir unas invitaciones para el nuevo torneo, firmadas por Adelheid, el hijo de Rugal, el cual desea reunir a todos los equipos de luchadores más fuertes del planeta, y medirse contra el más poderoso de todos ellos. Tras la desaparición de NESTS, la historia se centra en un nuevo protagonista, el cual centra sus esfuerzos en intentar acabar con una peligrosa organización criminal llamada Those From The Past. Para ello, utilizará cualquier artimaña a su alcance, algunas de ellas de dudosa moralidad, lo cual le otorga en esta entrega un cierto papel de villano.</desc>
+		<image>./images/kof2003-image.png</image>
+		<video>./videos/kof2003-video.mp4</video>
+		<marquee>./images/kof2003-marquee.png</marquee>
+		<thumbnail>./images/kof2003-thumb.png</thumbnail>
+		<fanart>./images/kof2003-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>20040101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>74bb96a7a017de8208ddc7de6960c815</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050509" />
+	</game>
+	<game id="13894">
+		<path>./kof94.zip</path>
+		<name>The King of Fighters '94</name>
+		<desc>Los luchadores más poderosos del planeta reciben unas invitaciones firmadas por un misterioso personaje que firma con una simple inicial: "R".
+
+Estos luchadores son invitados a participar en la edición anual del torneo The King of Fighters, una serie de peleas localizadas en varios países del planeta: Italia, Brasil, EEUU, etc. Los luchadores, ansiosos por conocer la identidad de su misterioso anfitrión, emprenden el viaje hacia el torneo. Una vez allí, se les explican las nuevas normas: Ya no se disputarán peleas de uno contra uno, sino que se van a hacer equipos de tres, peleando de uno en uno hasta que todos los integrantes de uno los dos equipos sean derrotados.</desc>
+		<image>./images/kof94-image.png</image>
+		<video>./videos/kof94-video.mp4</video>
+		<marquee>./images/kof94-marquee.png</marquee>
+		<thumbnail>./images/kof94-thumb.png</thumbnail>
+		<fanart>./images/kof94-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19941001T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b9e0a02df53322a2e6d915850d96dcb4</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050512" />
+	</game>
+	<game id="37592">
+		<path>./kof95.zip</path>
+		<name>The King of Fighters '95</name>
+		<desc>La primera secuela de la serie King of Fighters se estrena  un año después del final del primer torneo. Una vez más, los luchadores de todo el mundo reciben una misteriosa invitación a un torneo de lucha en equipo. Y al igual que el año pasado, parece que el famoso criminal Rugal Bernstein está detrás. Al parecer,  ha vuelto de entre los muertos para causar estragos una vez más...</desc>
+		<image>./images/kof95-image.png</image>
+		<video>./videos/kof95-video.mp4</video>
+		<marquee>./images/kof95-marquee.png</marquee>
+		<thumbnail>./images/kof95-thumb.png</thumbnail>
+		<fanart>./images/kof95-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>c2cdf06349e770135b890441bcc33322</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050515" />
+	</game>
+	<game id="37593">
+		<path>./kof96.zip</path>
+		<name>The King of Fighters '96</name>
+		<desc>Tras la muerte de Omega Rugal, cuyo cuerpo no pudo resistir el poder de Orochi, una tal Chizuru Kagura organiza un nuevo torneo. Se presenta como la guardiana del espejo que sella al demonio Orochi, pero siente que algo va mal. Pide a Kyo y Lori que la ayuden a defender el sello en caso de ataque. En efecto, Goenitz, el mensajero de Orochi, vino a liberar a su amo. Pero Kyo y Lori reunieron sus fuerzas para derrotarlo. Cuando Goenitz murió, Iori bebió su sangre y empezó a comportarse de forma extraña. Entró en el Riot of the Blood y mató a Vice y Mature, que estaban a su lado.The King of Fighters '96 es un episodio importante en la historia de KOF. La leyenda de Orochi está cada vez más presente y nos llega uno de los jefes más duros de los juegos de lucha, Goenitz. En cuanto al juego en sí, ha experimentado una bonita evolución gráfica.</desc>
+		<image>./images/kof96-image.png</image>
+		<video>./videos/kof96-video.mp4</video>
+		<marquee>./images/kof96-marquee.png</marquee>
+		<thumbnail>./images/kof96-thumb.png</thumbnail>
+		<fanart>./images/kof96-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>a5e81a1c1d51d6fd9b40d317885a8413</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050518" />
+	</game>
+	<game id="37594">
+		<path>./kof97.zip</path>
+		<name>The King of Fighters '97</name>
+		<desc>Kyo, Iori y Chizuru aparecerán en el torneo con la esperanza de poder frenar de una vez a Orochi, el malvado dios que fue encerrado por la familia Kusanagi siglos atrás. El evento ya es seguido por millones de personas de todo el mundo, y los luchadores, que han vuelto a recibir otra invitación, esperan impacientes que de comienzo, sin saber que un terrible peligro les aguarda. Una vez más, nada es lo que parece.</desc>
+		<image>./images/kof97-image.png</image>
+		<video>./videos/kof97-video.mp4</video>
+		<marquee>./images/kof97-marquee.png</marquee>
+		<thumbnail>./images/kof97-thumb.png</thumbnail>
+		<fanart>./images/kof97-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>19970101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<crc32>F373FB35</crc32>
+		<md5>05825a8230e5c3d2d6f38dd6caf3da62</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050521" />
+	</game>
+	<game id="37594">
+		<path>./kof97pls.zip</path>
+		<name>The King of Fighters '97 Plus</name>
+		<desc>Kyo, Iori y Chizuru aparecerán en el torneo con la esperanza de poder frenar de una vez a Orochi, el malvado dios que fue encerrado por la familia Kusanagi siglos atrás. El evento ya es seguido por millones de personas de todo el mundo, y los luchadores, que han vuelto a recibir otra invitación, esperan impacientes que de comienzo, sin saber que un terrible peligro les aguarda. Una vez más, nada es lo que parece.</desc>
+		<image>./images/kof97pls-image.png</image>
+		<video>./videos/kof97pls-video.mp4</video>
+		<marquee>./images/kof97pls-marquee.png</marquee>
+		<thumbnail>./images/kof97pls-thumb.png</thumbnail>
+		<fanart>./images/kof97pls-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>19970101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f57f65f486bfc0deee75bc6959683e30</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050524" />
+	</game>
+	<game id="37595">
+		<path>./kof98.zip</path>
+		<name>The King of Fighters '98 - The Slugfest</name>
+		<desc>The King of Fighters '98 se toma un descanso en la línea argumental Orochi y en su lugar se presenta como un  "Dream Match? . La mayoría de los personajes de los últimos cuatro años regresan, proporcionando así al jugador una lista de 38 personajes. Rugal Bernstein  está  como un personaje no secreto por primera vez  y varios personajes  están disponibles con sus versiones alternativas..</desc>
+		<image>./images/kof98-image.png</image>
+		<video>./videos/kof98-video.mp4</video>
+		<marquee>./images/kof98-marquee.png</marquee>
+		<thumbnail>./images/kof98-thumb.png</thumbnail>
+		<fanart>./images/kof98-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19980923T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>60344e3c402ff52ef37e2917f7c30619</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050527" />
+	</game>
+	<game id="37596">
+		<path>./kof99.zip</path>
+		<name>The King of Fighters '99 : Millennium Battle</name>
+		<desc>Tras la dura pelea de 1997 contra Orochi, Iori y Kyo yacían inconscientes en el suelo, al límite de sus fuerzas. Una figura misteriosa cogió a Kyo, llevándoselo a algún laboratorio subterráneo. Durante semanas, Kyo tuvo que aguantar una serie de experimentos para extraerle el ADN. Afortunadamente aprovechando un descuido, logró huir.
+King tuvo que rehacer su equipo, ya que Mai pudo entrar en el Fatal Fury Team, y Yuri pelearía con Ryo, asociándose con Kasumi Todoh y Li Xiangfei. Aparte de la unión de Benimaru con Shingo, también aparecen en el mismo equipo K' y Máxima, dos luchadores hasta el momento desconocidos. Y si por si esto fuera poco, aparecen dos luchadores más... ¡Idénticos a Kyo! Eso significaba que el experimento había dado resultado y que habían logrado clonar a Kyo.</desc>
+		<image>./images/kof99-image.png</image>
+		<video>./videos/kof99-video.mp4</video>
+		<marquee>./images/kof99-marquee.png</marquee>
+		<thumbnail>./images/kof99-thumb.png</thumbnail>
+		<fanart>./images/kof99-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19990101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The King of Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>1ca0c402bb83882f988f048f5e5a2206</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050532" />
+	</game>
+	<game id="37597">
+		<path>./kotm.zip</path>
+		<name>King of the Monsters</name>
+		<desc>Unos enormes monstruos han emergido del fondo del mar para arrasar todo a su paso ante la impotente mirada de la humanidad. Un gran desastre apocalíptico,en el que cualquier cosa puede suceder. 
+En nuestra pantalla aparecerán dos monstruos que deberán enfrentarse en diversas ciudades, y cuyos habitantes a su vez intentarán acabar con ellos mediante armamento a todas luces insuficiente... pero molesto.</desc>
+		<image>./images/kotm-image.png</image>
+		<video>./videos/kotm-video.mp4</video>
+		<marquee>./images/kotm-marquee.png</marquee>
+		<thumbnail>./images/kotm-thumb.png</thumbnail>
+		<fanart>./images/kotm-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha</genre>
+		<family>King of the Monsters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>9cc5b67eed69ced58ed18c853a6fee47</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050535" />
+	</game>
+	<game id="37598">
+		<path>./kotm2.zip</path>
+		<name>King of the Monsters 2 - The Next Thing</name>
+		<desc>De los seis monstruos que emergieron de las aguas, tan sólo tres han logrado sobrevivir: Geon, Astro Guy y Woo. 
+En 1999, justo cuando la humanidad perdía toda esperanza de salvar su planeta y cuando parecía que nada podría ir peor, La Tierra es invadida por unos seres alienígenas de tamaño similar a los monstruos que atacaron las ciudades en 1996. Pero lejos de ser seres amistosos, la humanidad se encuentra con seres mucho peores y sanguinarios que aquellos. Afortunadamente, los monstruos no permitirán que nada se interponga en su dominio del planeta, algo que la humanidad ve en cierto modo con esperanza, pues a fin de cuentas es bueno para ellos que ambas razas de monstruos luchen entre si. Quizás se debiliten lo suficiente como para poder ser finalmente vencidos.</desc>
+		<image>./images/kotm2-image.png</image>
+		<video>./videos/kotm2-video.mp4</video>
+		<marquee>./images/kotm2-marquee.png</marquee>
+		<thumbnail>./images/kotm2-thumb.png</thumbnail>
+		<fanart>./images/kotm2-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>Takara</publisher>
+		<genre>Beat'em Up</genre>
+		<family>King of the Monsters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>86a713847c732d911fb78ee2759ee2c6</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050538" />
+	</game>
+	<game id="37599">
+		<path>./lastblad.zip</path>
+		<name>The Last Blade</name>
+		<desc>El guardián de la puerta del Infierno que conecta el mundo de los humanos con el de los muertos, un hombre llamado Shinnosuke Kagami, se desengaña con la humanidad y decide castigarla abriendo dicha puerta, y permitiendo que el mal que mora en el mundo de los muertos invada su mismo plano existencial. Sin embargo, un joven llamado Kaede, no está dispuesto a que esto suceda...</desc>
+		<image>./images/lastblad-image.png</image>
+		<video>./videos/lastblad-video.mp4</video>
+		<marquee>./images/lastblad-marquee.png</marquee>
+		<thumbnail>./images/lastblad-thumb.png</thumbnail>
+		<fanart>./images/lastblad-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19980129T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The Last Blade</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>83c03a7e32c03eccd6233ede57c7edeb</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050541" />
+	</game>
+	<game id="37600">
+		<path>./lastbld2.zip</path>
+		<name>The Last Blade 2</name>
+		<desc>Después de que Kaede lograse frustrar el intento de Shinnosuke Kagami de abrir las puertas del Infierno a las almas de los guerreros que descansan en él, el dragón Seiryuu despertó los poderes que dormían en su interior convirtiéndolo de esta manera, en el nuevo cuarto guardián. Sin embargo las cosas están lejos de tranquilizarse tras la derrota de Musashi.
+Una fuerza desconocida a quien muchos asocian al dios Hades resucita a su maestro, Gaisei, y le hace olvidar todos los valores y filosofías que defendió en vida. De esta forma, el guerrero aglutinó en su cuerpo los poderes de Byakko, Genbu, Suzaku y Seiryuu, lo que lo convertirá en una especie de semidiós que vaga por el mundo haciéndose llamar Kouryu, el dragón amarillo. Ante el peligro que entraña esta nueva amenaza, los pecados de Kagami son perdonados y éste saldrá del Averno para aliarse con Okina, Shigen y Kaede con el fin de librar al mundo de su más que probable destrucción.</desc>
+		<image>./images/lastbld2-image.png</image>
+		<video>./videos/lastbld2-video.mp4</video>
+		<marquee>./images/lastbld2-marquee.png</marquee>
+		<thumbnail>./images/lastbld2-thumb.png</thumbnail>
+		<fanart>./images/lastbld2-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>19990128T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>The Last Blade</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2b3f34ad69cfb02d9e2ab87b639e8c0f</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050544" />
+	</game>
+	<game id="13976">
+		<path>./lbowling.zip</path>
+		<name>League Bowling</name>
+		<desc>La pista de bolos se llena cada noche de diversión y de emocionante acción.  Puedes elegir un  jugador derecho o zurdo, determina el peso de la bola, y desarrollar las habilidades de un profesional a medida que vas controlando una gran variedad de lanzamientos. Así que abre algún refresco y disfruta con en este deporte de interior como nunca lo habías hecho antes.</desc>
+		<image>./images/lbowling-image.png</image>
+		<video>./videos/lbowling-video.mp4</video>
+		<marquee>./images/lbowling-marquee.png</marquee>
+		<thumbnail>./images/lbowling-thumb.png</thumbnail>
+		<fanart>./images/lbowling-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19900101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Bowling</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-4</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>43e9e51fdf322ecd7cd604c936c6d29d</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050547" />
+	</game>
+	<game id="37601">
+		<path>./legendos.zip</path>
+		<name>Legend of Success Joe</name>
+		<desc>El juego se basa en las aventuras de Joe Yabuki, un muchacho problemático que ha pasado la mayor parte de su vida en orfanatos, hasta que escapa. Deambulando por los barrios pobres de Tokio, Yabuki conoce a Danpei Tange, un entrenador retirado de boxeo que le enseñará las técnicas para poder dominar este estilo de lucha. Pasa el tiempo y Joe emprende un viaje con una compañía de espectáculos para intentar seguir boxeando, pero se siente vació al combatir en combates fingidos, y tras un tiempo vuelve con Danpei, y se propone un objetivo, luchar contra Carlos Rivera, un conocidísimo luchador de boxeo. Comienza entonces una meteórica carrera, en la que finalmente se enfrentará a Carlos Rivera, campeón del mundo de boxeo.</desc>
+		<image>./images/legendos-image.png</image>
+		<video>./videos/legendos-video.mp4</video>
+		<marquee>./images/legendos-marquee.png</marquee>
+		<thumbnail>./images/legendos-thumb.png</thumbnail>
+		<fanart>./images/legendos-fanart.jpg</fanart>
+		<rating>0.3</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>Wave Corp</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / 2D</genre>
+		<family>Ashita no Joe</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5ddf500a390fbe5cfb1c685fdcf72992</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050551" />
+	</game>
+	<game id="13957">
+		<path>./lresort.zip</path>
+		<name>Last Resort</name>
+		<desc>En un futuro lejano la humanidad ha realizado enormes progresos tecnológicos los cuales han permitido comenzar seriamente la colonización del espacio. Se construye una enorme estación espacial, pero una vez acabada, un misterioso virus infecta el ordenador central que controla dicha colonia, fuertemente armada, y toma el control de todas las fuerzas tanto ofensivas como defensivas de dicha estación. Además, sus ocupantes se han puesto del lado del ordenador central en su intención de invadir el planeta Tierra. Mientras tanto la humanidad, consciente de se enfrenta a una dura amenaza,  lanza dos naves de combate con el objetivo de llegar al poderoso ordenador y destruirlo. Eso si, antes deberán acabar con un ejército de fuerzas invasoras que harán todo lo posible por convertirlos en chatarra humeante...</desc>
+		<image>./images/lresort-image.png</image>
+		<video>./videos/lresort-video.mp4</video>
+		<marquee>./images/lresort-marquee.png</marquee>
+		<thumbnail>./images/lresort-thumb.png</thumbnail>
+		<fanart>./images/lresort-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5e3398fe8551b2210abdb848f48ded9f</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050554" />
+	</game>
+	<game id="13904">
+		<path>./magdrop2.zip</path>
+		<name>Magical Drop II</name>
+		<desc>En Magical Drop II, controlas a un payaso que puede lanzar globos. Tienes que hacer coincidir tres globos del mismo color o más para hacerlos estallar y limpiar la pantalla. Hay globos especiales que no se pueden quitar con facilidad y power-ups que limpian filas enteras o proporcionan ayuda adicional. Dependiendo del país de origen, existen diferentes modos de juego: Supervivencia, Puzzle y Modo VS.</desc>
+		<image>./images/magdrop2-image.png</image>
+		<video>./videos/magdrop2-video.mp4</video>
+		<marquee>./images/magdrop2-marquee.png</marquee>
+		<thumbnail>./images/magdrop2-thumb.png</thumbnail>
+		<fanart>./images/magdrop2-fanart.jpg</fanart>
+		<rating>0.55</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Data East</developer>
+		<publisher>SNK</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<family>Magical Drop</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>4212f892a9ee1892be37aa9b807ddcda</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050557" />
+	</game>
+	<game id="13883">
+		<path>./magdrop3.zip</path>
+		<name>Magical Drop III</name>
+		<desc>Controlas a un payaso que lanza globos hacia lo alto de la pantalla donde hay un grupo de globos de varios colores. El objetivo es juntar tres o más del mismo color para hacerlos explotar de forma separada o creando combos con otros colores.
+Modo de un jugador o contra un amigo en modo versus. En el modo versus hay que elegir a un personaje, al igual que en un juego de lucha, cada uno con sus propios ataques y habilidades.</desc>
+		<image>./images/magdrop3-image.png</image>
+		<video>./videos/magdrop3-video.mp4</video>
+		<marquee>./images/magdrop3-marquee.png</marquee>
+		<thumbnail>./images/magdrop3-thumb.png</thumbnail>
+		<fanart>./images/magdrop3-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19970101T000000</releasedate>
+		<developer>Data East</developer>
+		<publisher>Data East</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<family>Magical Drop</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5181c70729fbd05e530c3c0cb0b9ce19</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050600" />
+	</game>
+	<game id="37602">
+		<path>./maglord.zip</path>
+		<name>Magician Lord</name>
+		<desc>Hace miles de años en la pacífica Cadacis, Gal Agiese llamó a varios demonios y conspiró para apoderarse de la tierra. Cuando todas las esperanzas estaban perdidas, un joven héroe apareció y, con ayuda de la magia, derrotó a todos los demonios. Al final, encerró a Gal Agiese y Atorse Az en una colección de 8 libros mágicos. El joven héroe fue el fundador de la estirpe de magos Magician Lord. Sin embargo, Gal Agiese logró liberarse y robó todos los libros.
+Elta, último descendiente  de la antigua estirpe de los Magician Lord, tiene la misión de derrotar a Gal Agiese, para ello tendrá que usar la misma magia que sus antepasados usaron para vencerle, pero antes tendrá que derrotar a sus lugartenientes y recuperar los 8 libros, repartidos en las 8 fases de las que consta el juego.</desc>
+		<image>./images/maglord-image.png</image>
+		<video>./videos/maglord-video.mp4</video>
+		<marquee>./images/maglord-marquee.png</marquee>
+		<thumbnail>./images/maglord-thumb.png</thumbnail>
+		<fanart>./images/maglord-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19900101T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Plataforma / Tirador con deslizamiento</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>86cef5d62d699b50713885b3532f672c</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050602" />
+	</game>
+	<game id="37914">
+		<path>./matrim.zip</path>
+		<name>Matrimelee</name>
+		<desc>El argumento parte de los hechos acontecidos en Power Instinct 2, momento en el cual, en el Reino de Certain Country se celebró un torneo para que los luchadores más fuertes pudieran reclamar el liderazgo de esa tierra. Un año después, un rey de un lejano país decide organizar un torneo para poder encontrar o bien un esposo ideal para su hija Sissy, o en su caso, una mujer para su hijo mayor, el príncipe. Así es como comienza el torneo de lucha Matrimelee.</desc>
+		<image>./images/matrim-image.png</image>
+		<video>./videos/matrim-video.mp4</video>
+		<marquee>./images/matrim-marquee.png</marquee>
+		<thumbnail>./images/matrim-thumb.png</thumbnail>
+		<fanart>./images/matrim-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>20020101T000000</releasedate>
+		<developer>Noise Factory</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Power Instinct</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f3a93378458b0c6204ba9ca9cbf9b4f1</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050605" />
+	</game>
+	<game id="37603">
+		<path>./miexchng.zip</path>
+		<name>Money Puzzle Exchanger</name>
+		<desc>Debes recoger monedas del mismo valor y organizarlas en la pantalla. Una vez que hayas recogido la cantidad correcta de dinero, las monedas se convertirán  a un valor más alto hasta alcanzar el  valor de 500, momento en el que desaparecen.  Consigue conversiones múltiples para obtener bonos más altos.</desc>
+		<image>./images/miexchng-image.png</image>
+		<video>./videos/miexchng-video.mp4</video>
+		<marquee>./images/miexchng-marquee.png</marquee>
+		<thumbnail>./images/miexchng-thumb.png</thumbnail>
+		<fanart>./images/miexchng-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19970101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b7e4e1809f3242cd7874ce52ffb4ea42</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050608" />
+	</game>
+	<game id="37604">
+		<path>./mslug.zip</path>
+		<name>Metal Slug - Super Vehicle-001</name>
+		<desc>Metal Slug es un juego de acción de scroll lateral para dos jugadores donde te enfrentas a una malvada organización militar que quiere dar un golpe de estado masivo y crear un nuevo orden mundial. 
+
+Puedes usar diversas armas además del propio Metal Slug, un pequeño tanque que encontrarás en determinados lugares y que aumenta considerablemente tu capacidad de destrucción. 
+
+Técnicamente el juego es un prodigio, escenarios detallados y animaciones sobresalientes hacen de este juego el referente número uno de su género.</desc>
+		<image>./images/mslug-image.png</image>
+		<video>./videos/mslug-video.mp4</video>
+		<marquee>./images/mslug-marquee.png</marquee>
+		<thumbnail>./images/mslug-thumb.png</thumbnail>
+		<fanart>./images/mslug-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Nazca Corporation</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Metal Slug</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<crc32>AC6E93EA</crc32>
+		<md5>e378b15e0e287bb484454e489181c71d</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050611" />
+	</game>
+	<game id="37605">
+		<path>./mslug2.zip</path>
+		<name>Metal Slug 2 - Super Vehicle-001/II</name>
+		<desc>Donald Morden, vuelve a llevar a cabo una serie de  ataques a lo largo y ancho del planeta con la intención de conquistarlo. Sorprendido, el Ejército Regular no entiende como puede ser posible que en tan poco tiempo, haya sido capaz de reunir efectivos suficientes para poner en jaque una vez más la estabilidad mundial. Moviliza a sus fuerzas especiales y envía nuevamente a los miembros del comando de los Halcones Peregrinos al campo de batalla (cuyas filas han aumentado tras la incorporación de Eri Kasamoto y Fiolina Germi), con el objetivo de vencer definitivamente al malvado general.
+Su sorpresa es máxima cuando descubren que el general ha pactado una alianza con unos extraños seres provenientes de Marte. Sin embargo, estos Mars People tienen intenciones que van más allá de la cooperación...</desc>
+		<image>./images/mslug2-image.png</image>
+		<video>./videos/mslug2-video.mp4</video>
+		<marquee>./images/mslug2-marquee.png</marquee>
+		<thumbnail>./images/mslug2-thumb.png</thumbnail>
+		<fanart>./images/mslug2-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>19980101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Metal Slug</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>a4a0dce6d2e54c9c4f2e3e8d4c8cc249</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050614" />
+	</game>
+	<game id="13852">
+		<path>./mslug3.zip</path>
+		<name>Metal Slug 3</name>
+		<desc>La rebelión dirigida por el General Morden para lograr un nuevo régimen mundial es historia, y el orden y la paz ha comenzado a regresar al mundo...pero por poco tiempo. Morden intenta otro golpe de Estado, pero las fuerzas del Gobierno tenían previsto tal acto y se adelantan al inminente asalto.</desc>
+		<image>./images/mslug3-image.png</image>
+		<video>./videos/mslug3-video.mp4</video>
+		<marquee>./images/mslug3-marquee.png</marquee>
+		<thumbnail>./images/mslug3-thumb.png</thumbnail>
+		<fanart>./images/mslug3-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>20000101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Metal Slug</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<crc32>F71F8C4C</crc32>
+		<md5>11e3b304ff12177a7168b301d4a138fa</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050617" />
+	</game>
+	<game id="37606">
+		<path>./mslug4.zip</path>
+		<name>Metal Slug 4</name>
+		<desc>Una organización terrorista llamada Amadeus ha creado un virus informático que le permite controlar las armas militares a escala mundial. Para detener sus maléficos planes, entran en escena los veteranos Marco Rossi y Fio Germi, que esta vez van acompañados por los recién llegados Trevor Spacey y Nadia Cassel, dos miembros del Ejército Regular. Juntos, averiguan con horror que el general Morden está involucrado en dicha organización.</desc>
+		<image>./images/mslug4-image.png</image>
+		<video>./videos/mslug4-video.mp4</video>
+		<marquee>./images/mslug4-marquee.png</marquee>
+		<thumbnail>./images/mslug4-thumb.png</thumbnail>
+		<fanart>./images/mslug4-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>20020101T000000</releasedate>
+		<developer>MEGA Enterprise</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Metal Slug</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2c6ffbfaae186f414a1ac77777990cd6</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050620" />
+	</game>
+	<game id="13871">
+		<path>./mslug5.zip</path>
+		<name>Metal Slug 5</name>
+		<desc>Han robado un disco especial que contiene secretos de vital importancia sobre el proyecto Metal Slug. Al parecer, ha sido una organización misteriosa llamada El ejército de Ptolemaic, especializada en el espionaje arqueológico. Marco y Tarma, de la fuerza "Halcón", emprenden una misión de búsqueda de información al respecto, y en el proceso serán apoyados por Eri y Fio, de los "Sparrows". Juntos una vez más, el cuarteto investiga el objetivo del ejército de Ptolemaic.</desc>
+		<image>./images/mslug5-image.png</image>
+		<video>./videos/mslug5-video.mp4</video>
+		<marquee>./images/mslug5-marquee.png</marquee>
+		<thumbnail>./images/mslug5-thumb.png</thumbnail>
+		<fanart>./images/mslug5-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>20030101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Metal Slug</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b91ab0c462cf8f7c2f8db953c5cdecb6</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050622" />
+	</game>
+	<game id="37607">
+		<path>./mslugx.zip</path>
+		<name>Metal Slug X - Super Vehicle-001</name>
+		<desc>Remake mejorado de Metal Slug 2.
+El general de La Rebelión, Donald Morden, vuelve a llevar a cabo una serie de ataques. Sorprendido, el Ejército Regular moviliza a sus fuerzas especiales y envía nuevamente a los miembros del comando de los Halcones Peregrinos al campo de batalla, y así poder vencer definitivamente al malvado general. Lo que no esperan es que el general ha pactado una alianza con unos extraños seres provenientes de Marte...</desc>
+		<image>./images/mslugx-image.png</image>
+		<video>./videos/mslugx-video.mp4</video>
+		<marquee>./images/mslugx-marquee.png</marquee>
+		<thumbnail>./images/mslugx-thumb.png</thumbnail>
+		<fanart>./images/mslugx-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19990101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Metal Slug</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>eaac17b225b66c4bc1f051228b49d790</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050625" />
+	</game>
+	<game id="13896">
+		<path>./mutnat.zip</path>
+		<name>Mutation Nation</name>
+		<desc>A finales del siglo XXI, un científico fuera de control realiza abominables experimentos genéticos en su laboratorio, hasta que por desgracia, tras crear un virus extremadamente contagioso que deforma a su portador, lo libera en el aire y provoca que todos los ciudadanos acaben transformándose, convirtiéndose en seres deformes que cumplen ciegamente las órdenes de su amo. 
+En el momento de la propagación de virus, dos jóvenes luchadores llamados Ricky Jones y Johnny Hart, huyen de la ciudad para evitar el contagio, aunque tiempo más tarde vuelven a ella, temerosos de que el científico pretenda volver a usar el virus en más ciudades. Su objetivo será acabar con él para evitar un posible contagio a nivel mundial.</desc>
+		<image>./images/mutnat-image.png</image>
+		<video>./videos/mutnat-video.mp4</video>
+		<marquee>./images/mutnat-marquee.png</marquee>
+		<thumbnail>./images/mutnat-thumb.png</thumbnail>
+		<fanart>./images/mutnat-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Beat'em Up</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>7d379c2ff0237185d3987baf4ca8e65e</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050628" />
+	</game>
+	<game id="13892">
+		<path>./nam1975.zip</path>
+		<name>NAM-1975</name>
+		<desc>Dos soldados con amplia experiencia militar llamados Silver y Brown, reciben la misión de rescatar a un ex científico del ejército de EEUU, Dr. R. Muckly, el cual, al parecer, ha sido raptado por un grupo terrorista llamado Northside. La hija del científico, Nancy Muckly, también ha sido raptada y hecha prisionera en algún lugar del interior del país.
+Pero el Dr. R. Muckly  no ha sido raptado, se ha vuelto loco y, tras construir un ingenio mecánico armado con un potente láser, pretende conquistar el mundo. Para poner las cosas aún más difíciles, el villano contará con un ejército de terroristas que harán todo lo posible por proteger al doctor. ¿Podremos derrotarlo?</desc>
+		<image>./images/nam1975-image.png</image>
+		<video>./videos/nam1975-video.mp4</video>
+		<marquee>./images/nam1975-marquee.png</marquee>
+		<thumbnail>./images/nam1975-thumb.png</thumbnail>
+		<fanart>./images/nam1975-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19900101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / 3ª persona</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>bdef42f65dc84751973763b50d92bf06</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050631" />
+	</game>
+	<game id="37608">
+		<path>./ncombat.zip</path>
+		<name>Ninja Combat</name>
+		<desc>Joe y Hayabusa se dirigen hacia la Torre Ninja para destruir a la Shadow Family.
+Su misión es devolver la paz a la gente. Forman el NINJA COMBAT junto con amigos que se encuentran a través de la batalla. Entra furtivamente en la fortaleza, esquivando las trampas que te esperan y lucha contra el Ninja oscuro con su letal "magia ninja".</desc>
+		<image>./images/ncombat-image.png</image>
+		<video>./videos/ncombat-video.mp4</video>
+		<marquee>./images/ncombat-marquee.png</marquee>
+		<thumbnail>./images/ncombat-thumb.png</thumbnail>
+		<fanart>./images/ncombat-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19910701T000000</releasedate>
+		<developer>Alpha Denshi</developer>
+		<publisher>SNK</publisher>
+		<genre>Beat'em Up</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>84763c67bd09cef94f532079c612e43f</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050634" />
+	</game>
+	<game id="13934">
+		<path>./ncommand.zip</path>
+		<name>Ninja Commando</name>
+		<desc>Elige a uno de los tres ninjas y sigue la pista de Spider, un científico loco que ha inventado una máquina del tiempo con la que Mars Corporation, compañía propiedad del malvado Spider, pretende viajar al pasado, a diferentes momentos de la historia para impedir ciertos eventos, y de esta manera poder controlar el futuro de la humanidad. Nuestro objetivo es perseguir al villano y a las fuerzas de Mars Corp. por las diferentes épocas de la historia a las que se dirigen, e intentar acabar con todos ellos y con su máquina del tiempo.</desc>
+		<image>./images/ncommand-image.png</image>
+		<video>./videos/ncommand-video.mp4</video>
+		<marquee>./images/ncommand-marquee.png</marquee>
+		<thumbnail>./images/ncommand-thumb.png</thumbnail>
+		<fanart>./images/ncommand-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2858ce4b67b7261a350b881c43cfbb7e</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050637" />
+	</game>
+	<game id="13861">
+		<path>./neobombe.zip</path>
+		<name>Neo Bomberman</name>
+		<desc>¡Él está aquí!. Bomberman llega a NEO GEO para una batalla total.
+El modo Story ofrece un estilo de juego de bomberman clásico, con toneladas de niveles para mantenerte jugando por mucho tiempo.
+El modo Battle es un desafío por mantenerte con vida en cualquiera de los 4 mapas seleccionables. ¡Esquiva, lanza, patea, desliza y escóndete para sobrevivir!</desc>
+		<image>./images/neobombe-image.png</image>
+		<video>./videos/neobombe-video.mp4</video>
+		<marquee>./images/neobombe-marquee.png</marquee>
+		<thumbnail>./images/neobombe-thumb.png</thumbnail>
+		<fanart>./images/neobombe-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19970101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>Hudson</publisher>
+		<genre>Acción / Laberinto</genre>
+		<family>Bomberman</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>4d7a21551ff441f1c565af443b20b529</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050639" />
+	</game>
+	<game id="37609">
+		<path>./neocup98.zip</path>
+		<name>Neo-Geo Cup '98 - The Road to the Victory</name>
+		<desc>¡Elije entre 64 de los mejores equipos mundiales y alcanza la gloria!
+Los partidos de fútbol de nivel mundial están a tu alcance con NEOGEO CUP '98. Tres tipos de juegos llevan a cualquier fan a un frenesí deportivo. El modo single le permite elegir un equipo y jugar contra la consola. En el modo Story tu equipo jugara la Copa NeoGeo, donde competirás por el título, ayudado con power-ups a lo largo del camino. Por último, el modo 2P Play te permite jugar con un amigo y enfrentaros en un cara a cara.</desc>
+		<image>./images/neocup98-image.png</image>
+		<video>./videos/neocup98-video.mp4</video>
+		<marquee>./images/neocup98-marquee.png</marquee>
+		<thumbnail>./images/neocup98-thumb.png</thumbnail>
+		<fanart>./images/neocup98-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19980730T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<family>Super Sidekicks</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>256f4f68c41890cffcee15a3e9815c28</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050642" />
+	</game>
+	<game id="37610">
+		<path>./neodrift.zip</path>
+		<name>Neo Drift Out - New Technology</name>
+		<desc>Neo Drift Out es un juego de rally que incluye 3 vehículos, Toyota Celica, Subaru Impreza y Mitsubishi Lancer, y 6 carreras por diferentes escenarios. La conducción se realiza exclusivamente con derrapes y cada recorrido debe completarse dentro del tiempo permitido para alcanzar el siguiente nivel.</desc>
+		<image>./images/neodrift-image.png</image>
+		<video>./videos/neodrift-video.mp4</video>
+		<marquee>./images/neodrift-marquee.png</marquee>
+		<thumbnail>./images/neodrift-thumb.png</thumbnail>
+		<fanart>./images/neodrift-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Carreras, Conducción / Carreras</genre>
+		<family>Drift Out</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>36214a70cb951f01a5428c031ed2ce01</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050645" />
+	</game>
+	<game id="37611">
+		<path>./neomrdo.zip</path>
+		<name>Neo Mr. Do!</name>
+		<desc>Acaba con todos los monstruos y saborea todas las cerezas que aparecen antes de que desaparezcan. Gana puntos de bonificación por comerte las cerezas en orden consecutivo. Acaba con los monstruos disparándolos ?bolas de fuerza? o dejándolas caer en sus cabezas.
+Un objetivo adicional aparece cuando todos los monstruos están fuera del nido. Recoge este objetivo para congelar a los viejos monstruos y hacer salir a los monstruos EXTRA. Mata a todos los monstruos EXTRA para acumular las letras E.X.T.R.A.  Cuando las tengas todas obtendrás una vida.</desc>
+		<image>./images/neomrdo-image.png</image>
+		<video>./videos/neomrdo-video.mp4</video>
+		<marquee>./images/neomrdo-marquee.png</marquee>
+		<thumbnail>./images/neomrdo-thumb.png</thumbnail>
+		<rating>0.9</rating>
+		<releasedate>19970926T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Acción / Laberinto</genre>
+		<family>Mr. Do!</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>11b1ec7bc835732884d61093e28b9067</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050646" />
+	</game>
+	<game id="37612">
+		<path>./ninjamas.zip</path>
+		<name>Ninja Master's: Haō Ninpō Chō</name>
+		<desc>Japón está siendo castigado desde hace décadas por culpa de disputas entre varios daimyo, en su afán de conseguir riqueza y poder. El malvado Oda Nobunaga pretende unir todo Japón bajo su mando. Poseído por una fuerza demoniaca, no le importan los medios para conseguir sus objetivos. Es entonces cuando un modesto elenco de luchadores tratará de impedir el avance de tan temido villano.</desc>
+		<image>./images/ninjamas-image.png</image>
+		<video>./videos/ninjamas-video.mp4</video>
+		<marquee>./images/ninjamas-marquee.png</marquee>
+		<thumbnail>./images/ninjamas-thumb.png</thumbnail>
+		<fanart>./images/ninjamas-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19960628T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>9330b0611d352856e0cd2240563e0df9</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050649" />
+	</game>
+	<game id="13956">
+		<path>./nitd.zip</path>
+		<name>Nightmare in the Dark</name>
+		<desc>En un pequeño pueblo remoto vivía un enterrador, debido a su desagradable aspecto, vivía en un rincón del cementerio, apartado de todo el mundo. Un buen día se encuentra con que algunas tumbas han sido abiertas, y han desaparecido algunos cuerpos. Temeroso de que el pueblo se entere de lo sucedido, emprende una cruzada personal contra los ladrones de tumbas, para evitar que hagan más daño. Desde ese momento, cada medianoche nuestro enterrador patrulla el cementerio...</desc>
+		<image>./images/nitd-image.png</image>
+		<video>./videos/nitd-video.mp4</video>
+		<marquee>./images/nitd-marquee.png</marquee>
+		<thumbnail>./images/nitd-thumb.png</thumbnail>
+		<fanart>./images/nitd-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>20010127T000000</releasedate>
+		<developer>AM Factory</developer>
+		<publisher>SNK</publisher>
+		<genre>Plataforma / Corre y Salta</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b3b60dfbcb0b00bf6f3ea902ef7a91a2</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050652" />
+	</game>
+	<game id="13948">
+		<path>./overtop.zip</path>
+		<name>Over Top</name>
+		<desc>Juego de carreras de coches por un recorrido muy variado, alternando asfalto, tierra, nieve, pavimento sucio. Soberbios escenarios donde destacan las animaciones y el clima que ira variando aleatoriamente. Las etapas de la carrera son siete: City, Village, Lake Side, Mountain, Desert, Port Town, and Park. Los vehículos que podremos seleccionar son ocho, todos ellos basados en modelos reales, sin licencia, entre los que están el Ferrari F50, Hummer H1, Peugeot 205 y Lamborghini Diablo entre otros.</desc>
+		<image>./images/overtop-image.png</image>
+		<video>./videos/overtop-video.mp4</video>
+		<marquee>./images/overtop-marquee.png</marquee>
+		<thumbnail>./images/overtop-thumb.png</thumbnail>
+		<fanart>./images/overtop-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Carreras, Conducción / Carreras</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>e3b8599bebc52258afbada40335149fe</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050654" />
+	</game>
+	<game id="13933">
+		<path>./panicbom.zip</path>
+		<name>Panic Bomber</name>
+		<desc>¡Prepárate para la acción explosiva con Bomberman! Detona los mundos de las Terribles Ruinas,  el Bosque Siniestro, y el Desolador Desierto.  Conquista la isla de la Niebla y captura las tres variantes de poder celestial.
+¡Que no te entre el pánico! O serás  calcinado por la codiciosa Sra. Flashy o el mortal Conde Dracu-Doom.  Incendia  el temido castillo Doom con bombasticos movimientos y una buena estrategia de combustión. Sólo entonces podrás  abrir las puertas de la legendaria Estatua de Oro de Bomberman. ¡Una  desconcertante explosión de puzzles!</desc>
+		<image>./images/panicbom-image.png</image>
+		<video>./videos/panicbom-video.mp4</video>
+		<marquee>./images/panicbom-marquee.png</marquee>
+		<thumbnail>./images/panicbom-thumb.png</thumbnail>
+		<fanart>./images/panicbom-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19950118T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>Hudson</publisher>
+		<genre>Puzzle / Caída</genre>
+		<family>Bomberman</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>590c1a19c4200a42d98fe1c1431a60d4</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050657" />
+	</game>
+	<game id="37613">
+		<path>./pbobbl2n.zip</path>
+		<name>Puzzle Bobble 2</name>
+		<desc>Frenético rompecabezas arcade, ultra intenso, 100% adictivo, que te engancha ¡y no te deja escapar!. A medida que las bolas bajan, vas a necesitar buena vista y rápidos reflejos para combinar 3 o más bolas y estallarlas ... ¡rápido!.  La alocada acción de dos jugadores te enfrenta contra un oponente en una carrera  por golpear y no ser golpeado.</desc>
+		<image>./images/pbobbl2n-image.png</image>
+		<video>./videos/pbobbl2n-video.mp4</video>
+		<marquee>./images/pbobbl2n-marquee.png</marquee>
+		<thumbnail>./images/pbobbl2n-thumb.png</thumbnail>
+		<fanart>./images/pbobbl2n-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19990101T000000</releasedate>
+		<developer>Taito</developer>
+		<publisher>Taito</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<family>Puzzle Bobble</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<crc32>2E724800</crc32>
+		<md5>e1974956f47cfa208ab827a6f15048b2</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050700" />
+	</game>
+	<game id="37614">
+		<path>./pbobblen.zip</path>
+		<name>Puzzle Bobble</name>
+		<desc>Aquellos desconcertantes dragones, Bub y Bob, se han metido en la Neo Geo, juega con estos dos bravucones en su nueva aventura ¡Puzzle Bobble! Las burbujas están cayendo a la Tierra y su misión es impedir que aterricen ¡despeja el cielo con el lanza burbujas! Resuelve todos los puzzles en el modo de un solo jugador o desafía a un amigo en modo de 2 jugadores donde cada burbuja que estallas hace que sea más difícil para tu oponente.</desc>
+		<image>./images/pbobblen-image.png</image>
+		<video>./videos/pbobblen-video.mp4</video>
+		<marquee>./images/pbobblen-marquee.png</marquee>
+		<thumbnail>./images/pbobblen-thumb.png</thumbnail>
+		<fanart>./images/pbobblen-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19941221T000000</releasedate>
+		<developer>Taito</developer>
+		<publisher>Taito</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<family>Puzzle Bobble</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>37e4470fb3457a533b40f38456117fc3</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050703" />
+	</game>
+	<game id="37615">
+		<path>./pgoal.zip</path>
+		<name>Pleasure Goal</name>
+		<desc>Elige entre 16 equipos e intenta ganar el último campeonato del mundo de fútbol sala. Dos diferentes modos de juego te darán más diversión en este juego de futbol lleno de acción. Juega contra la consola o un cara a cara para determinar quién es el  verdadero campeón de fútbol sala.</desc>
+		<image>./images/pgoal-image.png</image>
+		<video>./videos/pgoal-video.mp4</video>
+		<marquee>./images/pgoal-marquee.png</marquee>
+		<thumbnail>./images/pgoal-thumb.png</thumbnail>
+		<fanart>./images/pgoal-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19960719T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>07b285c65b418406e40a211ea55fd380</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050705" />
+	</game>
+	<game id="37617">
+		<path>./popbounc.zip</path>
+		<name>Pop 'n Bounce</name>
+		<desc>¡Aplasta al enemigo! Los animales mutantes han venido por una razón, para acabar contigo. Pero tienes una oportunidad de usar tu paleta, como un maestro,  para golpearles una y otra vez.  Haz rebotar la bola y, poco a poco, acaba con todos. Recoge las píldoras que caen ocasionalmente  para ayudarte en tu camino de convertirte en un maestro de la paleta. ¡Desafía  a un amigo para demostrarle tu habilidad!</desc>
+		<image>./images/popbounc-image.png</image>
+		<video>./videos/popbounc-video.mp4</video>
+		<marquee>./images/popbounc-marquee.png</marquee>
+		<thumbnail>./images/popbounc-thumb.png</thumbnail>
+		<fanart>./images/popbounc-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19970101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Acción / Juegos de Breakout</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>3d7b3013d9265833ebd3ebc8ac910b1a</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050708" />
+	</game>
+	<game id="13922">
+		<path>./preisle2.zip</path>
+		<name>Prehistoric Isle 2</name>
+		<desc>Los dinosaurios, dominados por un ente diabólico, han resurgido de sus cenizas y están dispuestos a acabar con todo rastro humano del planeta. Afortunadamente, dos expertos pilotos de combate se subirán a sus helicópteros, dispuestos a hacer morder el polvo a tan temible ejército jurásico.</desc>
+		<image>./images/preisle2-image.png</image>
+		<video>./videos/preisle2-video.mp4</video>
+		<marquee>./images/preisle2-marquee.png</marquee>
+		<thumbnail>./images/preisle2-thumb.png</thumbnail>
+		<fanart>./images/preisle2-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19990927T000000</releasedate>
+		<developer>Yumekobo</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>Prehistoric Isle</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>1876d75972acb8df0f711cadd866c3a4</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050711" />
+	</game>
+	<game id="37618">
+		<path>./pspikes2.zip</path>
+		<name>Power Spikes II</name>
+		<desc>Juego deportivo  de voleibol en el que puedes elegir entre una de las tres categorías de equipo: internacionales masculinos o femeninos y equipos futuristas.  Los encuentros se dividen en tres fases de juego: ataque, defensa y servicio. Usar la gran variedad de movimientos especiales de ataque y anticiparte a tu oponente te harán salir ganador de todos los torneos.</desc>
+		<image>./images/pspikes2-image.png</image>
+		<video>./videos/pspikes2-video.mp4</video>
+		<marquee>./images/pspikes2-marquee.png</marquee>
+		<thumbnail>./images/pspikes2-thumb.png</thumbnail>
+		<fanart>./images/pspikes2-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19941019T000000</releasedate>
+		<developer>Video System</developer>
+		<publisher>Taito</publisher>
+		<genre>Deportes / Voleibol</genre>
+		<family>Super Volleyball</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>a697cbd3bae0cda1966dfd27daff577d</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050714" />
+	</game>
+	<game id="13876">
+		<path>./pulstar.zip</path>
+		<name>Pulstar</name>
+		<desc>Una amenaza alienígena se cierne sobre la galaxia y sólo tú y tu fiel caza estelar podéis derrotarla.
+
+Pulstar es un shooter 2D de desplazamiento lateral en el que controlas tu nave mientras se abre camino a través de niveles llenos de oleadas de enemigos empeñados en destruirte. Puedes mejorar tus armas principales recogiendo potenciadores, y la carga de energía te permite lanzar ataques superpotentes a costa de consumir potenciadores. Además, tu nave está equipada con una vaina de armas "opcional" que flota alrededor de tu nave y puede colocarse en varias configuraciones para proteger la nave o aumentar su potencia de fuego.
+
+Aunque totalmente en 2D, el juego utiliza sprites 3D precalculados e incluye escenas animadas entre cada nivel. También permite que dos jugadores jueguen juntos.</desc>
+		<image>./images/pulstar-image.png</image>
+		<video>./videos/pulstar-video.mp4</video>
+		<marquee>./images/pulstar-marquee.png</marquee>
+		<thumbnail>./images/pulstar-thumb.png</thumbnail>
+		<fanart>./images/pulstar-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>Aicom</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>Pulstar</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b97989f6332886266867dcd3e6217003</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050717" />
+	</game>
+	<game id="37619">
+		<path>./puzzldpr.zip</path>
+		<name>Puzzle De Pon! R!</name>
+		<desc>El malvado Lord Dich Dara, regresa en esta épica batalla por el zodiaco celestial. Una vez más debes detener la intrusión y proteger los signos estelares del zodiaco. Debes darte prisa,  el tiempo se está acabando. Todas nuestras creencias astrológicas basadas en las posiciones de las estrellas y de los planetas están en riesgo. No pasará mucho tiempo hasta que perdamos nuestras almas.</desc>
+		<image>./images/puzzldpr-image.png</image>
+		<video>./videos/puzzldpr-video.mp4</video>
+		<marquee>./images/puzzldpr-marquee.png</marquee>
+		<thumbnail>./images/puzzldpr-thumb.png</thumbnail>
+		<fanart>./images/puzzldpr-fanart.jpg</fanart>
+		<rating>0.4</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>99258b9555200df7af8dc54c0b16538e</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050719" />
+	</game>
+	<game id="37620">
+		<path>./puzzledp.zip</path>
+		<name>Puzzle De Pon!</name>
+		<desc>Puzzle De Pon! nos propone el reto de poder convertirnos en el dios sol, y para ello deberemos recolectar cada uno de los signos del Zodiaco que han quedado atrapados por unas pompas de colores. Hay 39 niveles, divididos en grupos de tres niveles.</desc>
+		<image>./images/puzzledp-image.png</image>
+		<video>./videos/puzzledp-video.mp4</video>
+		<marquee>./images/puzzledp-marquee.png</marquee>
+		<thumbnail>./images/puzzledp-thumb.png</thumbnail>
+		<fanart>./images/puzzledp-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>19951128T000000</releasedate>
+		<developer>Visco</developer>
+		<publisher>SNK</publisher>
+		<genre>Puzzle / Lanzar</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>8e46df62d18ffb6ab6f0a28c75d3c07f</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050722" />
+	</game>
+	<game id="37621">
+		<path>./ragnagrd.zip</path>
+		<name>Ragnagard</name>
+		<desc>Durante todas las batallas sangrientas, se produce una transformación en la fuerza,  ¿Convocarás a las fuerzas sobrenaturales de la naturaleza?
+Los elementos sobrenaturales en Ragnagard llevan a los luchadores  más allá de  donde ningún otro juego de lucha les ha llevado antes...</desc>
+		<image>./images/ragnagrd-image.png</image>
+		<video>./videos/ragnagrd-video.mp4</video>
+		<marquee>./images/ragnagrd-marquee.png</marquee>
+		<thumbnail>./images/ragnagrd-thumb.png</thumbnail>
+		<fanart>./images/ragnagrd-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Saurus</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>e5c3bfc0dea9179214cbc3937ca33349</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050725" />
+	</game>
+	<game id="37622">
+		<path>./rbff1.zip</path>
+		<name>Real Bout Fatal Fury</name>
+		<desc>La batalla final: ¡a por Geese Howard!.   El gran titulo de  los juegos de lucha alcanza su quinto capítulo. Y esta vez  Geese  ha vuelto para sentarse en el sillón del jefe final.  !La última batalla entre Geese y los hermanos Bogard  va a comenzar!</desc>
+		<image>./images/rbff1-image.png</image>
+		<video>./videos/rbff1-video.mp4</video>
+		<marquee>./images/rbff1-marquee.png</marquee>
+		<thumbnail>./images/rbff1-thumb.png</thumbnail>
+		<fanart>./images/rbff1-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19960126T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>e7aac43997ec759ab30a39750baf5586</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050728" />
+	</game>
+	<game id="37623">
+		<path>./rbff2.zip</path>
+		<name>Real Bout Fatal Fury 2 - The Newcomers</name>
+		<desc>22 de los mejores luchadores del sur de la ciudad se encuentran en la batalla más furiosa hasta la fecha en la serie de Fatal Fury. Presentamos el sistema  "sway move", una nueva atracción para fomentar la lucha entre  2 jugadores. Elige entre un completo repertorio de potentes y deslumbrantes  movimientos  como no habías visto nunca.</desc>
+		<image>./images/rbff2-image.png</image>
+		<video>./videos/rbff2-video.mp4</video>
+		<marquee>./images/rbff2-marquee.png</marquee>
+		<thumbnail>./images/rbff2-thumb.png</thumbnail>
+		<fanart>./images/rbff2-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19980429T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>a79d463c561aed86f0437b119d643fc2</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050731" />
+	</game>
+	<game id="37624">
+		<path>./rbffspec.zip</path>
+		<name>Real Bout Fatal Fury Special</name>
+		<desc>¡La máxima prueba de fuerza te aguarda!
+¡19 de los mejores héroes  de Fatal Fury frente a frente!
+Un año después de la terrible conclusión de "Real Bout", los lobos hambrientos se preparan para una nueva batalla, "Real Bout Special" .  ¡La demostración pugilística suprema!</desc>
+		<image>./images/rbffspec-image.png</image>
+		<video>./videos/rbffspec-video.mp4</video>
+		<marquee>./images/rbffspec-marquee.png</marquee>
+		<thumbnail>./images/rbffspec-thumb.png</thumbnail>
+		<fanart>./images/rbffspec-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19970228T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Fatal Fury</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>255524bacab0a7bf4a63373c6e5230aa</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050734" />
+	</game>
+	<game id="37625">
+		<path>./ridhero.zip</path>
+		<name>Riding Hero</name>
+		<desc>Un juego deportivo con tintes RPG. Con tres modos de juego: modo historia, arcade y multiplay. aunque el plato fuerte se centra en el modo historia, en el cual nos pondremos en la piel de un joven piloto novato y sin apenas recursos cuyo objetivo será vencer al mismísimo Diamond Dave, el piloto más esquivo y rápido de la ciudad. Para ello deberemos competir contra rivales cada vez más rápidos, y así ganar dinero suficiente como para comprar una moto más potente, o poder mejorarla carrera tras carrera.</desc>
+		<image>./images/ridhero-image.png</image>
+		<video>./videos/ridhero-video.mp4</video>
+		<marquee>./images/ridhero-marquee.png</marquee>
+		<thumbnail>./images/ridhero-thumb.png</thumbnail>
+		<fanart>./images/ridhero-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19910701T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Carreras, Conducción / Carreras de moto, 3ª persona</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5843b1fc198cd933ee173c04635a8d87</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050737" />
+	</game>
+	<game id="13918">
+		<path>./roboarmy.zip</path>
+		<name>Robo Army</name>
+		<desc>En un futuro aún por descubrir, la tecnología ha avanzado tanto que los robots forman parte de la vida diaria. Sin embargo, el malvado Dr. Jeed ha creado su propio ejército de robots llamado Hell Jeed, y ha conseguido dominar el planeta entero, dejando muerte y desolación por doquier.
+Por suerte para la humanidad, dos héroes llamados Maxima y Rocky, se enfrentarán al malvado ejército, con la esperanza de abrirse paso por las peligrosas calles de la ciudad y poder acabar con el mismísimo Dr. Jeed, artífice de tanta destrucción.</desc>
+		<image>./images/roboarmy-image.png</image>
+		<video>./videos/roboarmy-video.mp4</video>
+		<marquee>./images/roboarmy-marquee.png</marquee>
+		<thumbnail>./images/roboarmy-thumb.png</thumbnail>
+		<fanart>./images/roboarmy-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19911220T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Beat'em Up</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>7f6680ec485734082e8c9502a541441b</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050740" />
+	</game>
+	<game id="37626">
+		<path>./rotd.zip</path>
+		<name>Rage of the Dragons</name>
+		<desc>Sunshine City está en ruinas. Decadente y corrompida, las leyes ya no valen, sino que el más fuerte es quien manda. En esta caótica situación, un grupo de personas seguidoras de una oscura religión llamada Dragón Negro acaban siendo realmente los que gobiernan la ciudad. Su líder, Johann, poseedor del espíritu del Dragón Negro, desea expandir el culto a todo el país, pues su poder maligno no tiene rival. Los hermanos Billy y Jimmy, poseedores del poder de los ancestrales Dragón Azul y Dragón Rojo, harán lo imposible por derrotarle, no sólo para eliminar tan temible amenaza de la ciudad, sino también para vengar a su maestro, muerto a manos de Johann años atrás. Junto a los hermanos Lewis encontramos a Lynn, una chica china que tiene el poder del Dragón Blanco, y Pepe, un luchador mexicano el cual peleará con el espíritu del Dragón Verde llamado Quetzalcoatl</desc>
+		<image>./images/rotd-image.png</image>
+		<video>./videos/rotd-video.mp4</video>
+		<marquee>./images/rotd-marquee.png</marquee>
+		<thumbnail>./images/rotd-thumb.png</thumbnail>
+		<fanart>./images/rotd-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>20020101T000000</releasedate>
+		<developer>Evoga / Playmore</developer>
+		<publisher>Playmore</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>febe75f47b862fd4d708c72f720f0537</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050742" />
+	</game>
+	<game id="37627">
+		<path>./s1945p.zip</path>
+		<name>Strikers 1945 Plus</name>
+		<desc>La tercera entrega de la popular y exclusiva serie de NEO GEO. Elija entre 6 cazas de combates con diferentes técnicas de disparo y bombas. ¿Podrás desbloquear el nuevo y misterioso caza "Ascender"?. Surca los  cielos solo o con un amigo y ábrete camino a través de 8 misiones con incontables amenazas. Destrucciones masivas, grandes efectos de sonido y  un poder de fuego increíble.</desc>
+		<image>./images/s1945p-image.png</image>
+		<video>./videos/s1945p-video.mp4</video>
+		<marquee>./images/s1945p-marquee.png</marquee>
+		<thumbnail>./images/s1945p-thumb.png</thumbnail>
+		<fanart>./images/s1945p-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19991224T000000</releasedate>
+		<developer>Psikyo</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<family>Strikers 1945</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>d6b27bb961d6a120fca1bc905d1e6838</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050745" />
+	</game>
+	<game id="37628">
+		<path>./samsh5sp.zip</path>
+		<name>Samurai Shodown V Special</name>
+		<desc>La organización de una competición de 28 feroces guerreros ha comenzado, les esperan una serie de duelos a muerte. Estos guerreros confían sus destinos a su habilidad y a sus armas. Para aquellos que no estén a la altura en el combate, un honroso fin en la batalla es su única esperanza. Los veintiocho personajes samurái se enfrentan en este título épico.</desc>
+		<image>./images/samsh5sp-image.png</image>
+		<video>./videos/samsh5sp-video.mp4</video>
+		<marquee>./images/samsh5sp-marquee.png</marquee>
+		<thumbnail>./images/samsh5sp-thumb.png</thumbnail>
+		<fanart>./images/samsh5sp-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>20040715T000000</releasedate>
+		<developer>Yuki Enterprise</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Samurai Shodown</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>be510bb77f704376d0f58b56659a2cc6</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050747" />
+	</game>
+	<game id="37629">
+		<path>./samsho.zip</path>
+		<name>Samurai Shodown</name>
+		<desc>Doce de los más poderosos samuráis, ninjas, caballeros y guerreros de Japón, Francia, Estados Unidos y China presentan armas  en el SAMURAI SHODOWN de NEO GEO. Con espadas, puños  desnudos, y una furia desmedida para emplear varios métodos de mutilación, pelea para alcanzar la  batalla final con el Shogun de Satanás. Utiliza todos los poderes a tu disposición para obtener la victoria.</desc>
+		<image>./images/samsho-image.png</image>
+		<video>./videos/samsho-video.mp4</video>
+		<marquee>./images/samsho-marquee.png</marquee>
+		<thumbnail>./images/samsho-thumb.png</thumbnail>
+		<fanart>./images/samsho-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19930811T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Samurai Shodown</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2d114c8d03417e51cb1609e6b67415cc</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050750" />
+	</game>
+	<game id="37630">
+		<path>./samsho2.zip</path>
+		<name>Samurai Shodown II</name>
+		<desc>¿Ser o no ser? ¡Pronto descubrirás la respuesta! Han lamido sus heridas, mejorado sus técnicas, y ahora están de vuelta. Los 15 guerreros más feroces del mundo se aferran al acero en un rápido y furioso festival de lucha con espada. ¡Nuevos personajes y nuevos movimientos de ataque para cortar, trocear, sazonar y freír tu camino a la victoria!</desc>
+		<image>./images/samsho2-image.png</image>
+		<video>./videos/samsho2-video.mp4</video>
+		<marquee>./images/samsho2-marquee.png</marquee>
+		<thumbnail>./images/samsho2-thumb.png</thumbnail>
+		<fanart>./images/samsho2-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19941202T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Samurai Shodown</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<crc32>BDD45540</crc32>
+		<md5>bc6d83397d41c0db7cf6dc5829e9de10</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050753" />
+	</game>
+	<game id="37631">
+		<path>./samsho3.zip</path>
+		<name>Samurai Shodown III</name>
+		<desc>¡Cortar o ser cortado! ¡La fuerza! ¡La intensidad! ¡Samurái 3 ya está aquí! ¡Doce de los guerreros más duros de la época!. Selecciona tu personalidad desde "Caballerosidad" a "Traición". El personaje se mueve y plantea cambios con la personalidad que elija. Con tres modos de batalla diferentes.</desc>
+		<image>./images/samsho3-image.png</image>
+		<video>./videos/samsho3-video.mp4</video>
+		<marquee>./images/samsho3-marquee.png</marquee>
+		<thumbnail>./images/samsho3-thumb.png</thumbnail>
+		<fanart>./images/samsho3-fanart.jpg</fanart>
+		<rating>0.85</rating>
+		<releasedate>19951201T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Samurai Shodown</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>0046d621f064995f73ea15a9eaddc8ce</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050756" />
+	</game>
+	<game id="37632">
+		<path>./samsho4.zip</path>
+		<name>Samurai Shodown IV - Amakusa's Revenge</name>
+		<desc>¡La poderosa ira de Shiro Amakusa regresa! ¿Quién podrá detenerlo?. Saltan chispas cuando chocan 17 samurais, y todo se decidirá entre las paredes del castillo del malvado  Amakusa. ¡Con todos tus guerreros preferidos más dos nuevos personajes!</desc>
+		<image>./images/samsho4-image.png</image>
+		<video>./videos/samsho4-video.mp4</video>
+		<marquee>./images/samsho4-marquee.png</marquee>
+		<thumbnail>./images/samsho4-thumb.png</thumbnail>
+		<fanart>./images/samsho4-fanart.jpg</fanart>
+		<rating>0.95</rating>
+		<releasedate>19961129T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Samurai Shodown</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5bacc8c957bb0c831682fe93950e902b</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050759" />
+	</game>
+	<game id="37633">
+		<path>./samsho5.zip</path>
+		<name>Samurai Shodown V</name>
+		<desc>Atraídos por la salvaje ambición de Gaoh o simplemente por azar,  24 guerreros confiaron sus espíritus a sus espadas y se dedicaron al Bushido (camino del guerrero). Al mismo tiempo, estos guerreros se lanzaron al centro del caos. El resultado de la lucha será decidido por el Bushido y por el Shurado.</desc>
+		<image>./images/samsho5-image.png</image>
+		<video>./videos/samsho5-video.mp4</video>
+		<marquee>./images/samsho5-marquee.png</marquee>
+		<thumbnail>./images/samsho5-thumb.png</thumbnail>
+		<fanart>./images/samsho5-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>20031211T000000</releasedate>
+		<developer>Yuki Enterprise</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Samurai Shodown</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>1ac56ea0361a35bc5ccca0a182e4b54e</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050801" />
+	</game>
+	<game id="37634">
+		<path>./savagere.zip</path>
+		<name>Savage Reign</name>
+		<desc>Savage Reign es un juego de lucha en 2D uno contra uno en el que seleccionas tu personaje y tratas de derrotar a todos los contrincantes utilizando tus ataques básicos y movimientos especiales. El juego cuenta con 2 planos horizontales diferentes a los que los personajes pueden saltar libremente para evitar ataques a la Furia Fatal. Sin embargo, no puedes escapar completamente, ya que todos los personajes tienen un arma arrojadiza que pueden usar de diferentes maneras para alcanzar a los demás sin importar donde se encuentren.</desc>
+		<image>./images/savagere-image.png</image>
+		<video>./videos/savagere-video.mp4</video>
+		<marquee>./images/savagere-marquee.png</marquee>
+		<thumbnail>./images/savagere-thumb.png</thumbnail>
+		<fanart>./images/savagere-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19950526T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Savage Reign</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b269f98eae5811bcf38f51a7c7bcb5e8</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050804" />
+	</game>
+	<game id="37635">
+		<path>./sdodgeb.zip</path>
+		<name>Super Dodge Ball</name>
+		<desc>Batalla uno contra uno. ¿Quieres más? batalla dos contra dos. ¿No es suficiente? Tres contra tres es la última batalla de balón prisionero, esquiva y lanza hasta que sólo el más fuerte quede en pie.  ¡Elige a tu equipo y esquiva bola! ¡Esquiva! ¡Esquiva!</desc>
+		<image>./images/sdodgeb-image.png</image>
+		<video>./videos/sdodgeb-video.mp4</video>
+		<marquee>./images/sdodgeb-marquee.png</marquee>
+		<thumbnail>./images/sdodgeb-thumb.png</thumbnail>
+		<fanart>./images/sdodgeb-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Tecmo</developer>
+		<publisher>Tecmo</publisher>
+		<genre>Deportes / Quemadas</genre>
+		<family>Kunio-Kun</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>73d98b15b053a1fdeed2117576a2d408</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050807" />
+	</game>
+	<game id="13874">
+		<path>./sengoku.zip</path>
+		<name>Sengoku</name>
+		<desc>Es la batalla final. En el pasado,  un señor de la guerra planeaba conquistar el mundo mediante un ataque brutal. Ahora, 400 años más tarde, este "Castillo del Demonio" de repente apareció en el cielo por encima de Washington D.C. La profecía se hizo realidad.  Sólo dos guerreros samuráis con un arma especial pueden detener el resurgimiento de este fantasma.</desc>
+		<image>./images/sengoku-image.png</image>
+		<video>./videos/sengoku-video.mp4</video>
+		<marquee>./images/sengoku-marquee.png</marquee>
+		<thumbnail>./images/sengoku-thumb.png</thumbnail>
+		<fanart>./images/sengoku-fanart.jpg</fanart>
+		<rating>0.5</rating>
+		<releasedate>19910701T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>Sengoku</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>6ca0c96326fea8267e23008724ecacb6</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050810" />
+	</game>
+	<game id="37636">
+		<path>./sengoku2.zip</path>
+		<name>Sengoku 2</name>
+		<desc>Vuelve al mundo de combates místicos. Vuelve a entrar en la pesadilla que nunca termina. La gran confrontación con el demoníaco señor de la guerra en el Castillo del demonio debió significar el final, pero la guerra acaba de comenzar... El Castillo del Demonio se asoma sobre la tierra y el Soberano de la Oscuridad domina la altísima fortaleza. Los legendarios guerreros samurái son convocados nuevamente. Ahora, deben viajar a través del tiempo, pero con más experiencia y nuevos poderes. Lucha con más técnicas de ataque, nuevos power-ups, más magia, y transfórmate  en una de las cuatro identidades a medida que luchas a través de esta increíble secuela de acción simultánea, SENGOKU II.</desc>
+		<image>./images/sengoku2-image.png</image>
+		<video>./videos/sengoku2-video.mp4</video>
+		<marquee>./images/sengoku2-marquee.png</marquee>
+		<thumbnail>./images/sengoku2-thumb.png</thumbnail>
+		<fanart>./images/sengoku2-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19930409T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / 2D</genre>
+		<family>Sengoku</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>ec8ef4af4d660d8f7afae5f96c52974f</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050812" />
+	</game>
+	<game id="37637">
+		<path>./sengoku3.zip</path>
+		<name>Sengoku 3</name>
+		<desc>El tercer juego de la serie de beat'em up Sengoku, Sengoku 3, vuelve a enfrentarte a ti y a un amigo a las fuerzas de los muertos vivientes de Nobunaga, pero esta vez puedes elegir libremente entre un grupo de personajes diferentes, cada uno con sus propias armas y habilidades, y elegir en qué lugar del mundo quieres atacar.
+El juego incorpora un sistema de combate más complejo, similar al de un juego de lucha uno contra uno, que ofrece a los jugadores diferentes botones de ataque, movimientos especiales basados en entradas direccionales, combos e incluso una superbarra que se utiliza para desencadenar supermovimientos devastadores. No puedes cambiar de arma ni transformarte en otros personajes como en los juegos anteriores, pero puedes adquirir diferentes armas a distancia para realizar ataques adicionales, así como desbloquear ciertos jefes para aumentar el número de personajes disponibles.</desc>
+		<image>./images/sengoku3-image.png</image>
+		<video>./videos/sengoku3-video.mp4</video>
+		<marquee>./images/sengoku3-marquee.png</marquee>
+		<thumbnail>./images/sengoku3-thumb.png</thumbnail>
+		<fanart>./images/sengoku3-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>20011025T000000</releasedate>
+		<developer>Noise Factory</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / 2D</genre>
+		<family>Sengoku</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>1f7c6e9669b98e7951fcd8d7b4b54d85</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050815" />
+	</game>
+	<game id="37638">
+		<path>./shocktr2.zip</path>
+		<name>Shock Troopers : 2nd Squad</name>
+		<desc>La paz en la recién fundada nación de Billberk está llegando a un final abrupto. Una poderosa corporación armamentística, conocida como DIO, ha exigido el control absoluto de Billberk o lanzará un poderoso misil, ahora tienen  al mundo entero como rehén. Sólo un grupo de 4 agentes antiterroristas pueden acabar con  los ambiciosos planes de la corporación DIO y salvar al mundo.</desc>
+		<image>./images/shocktr2-image.png</image>
+		<video>./videos/shocktr2-video.mp4</video>
+		<marquee>./images/shocktr2-marquee.png</marquee>
+		<thumbnail>./images/shocktr2-thumb.png</thumbnail>
+		<fanart>./images/shocktr2-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19990624T000000</releasedate>
+		<developer>Saurus</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Shock Troopers</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>692e13eb37f127041b8d240f8605329c</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050818" />
+	</game>
+	<game id="37639">
+		<path>./shocktro.zip</path>
+		<name>Shock Troopers</name>
+		<desc>Un juego de disparos con 8 mercenarios que se enfrentan a una enorme organización terrorista.  ¡Alístate para combatir con la NEOGEO!.  Puedes elegir entre 2 estilos de lucha: controla a un personaje en el modo "LONELY WOLF", o coge un equipo de 3 soldados que puedes cambiar en cualquier momento en el modo "TEAM BATTLE". ¡Corre a través del campo de batalla y elige las mejores rutas y estrategias!</desc>
+		<image>./images/shocktro-image.png</image>
+		<video>./videos/shocktro-video.mp4</video>
+		<marquee>./images/shocktro-marquee.png</marquee>
+		<thumbnail>./images/shocktro-thumb.png</thumbnail>
+		<fanart>./images/shocktro-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19971111T000000</releasedate>
+		<developer>Saurus</developer>
+		<publisher>SNK</publisher>
+		<genre>Shooter / Run and Gun</genre>
+		<family>Shock Troopers</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>dfc31a355056b3874e12bc643d481418</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050820" />
+	</game>
+	<game id="37640">
+		<path>./socbrawl.zip</path>
+		<name>Soccer Brawl</name>
+		<desc>Los jugadores Cibernéticos utilizan tiros especiales y tasers incorporados en el brazo para destruir a otros jugadores. Asegúrese de que su medidor de potencia está lleno al ejercer estas brutales  tácticas. Ambos estadios, que están magnéticamente cerrados, le permiten chutar o pasar a la pared. No hay faltas en esta liga, así que vigila tu espalda o serás pulverizada por el equipo contrario.  Aquí descubrirás  el deporte más avanzado en el mundo del fútbol... ¡FÚTBOL BRAWL!</desc>
+		<image>./images/socbrawl-image.png</image>
+		<video>./videos/socbrawl-video.mp4</video>
+		<marquee>./images/socbrawl-marquee.png</marquee>
+		<thumbnail>./images/socbrawl-thumb.png</thumbnail>
+		<fanart>./images/socbrawl-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<crc32>4C39A89B</crc32>
+		<md5>b10b3727720fd43ebd4fdc79138ea610</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050823" />
+	</game>
+	<game id="37641">
+		<path>./sonicwi2.zip</path>
+		<name>Aero Fighters 2</name>
+		<desc>Surca los cielos de más de 8 países, toma el control de uno de los 8 cazas de combate  y únete a este duelo ultrasónico. Con 4 niveles de disparo y armas especiales para abatir a tus enemigos.</desc>
+		<image>./images/sonicwi2-image.png</image>
+		<video>./videos/sonicwi2-video.mp4</video>
+		<marquee>./images/sonicwi2-marquee.png</marquee>
+		<thumbnail>./images/sonicwi2-thumb.png</thumbnail>
+		<fanart>./images/sonicwi2-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19940826T000000</releasedate>
+		<developer>Video System</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<family>Aero Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>96fdfcb2d4f8105b06e593b6b534a9e5</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050826" />
+	</game>
+	<game id="37642">
+		<path>./sonicwi3.zip</path>
+		<name>Aero Fighters 3</name>
+		<desc>Alcanza el cielo con uno de los 8 cazas de combate en este emocionante nuevo duelo. Recoge power-ups para aumentar la potencia de fuego del arma de tu avión. Superar todas las dificultades para convertirte en el mejor piloto aéreo.</desc>
+		<image>./images/sonicwi3-image.png</image>
+		<video>./videos/sonicwi3-video.mp4</video>
+		<marquee>./images/sonicwi3-marquee.png</marquee>
+		<thumbnail>./images/sonicwi3-thumb.png</thumbnail>
+		<fanart>./images/sonicwi3-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19951117T000000</releasedate>
+		<developer>Video System</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<family>Aero Fighters</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>297c641d1cf03abfe0fefb5fccc82af8</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050827" />
+	</game>
+	<game id="37643">
+		<path>./spinmast.zip</path>
+		<name>Spin Master</name>
+		<desc>Spin Master es un juego de plataformas con gráficos coloridos con dos vaqueros, Johnny y Tom. La historia comienza cuando un profesor loco secuestra a su amiga Mary. Los dos amigos deciden ayudar a su amigo, mientras buscan un tesoro escondido. Durante cinco niveles, deberás enfrentarte a los secuaces del profesor mientras recoges fragmentos de cartas que indican el camino del botín.</desc>
+		<image>./images/spinmast-image.png</image>
+		<video>./videos/spinmast-video.mp4</video>
+		<marquee>./images/spinmast-marquee.png</marquee>
+		<thumbnail>./images/spinmast-thumb.png</thumbnail>
+		<fanart>./images/spinmast-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19931216T000000</releasedate>
+		<developer>Data East</developer>
+		<publisher>Data East</publisher>
+		<genre>Plataforma / Tirador con deslizamiento</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f0a698071dec1465cd91e6dd428e73a5</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050828" />
+	</game>
+	<game id="37644">
+		<path>./ssideki.zip</path>
+		<name>Super Sidekicks</name>
+		<desc>Experimenta el  ambiente  y la emoción  de un  estadio lleno. El juego de acción en vivo de SNK ya está aquí. Junto con tu delantero estrella y los deslizamientos,  con pases altos o a ras de césped,  regates que desafían la gravedad, alcanza  la victoria y el premio de la copa SNK. Acabaras abrumado con la acción tan realista y terminaras lavando las manchas de hierba de tu ropa cuando hayas terminado.</desc>
+		<image>./images/ssideki-image.png</image>
+		<video>./videos/ssideki-video.mp4</video>
+		<marquee>./images/ssideki-marquee.png</marquee>
+		<thumbnail>./images/ssideki-thumb.png</thumbnail>
+		<fanart>./images/ssideki-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19921214T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<family>Super Sidekicks</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f7da6b534f41fa65575577d76716cd77</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050829" />
+	</game>
+	<game id="37645">
+		<path>./ssideki2.zip</path>
+		<name>Super Sidekicks 2 - The World Championship</name>
+		<desc>¡Elige a tu equipo favorito entre 48 países! El camino al número uno depende de la fuerza de tu equipo. Construye el equipo más fuerte del mundo y bebe el elixir de la victoria de la codiciada NEO GEO CUP. ¿Estilo  Ofensivo? ¿Estilo contraataque? ¡Tú eliges! Defensivo, ofensivo, velocidad?Elige entre siete características de juego para fortalecer tu equipo y alcanzar la gloria.</desc>
+		<image>./images/ssideki2-image.png</image>
+		<video>./videos/ssideki2-video.mp4</video>
+		<marquee>./images/ssideki2-marquee.png</marquee>
+		<thumbnail>./images/ssideki2-thumb.png</thumbnail>
+		<fanart>./images/ssideki2-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19940419T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<family>Super Sidekicks</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>d454f1c7d25a95153b7cd0e6300cfbc7</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050830" />
+	</game>
+	<game id="37646">
+		<path>./ssideki3.zip</path>
+		<name>Super Sidekicks 3 - The Next Glory</name>
+		<desc>Cuenta con 6 modos de competición como la Copa Mundial con 64 equipos de el mundo. Utiliza la animación de rastreo digitalizada y las tomas en ángulo de la cámara 3D para una explosión gráfica de acción realista sobre la marcha. Con 8 modos de juego diferentes, incluyendo opciones como velocidad y resistencia, puede mezclar y combinar 512 diferentes configuraciones de equipo. ¡La mejor experiencia de fútbol real!</desc>
+		<image>./images/ssideki3-image.png</image>
+		<video>./videos/ssideki3-video.mp4</video>
+		<marquee>./images/ssideki3-marquee.png</marquee>
+		<thumbnail>./images/ssideki3-thumb.png</thumbnail>
+		<fanart>./images/ssideki3-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<family>Super Sidekicks</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>dac8a413a3045306012332afef0105f0</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050831" />
+	</game>
+	<game id="37647">
+		<path>./ssideki4.zip</path>
+		<name>The Ultimate 11: SNK Football Championship</name>
+		<desc>Super Sidekicks 4, también conocido como The Ultimate 11: SNK Football Championship, es un juego arcade de fútbol , es el cuarto de la popular serie Super Sidekicks. El juego cuenta con 80 equipos nacionales divididos en 8 regiones del planeta. Opten mas estamina  cuanto más mantengas la pelota bajo tu control, regatea  y protégela del robo del rival. ¡Acumula suficiente estamina y remata a portería!</desc>
+		<image>./images/ssideki4-image.png</image>
+		<video>./videos/ssideki4-video.mp4</video>
+		<marquee>./images/ssideki4-marquee.png</marquee>
+		<thumbnail>./images/ssideki4-thumb.png</thumbnail>
+		<fanart>./images/ssideki4-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<family>Super Sidekicks</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>fc7088d10dbc9202a7f6777a97cd229b</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050832" />
+	</game>
+	<game id="37648">
+		<path>./stakwin.zip</path>
+		<name>Stakes Winner</name>
+		<desc>Stakes Winner es un juego de carreras de caballos en 2D. En el papel de un jockey los jugadores deben ganar una serie de carreras utilizando uno de los ocho caballos seleccionables  del juego.  Cada caballo tiene unas características distintas en fuerza, velocidad y resistencia, lo que hace que cada uno sea diferente en la competición. Durante el juego, los atributos de los caballos se pueden aumentar completando los niveles de bonificación. Cada caballo tiene una barra de resistencia mostrada en la parte inferior de la pantalla, junto a una imagen de la cabeza del caballo que muestra su salud actual. La barra de resistencia disminuye a medida que el caballo corre, y cuando se agota, la carrera ha terminado para ese caballo.</desc>
+		<image>./images/stakwin-image.png</image>
+		<video>./videos/stakwin-video.mp4</video>
+		<marquee>./images/stakwin-marquee.png</marquee>
+		<thumbnail>./images/stakwin-thumb.png</thumbnail>
+		<fanart>./images/stakwin-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19950101T000000</releasedate>
+		<developer>Saurus</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes con animales / Carreras de caballos</genre>
+		<family>Stakes Winner</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>a056a514f37d840fd73689cc0fedb9dc</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050834" />
+	</game>
+	<game id="13978">
+		<path>./stakwin2.zip</path>
+		<name>Stakes Winner 2</name>
+		<desc>Stakes Winner 2 es un juego de deportes en el que te subes a la silla de montar para competir en carreras de caballos en Europa y Estados Unidos. Acelerar y esprintar en el momento adecuado mientras controlas la fatiga del caballo son las claves para una buena actuación. Si ganas, utiliza tus ganancias para comprar accesorios y mejorar aún más. El manejo es un poco más suave que en el primer episodio. La realización también es un poco mejor, aunque el juego sigue estando muy cerca del primero.</desc>
+		<image>./images/stakwin2-image.png</image>
+		<video>./videos/stakwin2-video.mp4</video>
+		<marquee>./images/stakwin2-marquee.png</marquee>
+		<thumbnail>./images/stakwin2-thumb.png</thumbnail>
+		<fanart>./images/stakwin2-fanart.jpg</fanart>
+		<rating>0.55</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Saurus</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes con animales / Carreras de caballos</genre>
+		<family>Stakes Winner</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>90152e901db6c844d3ab73c92242f216</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050835" />
+	</game>
+	<game id="37649">
+		<path>./strhoop.zip</path>
+		<name>Street Hoop</name>
+		<desc>Programado en 1994 por Data East, se basa en gran medida en NBA Jam, aunque en vez de jugar en canchas jugaremos en la calle, con tres jugadores por equipo. Estos son seleccionables entre 10 selecciones nacionales, teniendo cada una sus propias características en mates, lanzamientos de tres, rapidez y defensa.</desc>
+		<image>./images/strhoop-image.png</image>
+		<video>./videos/strhoop-video.mp4</video>
+		<marquee>./images/strhoop-marquee.png</marquee>
+		<thumbnail>./images/strhoop-thumb.png</thumbnail>
+		<fanart>./images/strhoop-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19941209T000000</releasedate>
+		<developer>Data East</developer>
+		<publisher>Data East</publisher>
+		<genre>Deportes / Baloncesto</genre>
+		<family>Street Hoop</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>59541225335b610ce223be7266a566f2</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050836" />
+	</game>
+	<game id="13935">
+		<path>./superspy.zip</path>
+		<name>The Super Spy</name>
+		<desc>The Super Spy está inspirado en la película ?Die Hard? (La jungla de cristal, 1988) en la cual, John McClane, interpretado por Bruce Willis, debe enfrentarse a un sinfín de terroristas que han tomado un rascacielos. Nos pondremos en la piel de Roy Heart, un valiente agente de la C.I.A., al cual se le ha encomendado la difícil misión de infiltrarse en un rascacielos propiedad de un conocido empresario,  sitiado por un número indeterminado de terroristas. Al igual que en la película, los rehenes, las armas y la acción estarán presentes desde un primer momento.</desc>
+		<image>./images/superspy-image.png</image>
+		<video>./videos/superspy-video.mp4</video>
+		<marquee>./images/superspy-marquee.png</marquee>
+		<thumbnail>./images/superspy-thumb.png</thumbnail>
+		<fanart>./images/superspy-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19910701T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Varios</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>344f1401d33a4435e2284269a615cd89</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050838" />
+	</game>
+	<game id="37650">
+		<path>./tophuntr.zip</path>
+		<name>Top Hunter: Roddy &amp; Cathy</name>
+		<desc>¡Acaba con los Piratas Espaciales! En la era del colonialismo espacial, los temidos Klaptons están sueltos, convirtiendo pacíficos asentamientos en pueblos fantasmas. Buscando la recompensa por las cabezas de los Klaptons  han llegado los cazadores cósmicos RODDY y CATHY. ¿Tienen estos dos lo que se necesita para salvar el universo? ¿Pueden trabajar juntos sin competir por las recompensas? Su destino, y el destino del universo está esta en tus manos.</desc>
+		<image>./images/tophuntr-image.png</image>
+		<video>./videos/tophuntr-video.mp4</video>
+		<marquee>./images/tophuntr-marquee.png</marquee>
+		<thumbnail>./images/tophuntr-thumb.png</thumbnail>
+		<fanart>./images/tophuntr-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19940624T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Plataforma / Combate con desplazamiento</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>72a2169918b4f4934542da50c39f8cb4</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050840" />
+	</game>
+	<game id="13977">
+		<path>./tpgolf.zip</path>
+		<name>Top Player's Golf</name>
+		<desc>¡Competición de Primera Clase! En un hermoso campo de golf empieza la competición entre el silencio y la expectación del público. Seleccione entre cuatro jugadores individuales y participa en los tres modos de juego: stroke play, match play y Nassau game. ¡Disfruta de la emoción del autentico golf!</desc>
+		<image>./images/tpgolf-image.png</image>
+		<video>./videos/tpgolf-video.mp4</video>
+		<marquee>./images/tpgolf-marquee.png</marquee>
+		<thumbnail>./images/tpgolf-thumb.png</thumbnail>
+		<fanart>./images/tpgolf-fanart.jpg</fanart>
+		<rating>0.95</rating>
+		<releasedate>19910701T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Golf</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>ddf9840ab2ab01ced9e5e6577ae809f7</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050842" />
+	</game>
+	<game id="13962">
+		<path>./trally.zip</path>
+		<name>Thrash Rally</name>
+		<desc>El último desafío para los mejores conductores profesionales. El Campeonato Mundial de Rally y el Rally Paris-Dakar se dan cita de manera realista basados en datos actualizados de carreras. Te esperan peligrosos pero bonitos circuitos por lo que derrapar a toda velocidad  junto a los mejores pilotos del mundo. ¿Podrás cruzar la línea de meta el primero y celebrar la victoria?</desc>
+		<image>./images/trally-image.png</image>
+		<video>./videos/trally-video.mp4</video>
+		<marquee>./images/trally-marquee.png</marquee>
+		<thumbnail>./images/trally-thumb.png</thumbnail>
+		<fanart>./images/trally-fanart.jpg</fanart>
+		<rating>0.55</rating>
+		<releasedate>19911220T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>ADK</publisher>
+		<genre>Carreras, Conducción / Carreras</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>150f7c49dde4efb740c21cbb6bbd4595</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050844" />
+	</game>
+	<game id="37651">
+		<path>./turfmast.zip</path>
+		<name>Neo Turf Masters</name>
+		<desc>Selecciona uno de los seis golfistas disponibles y compite en varios campos de golf alrededor del mundo, incluyendo Japón (Golf Club Fujiyama Oriental), América (Grand Canyon Golf Course), Australia (Blue Lagoon Golf Course) y Alemania (Baden Golf Curso). 
+El juego cuenta con dos modos de juego. El primero es Stroke Play, en el que el jugador intenta obtener la mejor puntuación jugando los 18 hoyos. El segundo es Match Play, en el que dos jugadores compiten para ver quién puede ganar más de los 18 hoyos. ¡Prepárate para golpear dentro de la calle!</desc>
+		<image>./images/turfmast-image.png</image>
+		<video>./videos/turfmast-video.mp4</video>
+		<marquee>./images/turfmast-marquee.png</marquee>
+		<thumbnail>./images/turfmast-thumb.png</thumbnail>
+		<fanart>./images/turfmast-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Nazca Corporation</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Golf</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>94592ad1126ac22f3767c46ad06dbe19</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050847" />
+	</game>
+	<game id="37652">
+		<path>./twinspri.zip</path>
+		<name>Twinkle Star Sprites</name>
+		<desc>Nunca antes habías podido poner  a prueba tu puntería como hasta ahora. Solo o con un amigo disfruta en este espectacular shooting vertical de Neo Geo.</desc>
+		<image>./images/twinspri-image.png</image>
+		<video>./videos/twinspri-video.mp4</video>
+		<marquee>./images/twinspri-marquee.png</marquee>
+		<thumbnail>./images/twinspri-thumb.png</thumbnail>
+		<fanart>./images/twinspri-fanart.jpg</fanart>
+		<rating>0.65</rating>
+		<releasedate>19970131T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<family>Twinkle Star Sprites</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>9c2f52aed5a185e8e19fab591d444da5</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050849" />
+	</game>
+	<game id="37653">
+		<path>./tws96.zip</path>
+		<name>Tecmo World Soccer '96</name>
+		<desc>El juego nos sitúa en la Copa Mundial de Fútbol. Puedes elegir entre 32 selecciones nacionales. El torneo incluye siete partidos, divididos en dos grupos de cuatro equipos y una final. Siendo un juego Arcade, si se pierde sólo una vez, no será posible continuar jugando. En caso de empate, se define por tiros desde el punto de penalti.</desc>
+		<image>./images/tws96-image.png</image>
+		<video>./videos/tws96-video.mp4</video>
+		<marquee>./images/tws96-marquee.png</marquee>
+		<thumbnail>./images/tws96-thumb.png</thumbnail>
+		<fanart>./images/tws96-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Tecmo</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes / Fútbol</genre>
+		<family>Tecmo World Cup</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5f60d8bdb36f57ef879719a92de29001</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050852" />
+	</game>
+	<game id="13947">
+		<path>./wakuwak7.zip</path>
+		<name>Waku Waku 7</name>
+		<desc>Cuenta la leyenda que existen siete pequeñas esferas mágicas repartidas por el mundo, las bolas Waku Waku. Perdidas desde tiempos inmemoriales, estas reliquias con un gran poder mágico latente han permanecido ocultas. Se dice que aquel que posea las siete bolas mágicas, podrá ver cumplidos todos sus deseos, sin embargo, todo aquel que encuentre al menos una de ellas, acabará obsesionado por conseguir el resto, convirtiendo su vida en una búsqueda continua de las mismas. Con el tiempo, han sido encontradas y sus dueños, harán lo posible por obtener las seis restantes, entablando combate si es necesario.</desc>
+		<image>./images/wakuwak7-image.png</image>
+		<video>./videos/wakuwak7-video.mp4</video>
+		<marquee>./images/wakuwak7-marquee.png</marquee>
+		<thumbnail>./images/wakuwak7-thumb.png</thumbnail>
+		<fanart>./images/wakuwak7-fanart.jpg</fanart>
+		<rating>0.9</rating>
+		<releasedate>19960101T000000</releasedate>
+		<developer>Sunsoft</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>6e12eb749c206523847c74fc850fcd3e</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050854" />
+	</game>
+	<game id="37654">
+		<path>./wh1.zip</path>
+		<name>World Heroes</name>
+		<desc>¿Estás listo para una feroz batalla en un combate a muerte? ¿Quién es el mejor héroe del mundo? Hoy lo averiguaras. Un científico ha creado una máquina del tiempo para que ocho héroes viajen a través del tiempo  para enfrentarse y demostrar quién es el mejor  luchador de todos los tiempos.</desc>
+		<image>./images/wh1-image.png</image>
+		<video>./videos/wh1-video.mp4</video>
+		<marquee>./images/wh1-marquee.png</marquee>
+		<thumbnail>./images/wh1-thumb.png</thumbnail>
+		<fanart>./images/wh1-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19920911T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>World Heroes</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f04d6bdd73cdc200aa42f65f5e24e0de</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050857" />
+	</game>
+	<game id="13942">
+		<path>./wh2.zip</path>
+		<name>World Heroes 2</name>
+		<desc>Los héroes  están de vuelta en la batalla más grande y malvada de todos los tiempos, junto con seis nuevos participantes. Viaja a través del tiempo y enfréntate al ataque de tus oponentes en la batalla mas emocionante de todos los tiempos.</desc>
+		<image>./images/wh2-image.png</image>
+		<video>./videos/wh2-video.mp4</video>
+		<marquee>./images/wh2-marquee.png</marquee>
+		<thumbnail>./images/wh2-thumb.png</thumbnail>
+		<fanart>./images/wh2-fanart.jpg</fanart>
+		<rating>0.8</rating>
+		<releasedate>19930604T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>World Heroes</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>ba9e1a5bcd3cb7c7e2aaf1cac03af092</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050900" />
+	</game>
+	<game id="37655">
+		<path>./wh2j.zip</path>
+		<name>World Heroes 2 Jet</name>
+		<desc>World Heroes 2 Jet, lanzado inicialmente en 1994, es el tercero en esta prolífica serie de juegos de lucha. Elige entre 16 héroes históricos o famosos villanos y lucha para alcanzar la cima y convertirte en el mayor guerrero del mundo. Hay 4 tipos de competición y dos modos de juego: 
+"Tournament of Titans Mode", donde peleas tres combates en un día, y si tienes éxito, pasarás al día siguiente.
+ "World Heroes Training Mode", donde podrás pelear con cualquier oponente.</desc>
+		<image>./images/wh2j-image.png</image>
+		<video>./videos/wh2j-video.mp4</video>
+		<marquee>./images/wh2j-marquee.png</marquee>
+		<thumbnail>./images/wh2j-thumb.png</thumbnail>
+		<fanart>./images/wh2j-fanart.jpg</fanart>
+		<rating>0.6</rating>
+		<releasedate>19940610T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>World Heroes</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f3d8651db423a7f4304cea027fe07f33</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050903" />
+	</game>
+	<game id="13902">
+		<path>./whp.zip</path>
+		<name>World Heroes Perfect</name>
+		<desc>En la última entrega de la saga World Heroes, los dieciséis luchadores de los juegos anteriores regresan para otro torneo.  Las nuevas características incluyen:
+1. Un modo de ataque completamente nuevo donde se usan los cuatro botones para atacar a un enemigo.
+2. Una barra de fuerza  que  otorga habilidades especiales dependiendo del personaje.
+3. Todos los nuevos escenarios y  la música se establecen en diferentes lugares en el pasado y el futuro de la Tierra.
+4. Tres personajes secretos para elegir, incluyendo un personaje nuevo en la  serie.</desc>
+		<image>./images/whp-image.png</image>
+		<video>./videos/whp-video.mp4</video>
+		<marquee>./images/whp-marquee.png</marquee>
+		<thumbnail>./images/whp-thumb.png</thumbnail>
+		<fanart>./images/whp-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19950630T000000</releasedate>
+		<developer>ADK</developer>
+		<publisher>SNK</publisher>
+		<genre>Lucha / Versus</genre>
+		<family>World Heroes</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>ebda270423154e632033bbb33233b30a</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050906" />
+	</game>
+	<game id="37656">
+		<path>./wjammers.zip</path>
+		<name>Windjammers</name>
+		<desc>Es uno de los títulos más carismáticos del catálogo, tanto por su temática original como por su jugabilidad, lo cual hace que a día de hoy, sea considerado igual de adictivo que en la época de los salones recreativos.
+
+El género, aunque considerado como deportivo, no deja de ser un Pong sumamente evolucionado, en el cual en lugar de tener las barras al estilo Arkanoid, tenemos a cada uno de los personajes seleccionables, y en lugar de pequeña bolita blanca, nos encontramos con un frisbee, término que en inglés es ?flying disk?, de ahí el título de la versión japonesa.
+
+Deberemos ganar cada uno de los partidos de frisbee que se nos presenten, y ganará quien más puntos anote en el marcador, antes de que acabe el tiempo.</desc>
+		<image>./images/wjammers-image.png</image>
+		<video>./videos/wjammers-video.mp4</video>
+		<marquee>./images/wjammers-marquee.png</marquee>
+		<thumbnail>./images/wjammers-thumb.png</thumbnail>
+		<fanart>./images/wjammers-fanart.jpg</fanart>
+		<rating>0.7</rating>
+		<releasedate>19940101T000000</releasedate>
+		<developer>Data East</developer>
+		<publisher>SNK</publisher>
+		<genre>Deportes</genre>
+		<family>Windjammers</family>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>33852eead43a21fc1ac328bf2bf16ad7</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050909" />
+	</game>
+	<game id="37657">
+		<path>./zedblade.zip</path>
+		<name>Zed Blade</name>
+		<desc>Elige a tu piloto y ármate para la batalla. Poderosas bombas y diferentes ítems de armamento están disponibles en las emocionantes batallas de la "Operación Ragnarok". Despega y guía tu nave contra miles de fuerzas enemigas que están tratando de conquistar la galaxia. Tienes a tu disposición  las naves de combate de Zedblade, con más de 27 tipos diferentes de formaciones de ataque. Los Zedblade son la única esperanza para proteger nuestra galaxia, Ragnarok.</desc>
+		<image>./images/zedblade-image.png</image>
+		<video>./videos/zedblade-video.mp4</video>
+		<marquee>./images/zedblade-marquee.png</marquee>
+		<thumbnail>./images/zedblade-thumb.png</thumbnail>
+		<fanart>./images/zedblade-fanart.jpg</fanart>
+		<rating>0.75</rating>
+		<releasedate>19940913T000000</releasedate>
+		<developer>NMK</developer>
+		<publisher>SNK</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<arcadesystemname>neogeo</arcadesystemname>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>c9824ceb9aa2745ad88d89fb792133d3</md5>
+		<gametime></gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20231018T050912" />
+	</game>
+</gameList>

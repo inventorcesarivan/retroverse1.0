@@ -51,3 +51,6 @@
  .preview-copy{padding:17px}
  .preview-copy h3{font-size:19px}
 }
+
+/* Portadas importadas desde gamelist.xml */
+.cover-symbol.has-cover{display:none}.cover:has(.cover-symbol.has-cover):before{background:linear-gradient(180deg,#0001 35%,#080a14aa 100%)}.preview-art:has(#previewSymbol:empty)>span:first-child{display:none}

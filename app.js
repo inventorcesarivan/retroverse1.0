@@ -37,7 +37,11 @@ function renderCards(target, list){
  target.innerHTML = "";
  list.forEach(g=>{
   const card=document.createElement("article"); card.className="game-card";
-  card.innerHTML=`<div class="cover" style="--c1:${g.c1};--c2:${g.c2}"><span class="cover-symbol">${g.symbol}</span><span class="cover-label">${g.system.toUpperCase()} / LIBRARY</span><button class="favorite-toggle ${favorites.includes(g.id)?"on":""}" data-fav="${g.id}" aria-label="Favorito">${favorites.includes(g.id)?"♥":"♡"}</button></div><div class="game-info"><h3>${g.title}</h3><p>${g.systemName}</p><div class="game-tags"><span class="tag">${g.genre}</span><span class="tag muted-tag">${g.year}</span></div></div>`;
+  card.innerHTML=`<div class="cover" style="--c1:${g.c1};--c2:${g.c2};${g.image ? `background-image:linear-gradient(135deg,${g.c1}55,${g.c2}66),url('${g.image}')` : ""};background-size:cover;background-position:center"><span class="cover-symbol ${g.image ? "has-cover" : ""}">${g.image ? "" : g.symbol}</span><span class="cover-label">${g.system.toUpperCase()} / LIBRARY</span><button class="favorite-toggle ${favorites.includes(g.id)?"on":""}" data-fav="${g.id}" aria-label="Favorito">${favorites.includes(g.id)?"♥":"♡"}</button></div><div class="game-info"><h3></h3><p></p><div class="game-tags"><span class="tag"></span><span class="tag muted-tag"></span></div></div>`;
+  card.querySelector("h3").textContent=g.title;
+  card.querySelector(".game-info p").textContent=g.systemName;
+  card.querySelector(".tag").textContent=g.genre;
+  card.querySelector(".muted-tag").textContent=g.year;
   card.addEventListener("click",e=>{if(e.target.closest("[data-fav]"))return;selectPreview(g)});
   card.querySelector("[data-fav]").addEventListener("click",e=>{e.stopPropagation();toggleFavorite(g.id)});
   target.appendChild(card);
@@ -51,7 +55,8 @@ function selectPreview(g){
  $("previewGenre").textContent=g.genre.toUpperCase();
  $("previewYear").textContent=g.year;
  $("previewSymbol").textContent=g.symbol;
- $("previewArt").style.background=`linear-gradient(135deg,${g.c1},${g.c2})`;
+ $("previewArt").style.background=g.image ? `linear-gradient(135deg,#10131d55,#10131d55),url("${g.image}") center/cover` : `linear-gradient(135deg,${g.c1},${g.c2})`;
+ $("previewSymbol").textContent=g.image ? "" : g.symbol;
  $("previewOpen").disabled=false;
 }
 $("previewOpen").addEventListener("click",()=>{if(selectedGame)openGame(selectedGame)});
@@ -102,7 +107,7 @@ function refresh(){
 function openGame(g){
  selectedGame=g;selectedFile=null;$("romFile").value="";$("launchButton").disabled=true;$("launchButton").textContent="Seleccioná un archivo para jugar ▶";
  $("modalTitle").textContent=g.title;$("modalSystem").textContent=g.systemName.toUpperCase();$("modalDescription").textContent=g.description;
- $("modalGenre").textContent=g.genre;$("modalYear").textContent=g.year;$("modalCover").textContent=g.symbol;$("modalCover").style.background=`linear-gradient(145deg,${g.c1},${g.c2})`;
+ $("modalGenre").textContent=g.genre;$("modalYear").textContent=g.year;$("modalCover").textContent=g.image?"":g.symbol;$("modalCover").style.background=g.image?`linear-gradient(145deg,#10131d22,#10131d55),url("${g.image}") center/cover`:`linear-gradient(145deg,${g.c1},${g.c2})`;
  $("gameModal").classList.remove("hidden");
 }
 $("romFile").addEventListener("change",e=>{selectedFile=e.target.files[0]||null;if(selectedFile){$("launchButton").disabled=false;$("launchButton").innerHTML=`Iniciar ${selectedGame.title} <span>▶</span>`;}});
@@ -140,5 +145,44 @@ document.querySelectorAll(".nav").forEach(btn=>btn.addEventListener("click",()=>
 }));
 $("menuToggle").addEventListener("click",()=>document.querySelector(".sidebar").classList.toggle("open"));
 $("systemsGrid").innerHTML=systems.map(s=>`<div class="system-card"><div class="system-icon">${s.icon}</div><div><b>${s.name}</b><small>${s.desc}</small></div><span class="level ${s.cls}">${s.level}</span></div>`).join("");
+// Importa el catálogo real de Neo Geo desde el gamelist.xml aportado.
+async function loadNeoGeoCatalog(){
+ try{
+  const response=await fetch("/data/neogeo/gamelist.xml",{cache:"no-cache"});
+  if(!response.ok) throw new Error("No se pudo cargar gamelist.xml");
+  const xml=new DOMParser().parseFromString(await response.text(),"application/xml");
+  if(xml.querySelector("parsererror")) throw new Error("El XML no es válido");
+  const entries=[...xml.querySelectorAll("game")].map((node,index)=>{
+   const value=tag=>node.querySelector(tag)?.textContent?.trim()||"";
+   const mediaPath=(raw,folder)=>{
+    if(!raw) return "";
+    const clean=raw.replace(/^\.\//,"");
+    return "/data/neogeo/"+clean;
+   };
+   const date=value("releasedate");
+   const year=/^\d{4}/.test(date)?date.slice(0,4):"Neo Geo";
+   return {
+    id:"neogeo-"+(value("path").replace(/^\.\//,"").replace(/\.[^.]+$/,"")||index),
+    title:value("name")||"Juego Neo Geo", system:"neogeo", systemName:"SNK Neo Geo",
+    genre:value("genre")||"Arcade", year, symbol:"拳", c1:"#d75c4e",c2:"#34244f",
+    description:value("desc")||"Ficha importada del catálogo de Neo Geo.",
+    image:mediaPath(value("image")), thumbnail:mediaPath(value("thumbnail")),
+    video:mediaPath(value("video")), romPath:value("path"), developer:value("developer"),
+    publisher:value("publisher"), players:value("players"), rating:value("rating"),
+    marquee:mediaPath(value("marquee")), fanart:mediaPath(value("fanart"))
+   };
+  });
+  if(entries.length){
+   const demoIndex=games.findIndex(g=>g.id==="neogeo-demo");
+   if(demoIndex>=0) games.splice(demoIndex,1);
+   games.push(...entries);
+   const notice=document.querySelector(".notice");
+   if(notice){notice.querySelector("b").textContent=`Catálogo Neo Geo cargado: ${entries.length} juegos`;
+    notice.querySelector("small").textContent="Fichas importadas desde gamelist.xml. Para mostrar carátulas y vídeos, copiá también las carpetas images y videos dentro de data/neogeo.";}
+   refresh();
+  }
+ }catch(error){console.warn("Catálogo Neo Geo:",error);}
+}
 refresh();
+loadNeoGeoCatalog();
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));
