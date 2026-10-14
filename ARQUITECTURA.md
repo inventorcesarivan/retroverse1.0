@@ -1,4 +1,4 @@
-# Arquitectura técnica — Retroverse
+# Arquitectura técnica — Retroverse v0.3
 
 ## Objetivo
 
@@ -50,3 +50,10 @@ PWA instalable, controles táctiles revisados, favoritos/recientes y guardados e
 - ROM precargadas.
 - Multijugador online.
 - Compatibilidad garantizada con todos los sistemas.
+
+
+## Interfaz v0.3
+- Carrusel horizontal de sistemas con scroll-snap, botones anterior/siguiente y selección táctil.
+- La selección de sistema aplica filtro a la biblioteca.
+- La selección de juego actualiza el panel de vista previa; desde allí se abre la ficha y se elige ROM local.
+- Las imágenes/arte de juegos siguen siendo placeholders estilizados; incorporar screenshots/carátulas reales es una mejora posterior.

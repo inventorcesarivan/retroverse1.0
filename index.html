@@ -47,12 +47,32 @@
         <div class="hero-grid"></div>
       </section>
 
-      <section class="content-section" id="librarySection">
+
+
+      <section class="console-wheel-section" aria-label="Selector de sistemas">
+        <div class="wheel-heading">
+          <div><div class="eyebrow muted">ELEGÍ TU UNIVERSO</div><h2>Seleccioná una <span>consola</span></h2></div>
+          <div class="wheel-controls"><button id="wheelPrev" class="wheel-arrow" aria-label="Sistema anterior">‹</button><button id="wheelNext" class="wheel-arrow" aria-label="Sistema siguiente">›</button></div>
+        </div>
+        <div class="console-wheel" id="consoleWheel"></div>
+        <div class="wheel-hint"><span class="wheel-hint-dot"></span> Deslizá para explorar · Seleccioná un sistema para ver sus juegos</div>
+      </section>
+\n      <section class="content-section" id="librarySection">
         <div class="section-heading"><div><div class="eyebrow muted">DESCUBRÍ TU PRÓXIMA PARTIDA</div><h2 id="viewTitle">Tu biblioteca <span>retro</span></h2></div>
           <div class="library-tools"><label class="search"><span>⌕</span><input id="searchInput" placeholder="Buscar juego..." aria-label="Buscar juego"></label>
-          <select id="systemFilter" aria-label="Filtrar por sistema"><option value="all">Todos los sistemas</option><option value="nes">NES</option><option value="snes">SNES</option><option value="gba">Game Boy Advance</option><option value="psx">PlayStation</option><option value="n64">Nintendo 64</option><option value="psp">PSP</option></select></div>
+          <select id="systemFilter" aria-label="Filtrar por sistema"><option value="all">Todos los sistemas</option><option value="nes">NES</option><option value="snes">SNES</option><option value="gba">Game Boy Advance</option><option value="psx">PlayStation</option><option value="n64">Nintendo 64</option><option value="psp">PSP</option><option value="neogeo">Neo Geo</option><option value="mame">MAME / Arcade</option><option value="sms">Master System</option><option value="gg">Game Gear</option><option value="gb">Game Boy / Color</option><option value="nds">Nintendo DS</option><option value="atari2600">Atari 2600</option></select></div>
         </div>
         <div class="notice"><span>✦</span><div><b>Biblioteca compartida en preparación</b><small>Esta versión prueba la interfaz y el reproductor con ROM que selecciones desde tu dispositivo. La conexión privada con Google Drive se configura en la siguiente fase.</small></div></div>
+        <div class="featured-preview" id="featuredPreview">
+          <div class="preview-art" id="previewArt"><span id="previewSymbol">👾</span><div class="preview-scanlines"></div><div class="preview-chip">GAME PREVIEW</div></div>
+          <div class="preview-copy">
+            <div class="eyebrow muted" id="previewSystem">SELECCIÓN DESTACADA</div>
+            <h3 id="previewTitle">Elegí un juego</h3>
+            <p id="previewDescription">Seleccioná una tarjeta de la biblioteca para ver su ficha previa. Los juegos de ejemplo son ilustrativos.</p>
+            <div class="preview-meta"><span id="previewGenre">ARCADE</span><span id="previewYear">RETRO</span></div>
+            <button class="primary-button" id="previewOpen">Ver ficha del juego <span>↗</span></button>
+          </div>
+        </div>
         <div class="game-grid" id="gameGrid"></div>
         <div class="empty-state hidden" id="emptyState">No encontramos juegos con esos filtros.</div>
       </section>
@@ -68,7 +88,7 @@
         <div class="game-grid" id="favoriteGrid"></div>
       </section>
 
-      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.1</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
+      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.3</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
     </main>
   </div>
 

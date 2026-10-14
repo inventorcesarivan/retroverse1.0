@@ -6,7 +6,14 @@ const games = [
  {id:"racing-psx",title:"Racing Classics",system:"psx",systemName:"PlayStation",genre:"Carreras",year:"1998",symbol:"🏎️",c1:"#d45b45",c2:"#51324d",description:"Ficha de ejemplo para la categoría PlayStation. Algunos juegos pueden requerir BIOS y archivos adicionales."},
  {id:"adventure-n64",title:"Adventure 64",system:"n64",systemName:"Nintendo 64",genre:"Aventura 3D",year:"1998",symbol:"🌀",c1:"#3eaa9c",c2:"#243d71",description:"Ficha de ejemplo para Nintendo 64. El rendimiento depende del dispositivo, del navegador y del juego concreto."},
  {id:"handheld-psp",title:"Portable Legends",system:"psp",systemName:"PlayStation Portable",genre:"Acción portátil",year:"2006",symbol:"🎮",c1:"#8d78d9",c2:"#273a63",description:"Categoría de prueba para PSP. Es un sistema exigente: su soporte web puede variar y deberá validarse juego por juego."},
- {id:"arcade",title:"Arcade Collection",system:"nes",systemName:"Arcade / clásico",genre:"Arcade",year:"Clásicos",symbol:"👾",c1:"#d45d9a",c2:"#422d78",description:"Ficha demostrativa para el catálogo. En fases posteriores añadiremos metadatos y carátulas propias de cada juego."}
+ {id:"arcade",title:"Arcade Collection",system:"mame",systemName:"Arcade / MAME",genre:"Arcade",year:"Clásicos",symbol:"👾",c1:"#d45d9a",c2:"#422d78",description:"Ficha demostrativa de arcade. MAME/FBNeo requieren ROM sets compatibles con el núcleo elegido; no todas las ROM funcionan con todos los núcleos."},
+ {id:"neogeo-demo",title:"Neo Geo Classics",system:"neogeo",systemName:"SNK Neo Geo",genre:"Lucha / Arcade",year:"1990s",symbol:"拳",c1:"#dc5c4d",c2:"#3e2a60",description:"Categoría de ejemplo para Neo Geo. Habitualmente se utiliza un núcleo arcade como FBNeo y el conjunto correcto de ROM/BIOS. Esta ficha no incluye archivos de juego."},
+ {id:"mame-demo",title:"MAME Arcade Library",system:"mame",systemName:"MAME 2003 Plus",genre:"Arcade",year:"Arcade",symbol:"🕹️",c1:"#d99c43",c2:"#4d2d63",description:"MAME32 es una interfaz de Windows para MAME, no una consola diferente. En navegador podemos usar núcleos MAME compatibles; las ROM deben coincidir con la versión del núcleo."},
+ {id:"master-system-demo",title:"8-bit Sega Collection",system:"sms",systemName:"Sega Master System",genre:"Clásicos",year:"1980s",symbol:"⭐",c1:"#397bb8",c2:"#29335f",description:"Categoría demostrativa para Sega Master System. Seleccioná un archivo compatible para probar la emulación."},
+ {id:"gamegear-demo",title:"Pocket Sega Collection",system:"gg",systemName:"Sega Game Gear",genre:"Portátil",year:"1990s",symbol:"▣",c1:"#4eaa8a",c2:"#233f5a",description:"Categoría demostrativa para Game Gear. Los archivos deben ser compatibles con el núcleo de emulación."},
+ {id:"gb-demo",title:"Game Boy Collection",system:"gb",systemName:"Game Boy / Color",genre:"Portátil",year:"1990s",symbol:"▤",c1:"#9ebc65",c2:"#354c4c",description:"Categoría demostrativa para Game Boy y Game Boy Color."},
+ {id:"nds-demo",title:"Nintendo DS Collection",system:"nds",systemName:"Nintendo DS",genre:"Portátil",year:"2000s",symbol:"▣",c1:"#a48ce1",c2:"#2d3d6e",description:"Categoría demostrativa para Nintendo DS. El rendimiento depende del dispositivo y algunos juegos requieren configuración adicional."},
+ {id:"atari-demo",title:"Atari Classics",system:"atari2600",systemName:"Atari 2600",genre:"Clásicos",year:"1970s",symbol:"✦",c1:"#c85d45",c2:"#3b2b4e",description:"Categoría demostrativa para Atari 2600."}
 ];
 const systems = [
  {id:"nes",name:"NES / Famicom",icon:"▣",level:"Ligero",cls:"",desc:"Muy buena opción para móviles"},
@@ -14,7 +21,14 @@ const systems = [
  {id:"gba",name:"Game Boy Advance",icon:"▤",level:"Ligero",cls:"",desc:"Ideal para la primera prueba"},
  {id:"psx",name:"PlayStation",icon:"△",level:"Intermedio",cls:"mid",desc:"Algunos juegos requieren BIOS"},
  {id:"n64",name:"Nintendo 64",icon:"✦",level:"Intermedio",cls:"mid",desc:"Compatibilidad variable por juego"},
- {id:"psp",name:"PlayStation Portable",icon:"▰",level:"Exigente",cls:"hard",desc:"Validar primero en PC y luego Android"}
+ {id:"psp",name:"PlayStation Portable",icon:"▰",level:"Exigente",cls:"hard",desc:"Validar primero en PC y luego Android"},
+ {id:"neogeo",name:"SNK Neo Geo",icon:"拳",level:"Intermedio",cls:"mid",desc:"FBNeo; ROM set y BIOS compatibles"},
+ {id:"mame",name:"Arcade / MAME",icon:"🕹",level:"Variable",cls:"mid",desc:"La versión del ROM set debe coincidir"},
+ {id:"sms",name:"Sega Master System",icon:"◧",level:"Ligero",cls:"",desc:"Emulación generalmente accesible"},
+ {id:"gg",name:"Sega Game Gear",icon:"▣",level:"Ligero",cls:"",desc:"Emulación generalmente accesible"},
+ {id:"gb",name:"Game Boy / Color",icon:"▤",level:"Ligero",cls:"",desc:"Ideal para móviles"},
+ {id:"nds",name:"Nintendo DS",icon:"▥",level:"Intermedio",cls:"mid",desc:"Pantalla táctil y rendimiento por juego"},
+ {id:"atari2600",name:"Atari 2600",icon:"✦",level:"Ligero",cls:"",desc:"Muy bajo requisito de rendimiento"}
 ];
 let selectedGame = null, selectedFile = null, favorites = JSON.parse(localStorage.getItem("retroverse-favorites")||"[]");
 const $ = id => document.getElementById(id);
@@ -24,11 +38,60 @@ function renderCards(target, list){
  list.forEach(g=>{
   const card=document.createElement("article"); card.className="game-card";
   card.innerHTML=`<div class="cover" style="--c1:${g.c1};--c2:${g.c2}"><span class="cover-symbol">${g.symbol}</span><span class="cover-label">${g.system.toUpperCase()} / LIBRARY</span><button class="favorite-toggle ${favorites.includes(g.id)?"on":""}" data-fav="${g.id}" aria-label="Favorito">${favorites.includes(g.id)?"♥":"♡"}</button></div><div class="game-info"><h3>${g.title}</h3><p>${g.systemName}</p><div class="game-tags"><span class="tag">${g.genre}</span><span class="tag muted-tag">${g.year}</span></div></div>`;
-  card.addEventListener("click",e=>{if(e.target.closest("[data-fav]"))return;openGame(g)});
+  card.addEventListener("click",e=>{if(e.target.closest("[data-fav]"))return;selectPreview(g)});
   card.querySelector("[data-fav]").addEventListener("click",e=>{e.stopPropagation();toggleFavorite(g.id)});
   target.appendChild(card);
  });
 }
+function selectPreview(g){
+ selectedGame=g;
+ $("previewTitle").textContent=g.title;
+ $("previewSystem").textContent=g.systemName.toUpperCase();
+ $("previewDescription").textContent=g.description;
+ $("previewGenre").textContent=g.genre.toUpperCase();
+ $("previewYear").textContent=g.year;
+ $("previewSymbol").textContent=g.symbol;
+ $("previewArt").style.background=`linear-gradient(135deg,${g.c1},${g.c2})`;
+ $("previewOpen").disabled=false;
+}
+$("previewOpen").addEventListener("click",()=>{if(selectedGame)openGame(selectedGame)});
+function renderWheel(){
+ const wheel=$("consoleWheel");
+ wheel.innerHTML="";
+ const wheelSystems=[
+  {id:"all",name:"Todas",short:"ALL",icon:"✦",c1:"#9b8af2",c2:"#334b72"},
+  {id:"nes",name:"NES",short:"8-BIT",icon:"▣",c1:"#e65a58",c2:"#612f6e"},
+  {id:"snes",name:"SNES / Sega",short:"16-BIT",icon:"◈",c1:"#5c7fe0",c2:"#30365f"},
+  {id:"gba",name:"Game Boy Advance",short:"GBA",icon:"▤",c1:"#6aa98d",c2:"#2e4a66"},
+  {id:"gb",name:"Game Boy / Color",short:"GB / GBC",icon:"▥",c1:"#b0bd67",c2:"#3a554d"},
+  {id:"sms",name:"Master System",short:"SEGA",icon:"◧",c1:"#3c9ed0",c2:"#28375f"},
+  {id:"gg",name:"Game Gear",short:"PORTÁTIL",icon:"▣",c1:"#4cae9d",c2:"#294b68"},
+  {id:"psx",name:"PlayStation",short:"PS1",icon:"△",c1:"#7f83c8",c2:"#242b47"},
+  {id:"n64",name:"Nintendo 64",short:"N64",icon:"✦",c1:"#d59a4a",c2:"#47345f"},
+  {id:"neogeo",name:"Neo Geo",short:"SNK",icon:"拳",c1:"#d75c4e",c2:"#432a5b"},
+  {id:"mame",name:"MAME / Arcade",short:"ARCADE",icon:"🕹",c1:"#e2a448",c2:"#6d346b"},
+  {id:"nds",name:"Nintendo DS",short:"NDS",icon:"▥",c1:"#a18be0",c2:"#30436b"},
+  {id:"psp",name:"PSP",short:"PORTÁTIL",icon:"▰",c1:"#6d83d8",c2:"#222e4d"},
+  {id:"atari2600",name:"Atari 2600",short:"ATARI",icon:"✧",c1:"#ce6b4e",c2:"#3c2a4c"}
+ ];
+ wheelSystems.forEach((s,i)=>{
+  const b=document.createElement("button");
+  b.className="wheel-item"+(($("systemFilter").value===s.id||(s.id==="all"&&$("systemFilter").value==="all"))?" selected":"");
+  b.dataset.system=s.id;
+  b.innerHTML=`<span class="wheel-console" style="--wc1:${s.c1};--wc2:${s.c2}"><span class="wheel-icon">${s.icon}</span><span class="wheel-reflection"></span></span><span class="wheel-name">${s.name}</span><span class="wheel-sub">${s.short}</span>`;
+  b.addEventListener("click",()=>{
+   $("systemFilter").value=s.id;
+   document.querySelectorAll(".wheel-item").forEach(x=>x.classList.toggle("selected",x.dataset.system===s.id));
+   refresh();
+   $("viewTitle").innerHTML=s.id==="all"?'Tu biblioteca <span>retro</span>':`${s.name} <span>games</span>`;
+   $("crumb").textContent=s.name.toUpperCase();
+   $("librarySection").scrollIntoView({behavior:"smooth",block:"start"});
+  });
+  wheel.appendChild(b);
+ });
+}
+$("wheelPrev").addEventListener("click",()=>$("consoleWheel").scrollBy({left:-300,behavior:"smooth"}));
+$("wheelNext").addEventListener("click",()=>$("consoleWheel").scrollBy({left:300,behavior:"smooth"}));
 function toggleFavorite(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];localStorage.setItem("retroverse-favorites",JSON.stringify(favorites));refresh();}
 function refresh(){
  const q=$("searchInput").value.toLowerCase(), f=$("systemFilter").value;
@@ -43,7 +106,7 @@ function openGame(g){
  $("gameModal").classList.remove("hidden");
 }
 $("romFile").addEventListener("change",e=>{selectedFile=e.target.files[0]||null;if(selectedFile){$("launchButton").disabled=false;$("launchButton").innerHTML=`Iniciar ${selectedGame.title} <span>▶</span>`;}});
-function coreFor(system){return ({nes:"fceumm",snes:"snes9x",gba:"mgba",psx:"pcsx_rearmed",n64:"mupen64plus_next",psp:"ppsspp"})[system]||"fceumm";}
+function coreFor(system){return ({nes:"fceumm",snes:"snes9x",gba:"mgba",psx:"pcsx_rearmed",n64:"mupen64plus_next",psp:"ppsspp",neogeo:"fbneo",mame:"mame2003_plus",sms:"smsplus",gg:"genesis_plus_gx",gb:"gambatte",nds:"melonds",atari2600:"stella2014"})[system]||"fceumm";}
 $("launchButton").addEventListener("click",()=>{
  if(!selectedGame||!selectedFile)return;
  const url=URL.createObjectURL(selectedFile);
@@ -53,7 +116,7 @@ $("launchButton").addEventListener("click",()=>{
  const host=$("game");host.innerHTML="";
  // EmulatorJS loads the selected ROM locally. No file is uploaded to a server.
  window.EJS_player="#game";window.EJS_core=coreFor(selectedGame.system);window.EJS_gameUrl=url;
- window.EJS_pathtodata="https://cdn.emulatorjs.org/stable/data/";window.EJS_startOnLoaded=true;window.EJS_language="es";
+ window.EJS_pathtodata="https://cdn.emulatorjs.org/stable/data/";window.EJS_startOnLoaded=true;window.EJS_language="es";window.EJS_gameName=selectedGame.title;
  const old=document.getElementById("emulatorLoader");if(old)old.remove();
  const script=document.createElement("script");script.id="emulatorLoader";script.src=window.EJS_pathtodata+"loader.js";
  script.onload=()=>{$("playerMessage").textContent="Emulador cargado. Si no inicia, revisá la compatibilidad del archivo o del núcleo."};

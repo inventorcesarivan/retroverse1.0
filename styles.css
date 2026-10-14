@@ -4,3 +4,50 @@
 @media(max-width:1100px){.game-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-art{right:1%;width:34%}.hero{padding-left:4%}.cover{height:140px}.systems-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.sidebar{position:fixed;z-index:30;left:-250px;top:0;bottom:0;transition:left .2s;box-shadow:15px 0 40px #0005}.sidebar.open{left:0}.mobile-only{display:block}.topbar{height:58px;padding:0 16px}.status-text{display:none}.profile{margin-left:0}.hero{margin:15px 13px 0;min-height:330px;padding:28px 22px;align-items:flex-start}.hero-content{max-width:100%}.hero h1{font-size:39px}.hero p{max-width:330px;font-size:12px}.hero-art{width:46%;height:140px;top:auto;bottom:4px;right:0;opacity:.62;transform:scale(.75);transform-origin:bottom right}.hero-caption{display:none}.content-section{padding:27px 14px 35px}.section-heading{align-items:flex-start;flex-direction:column}.section-heading h2,.systems-section h2,.content-section>h2{font-size:23px}.library-tools{width:100%;display:grid;grid-template-columns:1fr 150px}.search input{width:100%;min-width:0}.notice{align-items:flex-start}.notice small{font-size:9px}.game-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.cover{height:135px}.cover-symbol{font-size:53px}.game-info{padding:11px}.game-info h3{font-size:11px}.systems-grid{grid-template-columns:1fr}.system-card{padding:14px}.game-modal{grid-template-columns:1fr;max-width:420px;max-height:90vh;overflow:auto}.modal-cover{min-height:140px;font-size:55px}.modal-details{padding:22px}.modal-details h2{font-size:21px}.tiny-note{margin-bottom:0!important}footer{padding:18px 14px;flex-wrap:wrap}footer>span:last-child{width:100%;line-height:1.5}.breadcrumb{font-size:9px}.player-top{padding:10px 12px}.exit-player{font-size:10px;padding:8px}.emulator-frame #game{min-height:250px}}
 @media(max-width:380px){.game-grid{gap:8px}.cover{height:115px}.game-info h3{font-size:10px}.library-tools{grid-template-columns:1fr 125px}.hero h1{font-size:34px}}
+
+
+/* Retroverse v0.3: smooth console wheel and game preview */
+.console-wheel-section{padding:30px 4.2% 8px;overflow:hidden}
+.wheel-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}
+.wheel-heading h2{font-size:24px;letter-spacing:-.8px;margin:7px 0 0}
+.wheel-heading h2 span{color:var(--violet)}
+.wheel-controls{display:flex;gap:8px}
+.wheel-arrow{height:34px;width:34px;border:1px solid #373c52;border-radius:9px;background:#1a1e2d;color:#dcd8fa;font-size:25px;line-height:20px;transition:.2s}
+.wheel-arrow:hover{background:#302849;border-color:#8272c9}
+.console-wheel{display:flex;align-items:stretch;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#514873 transparent;padding:8px 3px 16px}
+.console-wheel::-webkit-scrollbar{height:5px}.console-wheel::-webkit-scrollbar-thumb{background:#514873;border-radius:5px}
+.wheel-item{scroll-snap-align:center;flex:0 0 116px;display:flex;flex-direction:column;align-items:center;gap:7px;border:1px solid transparent;border-radius:13px;padding:10px 8px 11px;background:transparent;color:#9aa1b6;transition:transform .22s,background .22s,border-color .22s;min-width:0}
+.wheel-item:hover{transform:translateY(-3px);background:#1a1d2b}
+.wheel-item.selected{background:linear-gradient(180deg,#2a2540,#1a1c2a);border-color:#7d6ac3;color:#fff;box-shadow:0 8px 22px #0002,inset 0 0 0 1px #a78bfa19;transform:translateY(-4px)}
+.wheel-console{width:78px;height:72px;border-radius:18px 18px 13px 13px;background:linear-gradient(145deg,var(--wc1),var(--wc2));display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 10px 16px #0004,inset 0 1px 1px #ffffff55;transform:perspective(160px) rotateX(3deg)}
+.wheel-console:before{content:"";position:absolute;inset:7px 7px 20px;border:1px solid #ffffff35;border-radius:11px;background:linear-gradient(145deg,#ffffff16,transparent)}
+.wheel-icon{position:relative;z-index:1;font-size:31px;color:#fff;text-shadow:0 3px 8px #0006;filter:drop-shadow(0 2px 1px #0003)}
+.wheel-reflection{position:absolute;bottom:7px;left:22px;right:22px;height:4px;border-radius:5px;background:#11152a88;box-shadow:0 0 0 2px #ffffff15}
+.wheel-name{font-size:10px;font-weight:800;text-align:center;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+.wheel-sub{font:8px 'DM Mono',monospace;letter-spacing:1px;color:#737d96}
+.wheel-item.selected .wheel-sub{color:#b7a7ff}
+.wheel-hint{font:9px 'DM Mono',monospace;color:#707a94;display:flex;align-items:center;gap:7px;margin:0 3px 6px}
+.wheel-hint-dot{width:5px;height:5px;border-radius:50%;background:#a78bfa;box-shadow:0 0 8px #a78bfa}
+.featured-preview{display:grid;grid-template-columns:minmax(180px,.8fr) 1.2fr;gap:0;border:1px solid #303449;background:linear-gradient(110deg,#1a1e2c,#171a27);border-radius:15px;overflow:hidden;margin:0 0 20px;min-height:190px}
+.preview-art{position:relative;display:grid;place-items:center;min-height:190px;background:linear-gradient(135deg,#514579,#1e3449);overflow:hidden}
+.preview-art>span:first-child{font-size:80px;filter:drop-shadow(0 12px 8px #0005);z-index:1}
+.preview-scanlines{position:absolute;inset:0;background:repeating-linear-gradient(0deg,#fff0 0 3px,#090b1712 4px 5px);pointer-events:none}
+.preview-chip{position:absolute;left:13px;bottom:12px;font:8px 'DM Mono',monospace;letter-spacing:1.5px;color:#ffffffbd;background:#10131d66;padding:6px 8px;border:1px solid #ffffff20;border-radius:5px}
+.preview-copy{padding:22px 25px;align-self:center}
+.preview-copy h3{font-size:22px;margin:8px 0}
+.preview-copy p{font-size:11px;line-height:1.7;color:#a0a7bd;max-width:570px;margin:0 0 12px}
+.preview-meta{display:flex;gap:7px;margin-bottom:14px}
+.preview-meta span{font:8px 'DM Mono',monospace;letter-spacing:.8px;color:#c4b5fd;background:#2a2540;border-radius:5px;padding:6px 8px}
+.preview-copy .primary-button{padding:10px 13px;font-size:10px}
+@media(max-width:760px){
+ .console-wheel-section{padding:24px 14px 5px}
+ .wheel-heading h2{font-size:21px}
+ .wheel-item{flex-basis:99px;padding:8px 6px}
+ .wheel-console{width:66px;height:62px;border-radius:15px}
+ .wheel-icon{font-size:27px}
+ .featured-preview{grid-template-columns:1fr;grid-template-rows:140px auto}
+ .preview-art{min-height:140px}
+ .preview-art>span:first-child{font-size:58px}
+ .preview-copy{padding:17px}
+ .preview-copy h3{font-size:19px}
+}

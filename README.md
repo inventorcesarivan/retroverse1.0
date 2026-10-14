@@ -1,4 +1,4 @@
-# Retroverse v0.1 — Prototipo de consola retro web
+# Retroverse v0.3 — Selector de consolas y vista previa
 
 Interfaz responsive inspirada en una biblioteca de consola retro. Publicable en Netlify desde GitHub.
 
@@ -7,6 +7,10 @@ Interfaz responsive inspirada en una biblioteca de consola retro. Publicable en 
 - Biblioteca de demostración con búsqueda y filtro por sistema.
 - Navegación por Biblioteca, Sistemas y Favoritos.
 - Favoritos guardados localmente en el navegador.
+- Catálogo de ejemplo ampliado: Neo Geo, MAME/Arcade, Master System, Game Gear, Game Boy/Color, Nintendo DS y Atari 2600.
+- Selección inicial de núcleos EmulatorJS para esos sistemas.
+- Nuevo carrusel horizontal de sistemas con selección fluida y desplazamiento táctil.
+- Al seleccionar una consola se filtra la biblioteca; al seleccionar un juego se actualiza una vista previa antes de abrir su ficha.
 - Fichas de juegos y selección de ROM desde el dispositivo.
 - Integración inicial con EmulatorJS para probar archivos locales compatibles.
 - Diseño adaptable a PC y Android, con manifiesto PWA y service worker básico.
@@ -47,7 +51,7 @@ Después abrí `http://localhost:8080`.
 3. Iniciá el juego y esperá la carga de EmulatorJS desde su CDN.
 4. Si falla, anotá sistema, extensión del archivo, navegador y dispositivo. Algunos sistemas necesitan BIOS o archivos adicionales.
 
-El archivo elegido se mantiene local en el navegador; esta versión no lo sube a ningún servidor. La compatibilidad de PSP y otros sistemas exigentes debe validarse caso por caso.
+El archivo elegido se mantiene local en el navegador; esta versión no lo sube a ningún servidor. La compatibilidad de PSP y otros sistemas exigentes debe validarse caso por caso. Neo Geo y MAME/Arcade requieren ROM sets compatibles con el núcleo y, según el juego, archivos BIOS adecuados. MAME32 es una interfaz para Windows, no un sistema de juegos distinto.
 
 ## Arquitectura objetivo
 
