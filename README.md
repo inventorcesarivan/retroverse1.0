@@ -79,3 +79,12 @@ No hagas públicos los archivos de ROM para simplificar la integración. No colo
 ## Catálogo Neo Geo importado (integración inicial)
 
 La versión incluye `data/neogeo/gamelist.xml`, importado del catálogo proporcionado. Al cargar la página, Retroverse incorpora las entradas de Neo Geo a la biblioteca, con búsqueda, filtro por sistema, fichas y favoritos. El ZIP contiene el XML, pero no contiene los archivos multimedia referenciados. Para ver las portadas y vídeos, copiá las carpetas `images/` y `videos/` de tu colección dentro de `data/neogeo/`, manteniendo los nombres de archivo del XML. Los archivos ROM no se incluyen: se siguen seleccionando localmente desde la ficha de cada juego.
+
+
+## v0.6 — Selector visual de sistemas
+
+- La pantalla inicial prioriza la selección de sistemas; la biblioteca de juegos permanece oculta hasta elegir una consola.
+- El selector se presenta como una ruleta/carrusel horizontal con tarjetas ampliadas, navegación por flechas y desplazamiento táctil.
+- Al elegir un sistema se abre su lista filtrada de juegos. El botón **Cambiar sistema** permite volver al carrusel.
+- La opción **Biblioteca** del menú lateral sigue permitiendo consultar todos los juegos.
+- Se actualiza la versión de caché del service worker para evitar conservar estilos y scripts anteriores.

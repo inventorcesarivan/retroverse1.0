@@ -14,8 +14,8 @@
     <aside class="sidebar">
       <div class="brand"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div>
       <div class="side-label">MENÚ PRINCIPAL</div>
-      <button class="nav active" data-view="library"><span>▦</span> Biblioteca</button>
-      <button class="nav" data-view="systems"><span>◈</span> Sistemas</button>
+      <button class="nav" data-view="library"><span>▦</span> Biblioteca</button>
+      <button class="nav active" data-view="systems"><span>◈</span> Sistemas</button>
       <button class="nav" data-view="favorites"><span>♡</span> Favoritos</button>
       <div class="side-label">TU COLECCIÓN</div>
       <div class="system-link"><i class="dot purple"></i> Nintendo</div>
@@ -36,7 +36,7 @@
           <div class="eyebrow"><span class="live-dot"></span> TU UNIVERSO RETRO, EN UN SOLO LUGAR</div>
           <h1>Los clásicos.<br><em>Sin fronteras.</em></h1>
           <p>Tu colección de videojuegos organizada y lista para explorar desde el ordenador o el móvil.</p>
-          <button class="primary-button" id="exploreBtn">Explorar biblioteca <span>↗</span></button>
+          <button class="primary-button" id="exploreBtn">Elegir una consola <span>↗</span></button>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="orb orb1"></div><div class="orb orb2"></div>
@@ -51,15 +51,16 @@
 
       <section class="console-wheel-section" aria-label="Selector de sistemas">
         <div class="wheel-heading">
-          <div><div class="eyebrow muted">ELEGÍ TU UNIVERSO</div><h2>Seleccioná una <span>consola</span></h2></div>
+          <div><div class="eyebrow muted">PASO 01 · TU UNIVERSO RETRO</div><h2>¿A qué querés <span>jugar?</span></h2><p class="wheel-description">Elegí un sistema para abrir su colección de juegos.</p></div>
           <div class="wheel-controls"><button id="wheelPrev" class="wheel-arrow" aria-label="Sistema anterior">‹</button><button id="wheelNext" class="wheel-arrow" aria-label="Sistema siguiente">›</button></div>
         </div>
         <div class="console-wheel" id="consoleWheel"></div>
         <div class="wheel-hint"><span class="wheel-hint-dot"></span> Deslizá para explorar · Seleccioná un sistema para ver sus juegos</div>
       </section>
-\n      <section class="content-section" id="librarySection">
+
+      <section class="content-section hidden" id="librarySection">
         <div class="section-heading"><div><div class="eyebrow muted">DESCUBRÍ TU PRÓXIMA PARTIDA</div><h2 id="viewTitle">Tu biblioteca <span>retro</span></h2></div>
-          <div class="library-tools"><label class="search"><span>⌕</span><input id="searchInput" placeholder="Buscar juego..." aria-label="Buscar juego"></label>
+          <div class="library-tools"><button id="changeSystemBtn" class="change-system-button" type="button">‹ Cambiar sistema</button><label class="search"><span>⌕</span><input id="searchInput" placeholder="Buscar juego..." aria-label="Buscar juego"></label>
           <select id="systemFilter" aria-label="Filtrar por sistema"><option value="all">Todos los sistemas</option><option value="nes">NES</option><option value="snes">SNES</option><option value="gba">Game Boy Advance</option><option value="psx">PlayStation</option><option value="n64">Nintendo 64</option><option value="psp">PSP</option><option value="neogeo">Neo Geo</option><option value="mame">MAME / Arcade</option><option value="sms">Master System</option><option value="gg">Game Gear</option><option value="gb">Game Boy / Color</option><option value="nds">Nintendo DS</option><option value="atari2600">Atari 2600</option></select></div>
         </div>
         <div class="notice"><span>✦</span><div><b>Catálogo Neo Geo en integración</b><small>Se importa el catálogo de Neo Geo desde gamelist.xml. Las ROM se siguen seleccionando desde tu dispositivo; la conexión privada con Google Drive queda para una fase posterior.</small></div></div>
@@ -88,7 +89,7 @@
         <div class="game-grid" id="favoriteGrid"></div>
       </section>
 
-      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.3</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
+      <footer><div class="brand mini"><div class="brand-mark">R<span>+</span></div><div><strong>RETROVERSE</strong><small>ARCADE CLOUD</small></div></div><span>Un proyecto en evolución · v0.6</span><span>Juega con responsabilidad y usa archivos que tengas derecho a utilizar.</span></footer>
     </main>
   </div>
 

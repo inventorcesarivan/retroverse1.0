@@ -81,16 +81,13 @@ function renderWheel(){
  ];
  wheelSystems.forEach((s,i)=>{
   const b=document.createElement("button");
-  b.className="wheel-item"+(($("systemFilter").value===s.id||(s.id==="all"&&$("systemFilter").value==="all"))?" selected":"");
+  b.className="wheel-item";
   b.dataset.system=s.id;
-  b.innerHTML=`<span class="wheel-console" style="--wc1:${s.c1};--wc2:${s.c2}"><span class="wheel-icon">${s.icon}</span><span class="wheel-reflection"></span></span><span class="wheel-name">${s.name}</span><span class="wheel-sub">${s.short}</span>`;
+  const gameCount=()=>s.id==="all"?games.length:games.filter(g=>g.system===s.id).length;
+  b.innerHTML=`<span class="wheel-console" style="--wc1:${s.c1};--wc2:${s.c2}"><span class="wheel-icon">${s.icon}</span><span class="wheel-reflection"></span></span><span class="wheel-name">${s.name}</span><span class="wheel-sub">${s.short}</span><span class="wheel-count">${gameCount()} ${gameCount()===1?"juego":"juegos"}</span><span class="wheel-cta">EXPLORAR ↗</span>`;
   b.addEventListener("click",()=>{
-   $("systemFilter").value=s.id;
    document.querySelectorAll(".wheel-item").forEach(x=>x.classList.toggle("selected",x.dataset.system===s.id));
-   refresh();
-   $("viewTitle").innerHTML=s.id==="all"?'Tu biblioteca <span>retro</span>':`${s.name} <span>games</span>`;
-   $("crumb").textContent=s.name.toUpperCase();
-   $("librarySection").scrollIntoView({behavior:"smooth",block:"start"});
+   showSystemGames(s.id);
   });
   wheel.appendChild(b);
  });
@@ -107,6 +104,10 @@ function refresh(){
   const count=games.filter(g=>g.system===card.dataset.openSystem).length;
   const label=card.querySelector(".system-count");
   if(label)label.textContent=`${count} ${count===1?"juego":"juegos"} en biblioteca`;
+ });
+ document.querySelectorAll(".wheel-item").forEach(item=>{
+  const id=item.dataset.system; const count=id==="all"?games.length:games.filter(g=>g.system===id).length;
+  const label=item.querySelector(".wheel-count"); if(label)label.textContent=`${count} ${count===1?"juego":"juegos"}`;
  });
 }
 function openGame(g){
@@ -137,30 +138,52 @@ $("exitPlayer").addEventListener("click",()=>{if(confirm("¿Salir de la partida?
 $("closeModal").addEventListener("click",()=>$("gameModal").classList.add("hidden"));
 $("gameModal").addEventListener("click",e=>{if(e.target===$("gameModal"))$("gameModal").classList.add("hidden")});
 $("searchInput").addEventListener("input",refresh);$("systemFilter").addEventListener("change",refresh);
-$("exploreBtn").addEventListener("click",()=>$("librarySection").scrollIntoView({behavior:"smooth"}));
+$("exploreBtn").addEventListener("click",()=>$("consoleWheel").scrollIntoView({behavior:"smooth",block:"center"}));
 document.querySelectorAll(".nav").forEach(btn=>btn.addEventListener("click",()=>{
  document.querySelectorAll(".nav").forEach(n=>n.classList.remove("active"));btn.classList.add("active");
  const view=btn.dataset.view;
  $("librarySection").classList.toggle("hidden",view!=="library");
- $("systemsSection").classList.toggle("hidden",view!=="systems");
+ $("systemsSection").classList.add("hidden");
  $("favoritesSection").classList.toggle("hidden",view!=="favorites");
- $("crumb").textContent=view.toUpperCase();$("viewTitle").innerHTML=view==="library"?'Tu biblioteca <span>retro</span>':view==="systems"?'Sistemas <span>retro</span>':'Favoritos <span>personales</span>';
- if(view==="favorites")renderCards($("favoriteGrid"),games.filter(g=>favorites.includes(g.id)));
+ $("consoleWheel").closest(".console-wheel-section").classList.toggle("hidden",view!=="systems");
+ if(view==="library"){
+   $("systemFilter").value="all";refresh();
+   $("viewTitle").innerHTML='Toda la <span>biblioteca</span>';
+   $("crumb").textContent="BIBLIOTECA";
+ } else if(view==="systems"){
+   $("crumb").textContent="SISTEMAS";
+   $("consoleWheel").closest(".console-wheel-section").classList.remove("hidden");
+ } else {
+   $("crumb").textContent="FAVORITOS";
+   $("viewTitle").innerHTML='Favoritos <span>personales</span>';
+   renderCards($("favoriteGrid"),games.filter(g=>favorites.includes(g.id)));
+ }
  document.querySelector(".sidebar").classList.remove("open");
 }));
 $("menuToggle").addEventListener("click",()=>document.querySelector(".sidebar").classList.toggle("open"));
 function showSystemGames(systemId){
   const system=systems.find(s=>s.id===systemId);
+  const all=systemId==="all";
   $("systemFilter").value=systemId;
-  document.querySelectorAll(".nav").forEach(n=>{n.classList.toggle("active",n.dataset.view==="library");});
+  document.querySelectorAll(".nav").forEach(n=>n.classList.toggle("active",n.dataset.view==="library"));
   $("librarySection").classList.remove("hidden");
   $("systemsSection").classList.add("hidden");
   $("favoritesSection").classList.add("hidden");
-  $("viewTitle").innerHTML=`${system ? system.name : "Sistema"} <span>games</span>`;
-  $("crumb").textContent=(system ? system.name : "Sistema").toUpperCase();
+  $("consoleWheel").closest(".console-wheel-section").classList.add("hidden");
+  $("viewTitle").innerHTML=all?'Toda la <span>biblioteca</span>':`${system ? system.name : "Sistema"} <span>games</span>`;
+  $("crumb").textContent=(all?"BIBLIOTECA":(system ? system.name : "Sistema")).toUpperCase();
   refresh();
+  $("searchInput").value="";refresh();
   $("librarySection").scrollIntoView({behavior:"smooth",block:"start"});
 }
+$("changeSystemBtn").addEventListener("click",()=>{
+  $("librarySection").classList.add("hidden");
+  $("consoleWheel").closest(".console-wheel-section").classList.remove("hidden");
+  $("systemsSection").classList.add("hidden");$("favoritesSection").classList.add("hidden");
+  document.querySelectorAll(".nav").forEach(n=>n.classList.toggle("active",n.dataset.view==="systems"));
+  $("crumb").textContent="SISTEMAS";
+  $("consoleWheel").scrollIntoView({behavior:"smooth",block:"center"});
+});
 $("systemsGrid").innerHTML=systems.map(s=>{
  const count=games.filter(g=>g.system===s.id).length;
  return `<button type="button" class="system-card" data-open-system="${s.id}" aria-label="Ver juegos de ${s.name}"><span class="system-icon">${s.icon}</span><span class="system-copy"><b>${s.name}</b><small>${s.desc}</small><small class="system-count">${count} ${count===1?"juego":"juegos"} en biblioteca</small></span><span class="level ${s.cls}">${s.level}</span><span class="system-arrow" aria-hidden="true">↗</span></button>`;
@@ -210,5 +233,12 @@ async function loadNeoGeoCatalog(){
  }
 }
 refresh();
+// Pantalla inicial: selector de sistemas; los juegos aparecen recién al elegir uno.
+$("librarySection").classList.add("hidden");
+$("consoleWheel").closest(".console-wheel-section").classList.remove("hidden");
+$("systemsSection").classList.add("hidden");
+$("favoritesSection").classList.add("hidden");
+document.querySelectorAll(".nav").forEach(n=>n.classList.toggle("active",n.dataset.view==="systems"));
+renderWheel();
 loadNeoGeoCatalog();
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));
